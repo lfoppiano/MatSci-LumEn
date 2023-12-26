@@ -1,0 +1,1403 @@
+id,filename,pid,material
+0,SST01600L7-CC.superconductors.tei.xml,0,Under-doped La 2−x Sr x CuO 4 with x = 0.063 -0.125
+1,SST01600L7-CC.superconductors.tei.xml,1,La2−xSrxCuO4 (LSCO)
+2,SST01600L7-CC.superconductors.tei.xml,1,"x = 0.063, 0.07, 0.09, 0.10, 0.111 and 0.125 "
+3,SST01600L7-CC.superconductors.tei.xml,1,x = 1/4 2 (=0.0625) and 1/3 2 (=0.111)
+4,SST01600L7-CC.superconductors.tei.xml,2,La 2−x Sr x CuO 4 (LSCO)
+5,SST01600L7-CC.superconductors.tei.xml,2,LSCO
+6,SST01600L7-CC.superconductors.tei.xml,2,x < 0.02
+7,SST01600L7-CC.superconductors.tei.xml,2,La 2−x Sr x CuO 4
+8,SST01600L7-CC.superconductors.tei.xml,2,0.02 < x < 0.05
+9,SST01600L7-CC.superconductors.tei.xml,2,0.05 < x < 0.26)
+10,SST01600L7-CC.superconductors.tei.xml,2,0.26 < x < 0.6
+11,SST01600L7-CC.superconductors.tei.xml,2,x > 0.6
+12,SST01600L7-CC.superconductors.tei.xml,2,x = 0.15
+13,SST01600L7-CC.superconductors.tei.xml,3,La 2−x Sr x CuO 4 single crystals
+14,SST01600L7-CC.superconductors.tei.xml,3,x = 0.063 -0.125
+15,SST01600L7-CC.superconductors.tei.xml,3,LSCO
+16,SST01600L7-CC.superconductors.tei.xml,4,"(1-x/2)La 2 O 3 /xSrCO 3 /CuO in molar ratio with x = 0.063, 0.07, 0.09, 0.10, 0.111 and 0.125"
+17,SST01600L7-CC.superconductors.tei.xml,4,La 2 CuO 4
+18,SST01600L7-CC.superconductors.tei.xml,6,La 1.91 Sr 0.09 CuO 4 (x = 0.09)
+19,SST01600L7-CC.superconductors.tei.xml,6,LSCO crystals
+20,SST01600L7-CC.superconductors.tei.xml,7,x = 0.063
+21,SST01600L7-CC.superconductors.tei.xml,7,x = 0.125
+22,SST01600L7-CC.superconductors.tei.xml,7,x = 1/4 2 (=0.0625)
+23,SST01600L7-CC.superconductors.tei.xml,7,1/3 2 (=0.111)
+24,SST01600L7-CC.superconductors.tei.xml,7,x = 1/3 2
+25,SST01600L7-CC.superconductors.tei.xml,8,x = 0.09 LSCO crystal
+26,SST01600L7-CC.superconductors.tei.xml,8,La 1.91 Sr 0.09 CuO 4
+27,SST01600L7-CC.superconductors.tei.xml,9,La 2−x Sr x CuO 4
+28,SST01600L7-CC.superconductors.tei.xml,9,x = 0.063 -0.125
+29,SST01600L7-CC.superconductors.tei.xml,9,x = 1/3 2
+30,SST01600L7-CC.superconductors.tei.xml,10,La 1.875 Sr 0.125 CuO 4 crystal
+31,SST01600L7-CC.superconductors.tei.xml,11,La 1.91 Sr 0.09 CuO 4(x = 0.09) crystal
+32,SST01600L7-CC.superconductors.tei.xml,12,La 1.91 Sr 0.09 CuO 4 (x = 0.09) crystal
+33,SST01600L7-CC.superconductors.tei.xml,13,La 2−x Sr x CuO 4 single crystals with various doping levels (x = 0.063 -0.125)
+34,PHC3200009-CC.superconductors.tei.xml,0,Tl 2 Ba 2 CuO 6
+35,PHC3200009-CC.superconductors.tei.xml,1,near optimally-doped single crystals of Tl2Ba2CuO6 (Tl-2201)
+36,PHC3200009-CC.superconductors.tei.xml,1,Tl-2201
+37,PHC3200009-CC.superconductors.tei.xml,1,Bi2Sr2CaCu2O 8+δ
+38,PHC3200009-CC.superconductors.tei.xml,1,Tl-2201
+39,PHC3200009-CC.superconductors.tei.xml,3,Bi 2 Sr 2 CaCu 2 O 8+δ (Bi-2212)
+40,PHC3200009-CC.superconductors.tei.xml,3,Bi 2 Sr 2 CuO x
+41,PHC3200009-CC.superconductors.tei.xml,3,HgBa 2 CuO 4 (Hg-1201)
+42,PHC3200009-CC.superconductors.tei.xml,3,YBa 2 Cu 3 O 7 (YBCO) and Bi-2212
+43,PHC3200009-CC.superconductors.tei.xml,3,Bi-2212
+44,PHC3200009-CC.superconductors.tei.xml,4,YBCO
+45,PHC3200009-CC.superconductors.tei.xml,4,YBCO
+46,PHC3200009-CC.superconductors.tei.xml,4,electron-doped Nd 2−x Ce x CuO 4
+47,PHC3200009-CC.superconductors.tei.xml,4,Bi-2212
+48,PHC3200009-CC.superconductors.tei.xml,4,Bi-2212
+49,PHC3200009-CC.superconductors.tei.xml,5,Hg-1201
+50,PHC3200009-CC.superconductors.tei.xml,6,Tl-2201
+51,PHC3200009-CC.superconductors.tei.xml,6,optimally- doped Tl 2 Ba 2 CuO 6 crystals (Tl-2201)
+52,PHC3200009-CC.superconductors.tei.xml,6,Tl-2201 crystals
+53,PHC3200009-CC.superconductors.tei.xml,6,Bi-2212
+54,PHC3200009-CC.superconductors.tei.xml,6,Tl-2201
+55,PHC3200009-CC.superconductors.tei.xml,6,Bi-2212
+56,PHC3200009-CC.superconductors.tei.xml,7,Tl-2201
+57,PHC3200009-CC.superconductors.tei.xml,7,"Tl 2 Ba 2 Ca 2−n Cu 2 O 2n+3 (n=1, 2, and 3) "
+58,PHC3200009-CC.superconductors.tei.xml,7,Tl-2201 single crystals
+59,PHC3200009-CC.superconductors.tei.xml,7,Tl 2 O 3
+60,PHC3200009-CC.superconductors.tei.xml,7,BaO 2
+61,PHC3200009-CC.superconductors.tei.xml,7,CuO powders
+62,PHC3200009-CC.superconductors.tei.xml,7,CuO
+63,PHC3200009-CC.superconductors.tei.xml,8,single crystal samples of Tl-2201
+64,PHC3200009-CC.superconductors.tei.xml,9,Bi-2212
+65,PHC3200009-CC.superconductors.tei.xml,10,Bi-2212
+66,PHC3200009-CC.superconductors.tei.xml,10,Tl-2201
+67,PHC3200009-CC.superconductors.tei.xml,11,Tl-2201 crystals
+68,PHC3200009-CC.superconductors.tei.xml,11,Tl-2201
+69,PHC3200009-CC.superconductors.tei.xml,11,Bi-2212
+70,PHC3200009-CC.superconductors.tei.xml,13,Bi-2212
+71,PHC3200009-CC.superconductors.tei.xml,13,Tl-2201
+72,PHC3200009-CC.superconductors.tei.xml,13,Bi-2212
+73,PHC3200009-CC.superconductors.tei.xml,14,Tl-2201
+74,PHC3200009-CC.superconductors.tei.xml,15,Bi-2212
+75,PHC3200009-CC.superconductors.tei.xml,16,Bi-2212
+76,PHC3200009-CC.superconductors.tei.xml,16,Tl-2201
+77,PHC3200009-CC.superconductors.tei.xml,18,Bi-2212
+78,PHC3200009-CC.superconductors.tei.xml,18,Tl-2201
+79,PHC3200009-CC.superconductors.tei.xml,18,Bi-2212
+80,PHC3200009-CC.superconductors.tei.xml,19,Bi-2212
+81,PHC3200009-CC.superconductors.tei.xml,19,Tl-2201
+82,PHC3200009-CC.superconductors.tei.xml,19,optimally-doped Bi-2212
+83,PHC3200009-CC.superconductors.tei.xml,19,Bi-2212
+84,PHC3200009-CC.superconductors.tei.xml,19,Tl-2201 crystals which has been exposed to air
+85,PHC3200009-CC.superconductors.tei.xml,19,surface of Tl-2201
+86,PHC3200009-CC.superconductors.tei.xml,19,Bi-2212 is annealed in air
+87,PHC3200009-CC.superconductors.tei.xml,19,Tl-2201
+88,PHC3200009-CC.superconductors.tei.xml,19,Air annealed Tl-2201
+89,PHC3200009-CC.superconductors.tei.xml,19,air-exposed Tl-2201
+90,PHC3200009-CC.superconductors.tei.xml,20,Bi- 2212
+91,PHC3200009-CC.superconductors.tei.xml,20,overdoped Bi-2212
+92,PHC3200009-CC.superconductors.tei.xml,20,Tl-2201
+93,PHC3200009-CC.superconductors.tei.xml,20,surface of Tl-2201 crystals
+94,PHC3200009-CC.superconductors.tei.xml,21,single crystals of Tl-2201
+95,PHC3200009-CC.superconductors.tei.xml,21,Tl-2201
+96,PHC3200009-CC.superconductors.tei.xml,21,optimally-doped Bi-2212
+97,PHC3200009-CC.superconductors.tei.xml,22,Tl-2201 crystals
+98,SSC1310125-CC.superconductors.tei.xml,1,Na 0.32 CoO 2
+99,SSC1310125-CC.superconductors.tei.xml,1,NaOH
+100,SSC1310125-CC.superconductors.tei.xml,1,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+101,SSC1310125-CC.superconductors.tei.xml,3,"Na x CoO 2 • yH 2 O (x ≈ 0.35, y ≈ 1.3)"
+102,SSC1310125-CC.superconductors.tei.xml,5,Na 0.7 CoO 2 polycrystals
+103,SSC1310125-CC.superconductors.tei.xml,5,Na 0.74 CoO 2
+104,SSC1310125-CC.superconductors.tei.xml,5,Na 0.7 CoO 2
+105,SSC1310125-CC.superconductors.tei.xml,5,Na 0.7 CoO 2
+106,SSC1310125-CC.superconductors.tei.xml,6,Na 0.7 CoO 2
+107,SSC1310125-CC.superconductors.tei.xml,6,Na x CoO 2 (0.25 < x < 0.7)
+108,SSC1310125-CC.superconductors.tei.xml,6,Na x CoO 2
+109,SSC1310125-CC.superconductors.tei.xml,6,x=0.32
+110,SSC1310125-CC.superconductors.tei.xml,6,Na 0.32 CoO 2
+111,SSC1310125-CC.superconductors.tei.xml,6,Na 0.7 CoO 2
+112,SSC1310125-CC.superconductors.tei.xml,7,Na 0.32 CoO 2
+113,SSC1310125-CC.superconductors.tei.xml,8,Na 0.7 CoO 2
+114,SSC1310125-CC.superconductors.tei.xml,9,Na 0.32 CoO 2
+115,SSC1310125-CC.superconductors.tei.xml,9,Co 3 O 4
+116,SSC1310125-CC.superconductors.tei.xml,10,Na x CoO 2
+117,SSC1310125-CC.superconductors.tei.xml,13,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+118,SSC1310125-CC.superconductors.tei.xml,13,Na 0.32 CoO 2 • 2.3H 2 O
+119,SSC1310125-CC.superconductors.tei.xml,14,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+120,SSC1310125-CC.superconductors.tei.xml,14,Na 0.32 CoO 2
+121,SSC1310125-CC.superconductors.tei.xml,14,Na0.22 H 0.1 CoO 2 • 0.85H 2 O
+122,SSC1310125-CC.superconductors.tei.xml,15,Na 0.22 H 0.1 CoO 2 •0.85H 2 O
+123,SSC1310125-CC.superconductors.tei.xml,15,Na 0.32 CoO 2 • 2.3H 2 O
+124,SSC1310125-CC.superconductors.tei.xml,15,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+125,SSC1310125-CC.superconductors.tei.xml,15,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+126,SSC1310125-CC.superconductors.tei.xml,15,Na 0.32 CoO 2 • 2.3H 2 O
+127,SSC1310125-CC.superconductors.tei.xml,17,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+128,SSC1310125-CC.superconductors.tei.xml,19,Na 0.7 CoO 2
+129,SSC1310125-CC.superconductors.tei.xml,19,Na 0.32 CoO 2
+130,SSC1310125-CC.superconductors.tei.xml,19,Co 3 O 4
+131,SSC1310125-CC.superconductors.tei.xml,20,Na 0.7 CoO 2
+132,SSC1310125-CC.superconductors.tei.xml,20,Na 0.32 CoO 2
+133,P066024502-CC.superconductors.tei.xml,0,ultrathin Bi 2 Sr 2 CaCu 2 O 8+x single crystals
+134,P066024502-CC.superconductors.tei.xml,1,thin Bi 2 Sr 2 CaCu 2 O 8+x (Bi2212) single crystals
+135,P066024502-CC.superconductors.tei.xml,1,ultrathin Bi2212 single crystals
+136,P066024502-CC.superconductors.tei.xml,2,Bi 2 Sr 2 CaCu 2 O 8+x (Bi2212)
+137,P066024502-CC.superconductors.tei.xml,4,Bi2201
+138,P066024502-CC.superconductors.tei.xml,4,Bi2212
+139,P066024502-CC.superconductors.tei.xml,4,ultrathin Bi2212 films
+140,P066024502-CC.superconductors.tei.xml,5,Bi2212 single crystals
+141,P066024502-CC.superconductors.tei.xml,7,
+142,P066024502-CC.superconductors.tei.xml,8,single crystal of Bi2212
+143,P066024502-CC.superconductors.tei.xml,9,Bi2212
+144,P066024502-CC.superconductors.tei.xml,10,Bi2212
+145,P066024502-CC.superconductors.tei.xml,12,Bi2212 single crystal
+146,P066024502-CC.superconductors.tei.xml,12,Bi2212 thin films
+147,P066024502-CC.superconductors.tei.xml,23,ultrathin Bi2212 single crystal has more than 8 (CuO 2 ) 2 -layers (12 nm or 4 unit cells thick)
+148,P066024502-CC.superconductors.tei.xml,23,thinner than 4 unit cells
+149,P066024502-CC.superconductors.tei.xml,24,ultrathin Bi2212 single crystals
+150,P066024502-CC.superconductors.tei.xml,24,Bi2212 single crystals
+151,P066024502-CC.superconductors.tei.xml,24,Bi2212 thin films
+152,P066024502-CC.superconductors.tei.xml,24,ultrathin YBa 2 Cu 3 O 7+δ (YBCO) films sandwiched between PrBCO buffer layers
+153,P066024502-CC.superconductors.tei.xml,24,YBCO film
+154,P066024502-CC.superconductors.tei.xml,24,YBCO epitaxial films
+155,P066024502-CC.superconductors.tei.xml,24,PrBCO
+156,P066024502-CC.superconductors.tei.xml,25,ultrathin Bi2212 single crys- tals
+157,P066024502-CC.superconductors.tei.xml,27,Bi2212
+158,P066024502-CC.superconductors.tei.xml,28,Bi2212
+159,P066024502-CC.superconductors.tei.xml,29,BSCCO
+160,P066024502-CC.superconductors.tei.xml,32,Bi2212
+161,P066024502-CC.superconductors.tei.xml,32,BSCCO
+162,PR06103604-CC.superconductors.tei.xml,0,Zn-Doped YBa 2 Cu 3 O 6.95
+163,PR06103604-CC.superconductors.tei.xml,1,Zn-doped single crystals of YBa2Cu3O6.95
+164,PR06103604-CC.superconductors.tei.xml,2,Zn-doped YBa 2 Cu 3 O 7−δ (YBCO)
+165,PR06103604-CC.superconductors.tei.xml,2,YBCO
+166,PR06103604-CC.superconductors.tei.xml,2,Zn substituted
+167,PR06103604-CC.superconductors.tei.xml,4,YBCO
+168,PR06103604-CC.superconductors.tei.xml,4,"pure, 0.15%, 0.31% and 1% Zn-doped single crystals YBCO "
+169,PR06103604-CC.superconductors.tei.xml,4,Zn-doped polycrystalline YBCO
+170,PR06103604-CC.superconductors.tei.xml,4,pure YBCO
+171,PR06103604-CC.superconductors.tei.xml,4,YBCO
+172,PR06103604-CC.superconductors.tei.xml,4,Zn-doped
+173,PR06103604-CC.superconductors.tei.xml,4,pure
+174,PR06103604-CC.superconductors.tei.xml,4,1%
+175,PR06103604-CC.superconductors.tei.xml,5,Pure and Zn-doped YBa 2 Cu 3 O 6.95 (optimally doped) single crystals
+176,PR06103604-CC.superconductors.tei.xml,6,Zn-doped YBCO crystal
+177,PR06103604-CC.superconductors.tei.xml,6,pure (0% Zn)
+178,PR06103604-CC.superconductors.tei.xml,6,Zn-doped
+179,PR06103604-CC.superconductors.tei.xml,6,YBCO
+180,PR06103604-CC.superconductors.tei.xml,7,1% Zn
+181,PR06103604-CC.superconductors.tei.xml,7,pure YBCO
+182,PR06103604-CC.superconductors.tei.xml,7,Zn doped
+183,PR06103604-CC.superconductors.tei.xml,8,pure
+184,PR06103604-CC.superconductors.tei.xml,9,"0.15%, 0.31% and 1% Zn doped "
+185,PR06103604-CC.superconductors.tei.xml,9,nominally pure
+186,PR06103604-CC.superconductors.tei.xml,9,1% Zn-doped
+187,PR06103604-CC.superconductors.tei.xml,9,0.31% Zn doping
+188,PR06103604-CC.superconductors.tei.xml,9,0.15% Zn dop- ing
+189,PR06103604-CC.superconductors.tei.xml,9,Zn-free
+190,PR06103604-CC.superconductors.tei.xml,9,1%
+191,PR06103604-CC.superconductors.tei.xml,10,pure
+192,PR06103604-CC.superconductors.tei.xml,10,1% Zn
+193,PR06103604-CC.superconductors.tei.xml,11,optimally doped YBCO
+194,PR06103604-CC.superconductors.tei.xml,12,1%-Zn doped
+195,PR06103604-CC.superconductors.tei.xml,13,1%Zn
+196,PR06103604-CC.superconductors.tei.xml,13,0.31%Zn
+197,PR06103604-CC.superconductors.tei.xml,14,Zn- doped YBCO single crystals
+198,PR06103604-CC.superconductors.tei.xml,14,1%Zn
+199,PR06103604-CC.superconductors.tei.xml,14,Zn-doped
+200,PR06103604-CC.superconductors.tei.xml,14,YBCO
+201,PR06103604-CC.superconductors.tei.xml,14,YBCO crystals
+202,PR06103604-CC.superconductors.tei.xml,15,YBa 2 Cu 3 O 6.95
+203,PR06103604-CC.superconductors.tei.xml,15,1% Zn doped YBCO
+204,PR06103604-CC.superconductors.tei.xml,15,1%Zn- doped
+205,PR06103604-CC.superconductors.tei.xml,15,1% Zn doped
+206,P066020501-CC.superconductors.tei.xml,1,YBa2(Cu1−yCoy)3O 7+δ (y=0.013
+207,P066020501-CC.superconductors.tei.xml,2,superoxygenated La 2 CuO 4+δ
+208,P066020501-CC.superconductors.tei.xml,2,La 1.6−x Nd 0.4 Sr x CuO 4
+209,P066020501-CC.superconductors.tei.xml,2,underdoped regime of YBa 2 Cu 3 O 6+x (x=0.5-0.6)
+210,P066020501-CC.superconductors.tei.xml,2,fully oxydised superconducting YBa 2 Cu 3 O 7
+211,P066020501-CC.superconductors.tei.xml,3,y ≃ 0.013
+212,P066020501-CC.superconductors.tei.xml,4,single crystal (1.4 cm 3 ) of fully oxy- genated YBa 2 (Cu 1−y Co y ) 3 O 7+δ
+213,P066020501-CC.superconductors.tei.xml,4,y=0.013
+214,P066020501-CC.superconductors.tei.xml,9,YBa 2 Cu 3 O 6
+215,P066020501-CC.superconductors.tei.xml,9,non-superconducting YBa 2 (Cu 1−y Co y ) 3 O 7+δ
+216,P066020501-CC.superconductors.tei.xml,9,YBa 2 (Cu 0.94 Co 0.06 ) 3 O 7+δ
+217,P066020501-CC.superconductors.tei.xml,11,"YBa 2 (Cu 1−y (Co, Fe) y ) 3 O 7+δ "
+218,P066020501-CC.superconductors.tei.xml,12,YBa 2 (Cu 1−y Co y ) 3 O 7+δ
+219,P066020501-CC.superconductors.tei.xml,14,underdoped YBa 2 Cu 3 O 6+x (x ∼ 0.5 -0.6)
+220,P066020501-CC.superconductors.tei.xml,14,underdoped YBa 2 Cu 3 O 6.6
+221,P066020501-CC.superconductors.tei.xml,14,cobalt-free optimally doped YBa 2 Cu 3 O 7−δ
+222,P066020501-CC.superconductors.tei.xml,16,Co-free compound YBa 2 Cu 3 O 6.97
+223,P066020501-CC.superconductors.tei.xml,16,Co-free system
+224,P066020501-CC.superconductors.tei.xml,16,Co-free
+225,P066020501-CC.superconductors.tei.xml,19,YBa 2 (Cu 1−y Co y ) 3 O 7+δ (y=0.013
+226,P066020501-CC.superconductors.tei.xml,19,underdoped YBa 2 Cu 3 O 6.6
+227,yamaguchi2014ac.superconductors.tei.xml,0,LiFeAs
+228,yamaguchi2014ac.superconductors.tei.xml,1,LiFeAs
+229,yamaguchi2014ac.superconductors.tei.xml,2,LiFeAs
+230,yamaguchi2014ac.superconductors.tei.xml,4,LaFeAsO 1−x F x
+231,yamaguchi2014ac.superconductors.tei.xml,4,LiFeAs
+232,yamaguchi2014ac.superconductors.tei.xml,6,LiFeAs
+233,yamaguchi2014ac.superconductors.tei.xml,7,powder sample of LiFeAs
+234,yamaguchi2014ac.superconductors.tei.xml,10,LiFeAs
+235,yamaguchi2014ac.superconductors.tei.xml,11,LiFeAs
+236,yamaguchi2014ac.superconductors.tei.xml,11,LiFeAs
+237,yamaguchi2014ac.superconductors.tei.xml,12,LiFeAs
+238,yamaguchi2014ac.superconductors.tei.xml,13,LiFeAs
+239,yamaguchi2014ac.superconductors.tei.xml,14,LiFeAs
+240,yamaguchi2014ac.superconductors.tei.xml,15,LiFeAs
+241,yamaguchi2014ac.superconductors.tei.xml,17,LiFeAs
+242,PR04310568-CC.superconductors.tei.xml,0,Gd 1−x Pr x Ba 2 Cu 3 O 7−y single crystals
+243,PR04310568-CC.superconductors.tei.xml,1,Al-free orthorhombic Gd1−xPrxBa2Cu3O7−y single crystals (0 ≤ x ≤ 1.0)
+244,PR04310568-CC.superconductors.tei.xml,1,Pr123
+245,PR04310568-CC.superconductors.tei.xml,1,Pr123 single crystals
+246,PR04310568-CC.superconductors.tei.xml,2,GdBa 2 Cu 3 O 7−y (Gd123)
+247,PR04310568-CC.superconductors.tei.xml,2,"fully doped orthorhombic RBa 2 Cu 3 O 7−y (R=Y, rare earth) "
+248,PR04310568-CC.superconductors.tei.xml,2,Pr123
+249,PR04310568-CC.superconductors.tei.xml,3,Gd 1−x Pr x Ba 2 Cu 3 O 7−y [(Gd-Pr)123]
+250,PR04310568-CC.superconductors.tei.xml,3,(Y-Pr)123
+251,PR04310568-CC.superconductors.tei.xml,3,Al-free single crystals with (0 ≤ x ≤ 1.0)
+252,PR04310568-CC.superconductors.tei.xml,4,(Y 0.4 Pr 0.6 )123 crystal
+253,PR04310568-CC.superconductors.tei.xml,4,pure Pr123
+254,PR04310568-CC.superconductors.tei.xml,4,(Gd 0.4 Pr 0.6 )123
+255,PR04310568-CC.superconductors.tei.xml,4,(Y 0.4 Pr 0.6 )123
+256,PR04310568-CC.superconductors.tei.xml,4,(Gd 0.4 Pr 0.6 )123
+257,PR04310568-CC.superconductors.tei.xml,4,(Gd 0.4 Z 0.6 )123
+258,PR04310568-CC.superconductors.tei.xml,5,Pr-123
+259,PR04310568-CC.superconductors.tei.xml,5,(Y 0.4 Pr 0.6 )123 (B) single crystals
+260,PR04310568-CC.superconductors.tei.xml,5,(Y 0.4 Pr 0.6 )123
+261,PR04310568-CC.superconductors.tei.xml,5,(Gd 0.4 Pr 0.6 )123
+262,PR04310568-CC.superconductors.tei.xml,6,Pr-123
+263,PR04310568-CC.superconductors.tei.xml,7,(Gd 0.4 Pr 0.6 )123
+264,PR04310568-CC.superconductors.tei.xml,7,(Z 0.4 Pr 0.6 )123
+265,PR04310568-CC.superconductors.tei.xml,8,Pr123 crystals
+266,PHC2240263-CC.superconductors.tei.xml,1,YBa 2 Cu 3 0 7 _ d (Y-123)
+267,PHC2240263-CC.superconductors.tei.xml,1,YBa 2 Cu 4 O s (Y-124)
+268,PHC2240263-CC.superconductors.tei.xml,1,Y 2 Ba 4 Cu 7 O 15+x (Y-247)
+269,PHC2240263-CC.superconductors.tei.xml,1,Bi 2 Sr 2 CaCu 2 O 8+x (Bi-2212)
+270,PHC2240263-CC.superconductors.tei.xml,1,Tl 2 Ba 2 Cu 1 0 6+d (Tl-2201)
+271,PHC2240263-CC.superconductors.tei.xml,1,Tl 2 Ba 2 Ca l Cu 2 O 8+d (T1-2212)
+272,PHC2240263-CC.superconductors.tei.xml,1,Y-124
+273,PHC2240263-CC.superconductors.tei.xml,1,YBaCuO
+274,PHC2240263-CC.superconductors.tei.xml,1,BiSrCaCuO
+275,PHC2240263-CC.superconductors.tei.xml,1,TlBaCaCuO
+276,PHC2240263-CC.superconductors.tei.xml,1,Y-123
+277,PHC2240263-CC.superconductors.tei.xml,5,Bi 2 Sr 2 CaCu 2 O 8 + d (Bi-2212)
+278,PHC2240263-CC.superconductors.tei.xml,5,T1 2 Ba 2 CuO 6+X (T1-2201 )
+279,PHC2240263-CC.superconductors.tei.xml,5,TI 2 Ba 2 CaCu 2 O 8+z (T1-2212)
+280,PHC2240263-CC.superconductors.tei.xml,5,YBa 2 Cu 3 O 7-X (Y-123 )
+281,PHC2240263-CC.superconductors.tei.xml,5,Y 2 Ba 4 Cu 7 O 15+d (Y-247)
+282,PHC2240263-CC.superconductors.tei.xml,5,YBa 2 Cu 4 0 8 (Y-124 )
+283,PHC2240263-CC.superconductors.tei.xml,8,Y-124
+284,PHC2240263-CC.superconductors.tei.xml,22,Y-123
+285,PHC2240263-CC.superconductors.tei.xml,22,YBaCuO
+286,PHC2240263-CC.superconductors.tei.xml,24,Bi-2223 and Bi-2212
+287,PHC2240263-CC.superconductors.tei.xml,25,Y-123
+288,PHC2240263-CC.superconductors.tei.xml,26,Bi-2212
+289,PHC2240263-CC.superconductors.tei.xml,29,YBaCuO
+290,PHC2240263-CC.superconductors.tei.xml,31,YBaCuO
+291,PHC2240263-CC.superconductors.tei.xml,32,BiSrCaCuO
+292,PHC2240263-CC.superconductors.tei.xml,32,T1BaCaCuO
+293,PHC2240263-CC.superconductors.tei.xml,32,YBaCuO
+294,PHC2240263-CC.superconductors.tei.xml,32,T1-2212
+295,PHC2240263-CC.superconductors.tei.xml,33,TI-2212
+296,PHC2240263-CC.superconductors.tei.xml,34,YBaCuO
+297,PHC2240263-CC.superconductors.tei.xml,35,Y-123
+298,PHC2240263-CC.superconductors.tei.xml,35,Y-123
+299,PHC2240263-CC.superconductors.tei.xml,35,Y-124
+300,PHC2240263-CC.superconductors.tei.xml,36,Y-247
+301,PHC2240263-CC.superconductors.tei.xml,37,BiSrCaCuO
+302,PHC2240263-CC.superconductors.tei.xml,37,TIBaCaCuO
+303,PHC2240263-CC.superconductors.tei.xml,40,Bi-2212
+304,PHC2240263-CC.superconductors.tei.xml,41,T1-2201
+305,PHC2240263-CC.superconductors.tei.xml,42,T1-2212
+306,PHC2240263-CC.superconductors.tei.xml,43,YBaCuO
+307,PHC2240263-CC.superconductors.tei.xml,43,Y-247
+308,PHC2240263-CC.superconductors.tei.xml,43,Y-123
+309,PHC2240263-CC.superconductors.tei.xml,43,Y-124
+310,PHC2240263-CC.superconductors.tei.xml,43,BiSrCaCuO
+311,PHC2240263-CC.superconductors.tei.xml,43,TIBaCaCuO
+312,PHC2640145-CC.superconductors.tei.xml,1,HgBa2Ca2Cu3O8+δ superconductor (Hg-1223)
+313,PHC2640145-CC.superconductors.tei.xml,1,Hg
+314,PHC2640145-CC.superconductors.tei.xml,1,Pb
+315,PHC2640145-CC.superconductors.tei.xml,1,Hg-1223
+316,PHC2640145-CC.superconductors.tei.xml,1,Hg0.45Pb0.30Ba1.63Sr0.50Ca1.94Cu3O8
+317,PHC2640145-CC.superconductors.tei.xml,1,Hg0.42Pb0.41Ba1.19Sr1.06Ca1.97Cu3O8
+318,PHC2640145-CC.superconductors.tei.xml,1,Hg0.50Pb0.50Ba0.59Sr1.24Ca1.83Cu3.34O8
+319,PHC2640145-CC.superconductors.tei.xml,1,Hg0.34Pb0.54Ba0.61Sr1.17Ca1.88Cu3O8
+320,PHC2640145-CC.superconductors.tei.xml,1,Hg
+321,PHC2640145-CC.superconductors.tei.xml,1,Cu
+322,PHC2640145-CC.superconductors.tei.xml,1,Cu
+323,piva2015combined-CC.superconductors.tei.xml,0,BaFe 2 As 2 single crystals
+324,piva2015combined-CC.superconductors.tei.xml,1,BaFe 2 As 2 single crystals
+325,piva2015combined-CC.superconductors.tei.xml,1,pure BaFe 2 As 2
+326,piva2015combined-CC.superconductors.tei.xml,1,BaFe 2−x Cu x As 2
+327,piva2015combined-CC.superconductors.tei.xml,1,x opd = 0.11
+328,piva2015combined-CC.superconductors.tei.xml,1,x = 0.02
+329,piva2015combined-CC.superconductors.tei.xml,1,Cu 2+ substituted BaFe 2 As 2
+330,piva2015combined-CC.superconductors.tei.xml,3,RFeAsO (R = La − Gd)
+331,piva2015combined-CC.superconductors.tei.xml,3,"AFe 2 As 2 (A = Ba, Sr, Ca, Eu)"
+332,piva2015combined-CC.superconductors.tei.xml,4,semi-metallic BaFe 2 As 2
+333,piva2015combined-CC.superconductors.tei.xml,4,Mn and Cr substituted BaFe 2 As 2
+334,piva2015combined-CC.superconductors.tei.xml,4,BaFe 2−x Cu x As 2
+335,piva2015combined-CC.superconductors.tei.xml,4,Co-substituted
+336,piva2015combined-CC.superconductors.tei.xml,5,Cu-substituted BaFe 2 As 2 single crystals
+337,piva2015combined-CC.superconductors.tei.xml,5,x opd = 0.11
+338,piva2015combined-CC.superconductors.tei.xml,5,x = 0.02
+339,piva2015combined-CC.superconductors.tei.xml,6,Cu-substituted BaFe 2 As 2 single crystals
+340,piva2015combined-CC.superconductors.tei.xml,6,lead
+341,piva2015combined-CC.superconductors.tei.xml,7,x 0.09
+342,piva2015combined-CC.superconductors.tei.xml,7,BaFe 2 As 2
+343,piva2015combined-CC.superconductors.tei.xml,7,x = 0.09
+344,piva2015combined-CC.superconductors.tei.xml,7,x = 0.10 and 0.11
+345,piva2015combined-CC.superconductors.tei.xml,7,x opd = 0.11
+346,piva2015combined-CC.superconductors.tei.xml,7,x > 0.10
+347,piva2015combined-CC.superconductors.tei.xml,8,x = 0.11
+348,piva2015combined-CC.superconductors.tei.xml,8,BaFe 1.89 Cu 0.11 As 2
+349,piva2015combined-CC.superconductors.tei.xml,9,x = 0.02
+350,piva2015combined-CC.superconductors.tei.xml,10,BaFe 2−x Cu x As 2
+351,piva2015combined-CC.superconductors.tei.xml,10,pure BaFe 2 As 2
+352,piva2015combined-CC.superconductors.tei.xml,11,x = 0.02
+353,piva2015combined-CC.superconductors.tei.xml,11,BaCu 2 As 2
+354,piva2015combined-CC.superconductors.tei.xml,11,BaFe 2 As 2
+355,piva2015combined-CC.superconductors.tei.xml,11,pure BaCu 2 As 2
+356,piva2015combined-CC.superconductors.tei.xml,11,BaFe 2−x Cu x As 2
+357,piva2015combined-CC.superconductors.tei.xml,12,BaFe 2 As 2 single crystals
+358,piva2015combined-CC.superconductors.tei.xml,12,BaFe 2−x Cu x As 2
+359,piva2015combined-CC.superconductors.tei.xml,12,x opd = 0.11
+360,piva2015combined-CC.superconductors.tei.xml,12,x = 0.02
+361,piva2015combined-CC.superconductors.tei.xml,12,x = 0.02
+362,piva2015combined-CC.superconductors.tei.xml,13,"BaFe 2−x Cu x As 2 single crystals with x = 0, 0.02, 0.09, 0.10, 0.11 and 0.13"
+363,piva2015combined-CC.superconductors.tei.xml,13,"BaFe 2−x Cu x As 2 single crystals for x = 0, 0.02, 0.09, 0.10, 0.11 and 0.13"
+364,piva2015combined-CC.superconductors.tei.xml,13,BaFe 2−x Cu x As 2
+365,piva2015combined-CC.superconductors.tei.xml,14,BaFe 2−x Cu x As 2 single crystals
+366,piva2015combined-CC.superconductors.tei.xml,14,x = 0.11 and 0.13
+367,piva2015combined-CC.superconductors.tei.xml,14,x = 0.11
+368,piva2015combined-CC.superconductors.tei.xml,15,x = 0.02
+369,piva2015combined-CC.superconductors.tei.xml,15,BaFe 1.98 Cu 0.02 As 2
+370,wang2011effect.superconductors.tei.xml,1,LiFeAs
+371,wang2011effect.superconductors.tei.xml,1,NaFeAs
+372,wang2011effect.superconductors.tei.xml,1,LiFeP
+373,wang2011effect.superconductors.tei.xml,1,LiFeAs
+374,wang2011effect.superconductors.tei.xml,3,LaO 1−x F x FeAs
+375,wang2011effect.superconductors.tei.xml,3,LaFeAsO
+376,wang2011effect.superconductors.tei.xml,3,BaFe 2 As 2
+377,wang2011effect.superconductors.tei.xml,3,doped RFeAsO 0.85 (R = Sm and Nd)
+378,wang2011effect.superconductors.tei.xml,4,LiFeAs
+379,wang2011effect.superconductors.tei.xml,4,NaFeAs
+380,wang2011effect.superconductors.tei.xml,4,LiFeP
+381,wang2011effect.superconductors.tei.xml,4,LiFeAs
+382,wang2011effect.superconductors.tei.xml,4,Pb
+383,wang2011effect.superconductors.tei.xml,6,LiFeP
+384,wang2011effect.superconductors.tei.xml,6,NaFeAs
+385,wang2011effect.superconductors.tei.xml,6,LiFeP
+386,wang2011effect.superconductors.tei.xml,6,LiFeAs
+387,wang2011effect.superconductors.tei.xml,6,NaFeAs
+388,wang2011effect.superconductors.tei.xml,7,LiFeAs
+389,wang2011effect.superconductors.tei.xml,7,NaFeAs
+390,wang2011effect.superconductors.tei.xml,7,LiFeP
+391,wang2011effect.superconductors.tei.xml,7,LiFeAs
+392,wang2011effect.superconductors.tei.xml,8,NaFeAs
+393,wang2011effect.superconductors.tei.xml,8,LiFeAs
+394,wang2011effect.superconductors.tei.xml,8,LiFeP
+395,wang2011effect.superconductors.tei.xml,8,SmFeAsO 0.85
+396,wang2011effect.superconductors.tei.xml,8,NdFeAsO 0.85
+397,wang2011effect.superconductors.tei.xml,8,NaFeAs
+398,wang2011effect.superconductors.tei.xml,8,LaFeAsO 1−x F x
+399,wang2011effect.superconductors.tei.xml,8,"AFe 2 As 2 (A = Sr, Ba)"
+400,wang2011effect.superconductors.tei.xml,9,LiFeAs
+401,wang2011effect.superconductors.tei.xml,9,NaFeAs
+402,wang2011effect.superconductors.tei.xml,9,NdFeAsO 0.85
+403,wang2011effect.superconductors.tei.xml,9,SrFe 2 As 2
+404,wang2011effect.superconductors.tei.xml,9,BaFe 2 As 2
+405,wang2011effect.superconductors.tei.xml,9,FeSe
+406,wang2011effect.superconductors.tei.xml,10,NaFeAs
+407,wang2011effect.superconductors.tei.xml,10,LiFeP
+408,wang2011effect.superconductors.tei.xml,10,LiFeP
+409,wang2011effect.superconductors.tei.xml,10,LiFeAs
+410,wang2011effect.superconductors.tei.xml,10,LiFeAs
+411,wang2011effect.superconductors.tei.xml,11,LiFeAs
+412,wang2011effect.superconductors.tei.xml,11,LiFeP
+413,wang2011effect.superconductors.tei.xml,11,NaFeAs
+414,wang2011effect.superconductors.tei.xml,14,LiFeAs
+415,wang2011effect.superconductors.tei.xml,14,NaFeAs
+416,wang2011effect.superconductors.tei.xml,14,LiFeP
+417,wang2011effect.superconductors.tei.xml,15,LiFeAs
+418,wang2011effect.superconductors.tei.xml,15,NaFeAs
+419,wang2011effect.superconductors.tei.xml,15,LiFeP
+420,P065172501-CC.superconductors.tei.xml,0,electron-doped infinite-layer superconductor Sr 0.9 La 0.1 CuO 2
+421,P065172501-CC.superconductors.tei.xml,1,electron-doped infinite-layer su- perconductors Sr0.9La0.1Cu1−xRxO2 for R = Zn and Ni
+422,P065172501-CC.superconductors.tei.xml,1,x ∼ 0.03 for R = Zn
+423,P065172501-CC.superconductors.tei.xml,1,x ∼ 0.02
+424,P065172501-CC.superconductors.tei.xml,1,R = Ni
+425,P065172501-CC.superconductors.tei.xml,1,"(Nd,Ce)2CuO4−y"
+426,P065172501-CC.superconductors.tei.xml,2,"(La,Sr) 2 CuO 4 "
+427,P065172501-CC.superconductors.tei.xml,2,YBa 2 Cu 3 O 7−δ
+428,P065172501-CC.superconductors.tei.xml,2,YBa 2 Cu 4 O 8
+429,P065172501-CC.superconductors.tei.xml,2,Bi 2 Sr 2 CaCu 2 O 8
+430,P065172501-CC.superconductors.tei.xml,4,"Electron-doped infinite-layer superconductors (Sr +2 1−x Ln +3 x )CuO 2 (Ln = La, Sm, Nd, Gd, etc.) "
+431,P065172501-CC.superconductors.tei.xml,5,(Sr 0.9 La 0.1 )CuO 2
+432,P065172501-CC.superconductors.tei.xml,5,electron-doped infinite- layer superconductors Sr 0.9 La 0.1 Cu 1−x R x O 2 where R = Zn and Ni
+433,P065172501-CC.superconductors.tei.xml,5,x ∼ 0.03 for R = Zn
+434,P065172501-CC.superconductors.tei.xml,5,x ∼ 0.02
+435,P065172501-CC.superconductors.tei.xml,7,"Sr 0.9 La 0.1 Cu 1−x Zn x O 2 , x = 0, 0.01, 0.03"
+436,P065172501-CC.superconductors.tei.xml,7,"Sr 0.9 La 0.1 Cu 1−x Ni x O 2 , x = 0.01 and 0.02"
+437,P065172501-CC.superconductors.tei.xml,7,Sr 0.9 La 0.1 CuO 2
+438,P065172501-CC.superconductors.tei.xml,8,SrCuO 2
+439,P065172501-CC.superconductors.tei.xml,8,Sr 0.9 La 0.1 CuO 2
+440,P065172501-CC.superconductors.tei.xml,9,Sr 0.9 La 0.1 Cu 0.98 Ni 0.02 O 2
+441,P065172501-CC.superconductors.tei.xml,9,Sr 0.9 La 0.1 Cu 0.97 Zn 0.03 O 2
+442,P065172501-CC.superconductors.tei.xml,9,Sr 0.9 La 0.1 Cu 1−x Zn x O 2 with x = 0.03
+443,P065172501-CC.superconductors.tei.xml,10,x = 0
+444,P065172501-CC.superconductors.tei.xml,10,2% substitu- tion
+445,P065172501-CC.superconductors.tei.xml,10,x = 0.02
+446,P065172501-CC.superconductors.tei.xml,10,x ∼ 0.03
+447,P065172501-CC.superconductors.tei.xml,10,x > ∼ 0.03
+448,P065172501-CC.superconductors.tei.xml,10,Sr 0.9 La 0.1 Cu 0.98 Ni 0.02 O 2
+449,P065172501-CC.superconductors.tei.xml,10,Sr 0.9 La 0.1 CuO 2
+450,P065172501-CC.superconductors.tei.xml,10,SrCuO 2
+451,P065172501-CC.superconductors.tei.xml,10,Bi 2 Sr 2 CaCu 2 O 8
+452,P065172501-CC.superconductors.tei.xml,10,"(La,Sr) 2 CuO 4 "
+453,P065172501-CC.superconductors.tei.xml,10,YBa 2 Cu 3 O 7−δ
+454,P065172501-CC.superconductors.tei.xml,10,"(Nd,Ce) 2 CuO 4 "
+455,P065172501-CC.superconductors.tei.xml,10,"(Sr 0.9 ,La 0.1 )CuO 2 "
+456,P065172501-CC.superconductors.tei.xml,11,"(Nd,Ce) 2 CuO 4−y "
+457,P065172501-CC.superconductors.tei.xml,11,"(Sr 0.9 ,La 0.1 )CuO 2 "
+458,P065172501-CC.superconductors.tei.xml,11,"(Nd,Ce) 2 CuO 4 "
+459,P065172501-CC.superconductors.tei.xml,11,Ca 0.85 Sr 0.15 CuO 2
+460,P065172501-CC.superconductors.tei.xml,11,YBa 2 Cu 3 O 6
+461,P065172501-CC.superconductors.tei.xml,11,La 2 CuO 4
+462,P065172501-CC.superconductors.tei.xml,11,Sr 2 CuO 2 Cl 2
+463,P065172501-CC.superconductors.tei.xml,11,Sr 0.9 La 0.1 Cu 1−x R x O 2
+464,P065172501-CC.superconductors.tei.xml,11,x ≤ 0.03
+465,P065172501-CC.superconductors.tei.xml,11,substitution of the magnetic Ni ion
+466,P065172501-CC.superconductors.tei.xml,11,x ∼ 0.02
+467,P063224522-CC.superconductors.tei.xml,0,MgB 2
+468,P063224522-CC.superconductors.tei.xml,1,Mg x B 2
+469,P063224522-CC.superconductors.tei.xml,1,MgB 2
+470,P063224522-CC.superconductors.tei.xml,2,MgB2
+471,P063224522-CC.superconductors.tei.xml,3,MgB 2
+472,P063224522-CC.superconductors.tei.xml,3,MgAlB 2
+473,P063224522-CC.superconductors.tei.xml,3,Mg 1-x M x B 2
+474,P063224522-CC.superconductors.tei.xml,3,pure MgB 2
+475,P063224522-CC.superconductors.tei.xml,4,MgB 2
+476,P063224522-CC.superconductors.tei.xml,4,NbB 2
+477,P063224522-CC.superconductors.tei.xml,4,NbB 2.5
+478,P063224522-CC.superconductors.tei.xml,4,Zr 0.13 Mo 0.87 B 2+x
+479,P063224522-CC.superconductors.tei.xml,4,"(Zr,Mo)B 2+x "
+480,P063224522-CC.superconductors.tei.xml,5,MgB 2
+481,P063224522-CC.superconductors.tei.xml,5,MgB 4
+482,P063224522-CC.superconductors.tei.xml,5,Mg-deficient
+483,P063224522-CC.superconductors.tei.xml,5,4% Mg
+484,P063224522-CC.superconductors.tei.xml,5,"Mg deficient, Mg 1-δ B 2 "
+485,P063224522-CC.superconductors.tei.xml,6,MgB 2
+486,P063224522-CC.superconductors.tei.xml,7,MgB 2
+487,P063224522-CC.superconductors.tei.xml,7,MgB 4
+488,P063224522-CC.superconductors.tei.xml,8,MgB 2
+489,P063224522-CC.superconductors.tei.xml,8,Mg x B 2
+490,P063224522-CC.superconductors.tei.xml,9,Mg x B 2
+491,P063224522-CC.superconductors.tei.xml,9,x = 0.6 to 1.3
+492,P063224522-CC.superconductors.tei.xml,11,MgB 2
+493,P063224522-CC.superconductors.tei.xml,11,Mg
+494,P063224522-CC.superconductors.tei.xml,11,MgB 4
+495,P063224522-CC.superconductors.tei.xml,12,MgB 2
+496,P063224522-CC.superconductors.tei.xml,13,Mg
+497,P063224522-CC.superconductors.tei.xml,13,Mg
+498,P063224522-CC.superconductors.tei.xml,14,MgB 4
+499,P063224522-CC.superconductors.tei.xml,15,MgB 4
+500,P063224522-CC.superconductors.tei.xml,16,MgB 4
+501,P063224522-CC.superconductors.tei.xml,16,MgB 2
+502,P063224522-CC.superconductors.tei.xml,17,MgB 4
+503,P063224522-CC.superconductors.tei.xml,18,"0,1,2 and 4 hr "
+504,P063224522-CC.superconductors.tei.xml,18,MgB 4
+505,P063224522-CC.superconductors.tei.xml,18,MgB 2
+506,P063224522-CC.superconductors.tei.xml,19,MgB 4
+507,P063224522-CC.superconductors.tei.xml,19,MgB 2
+508,P063224522-CC.superconductors.tei.xml,19,Mg 1.00 B 2
+509,P063224522-CC.superconductors.tei.xml,19,Mg 1.01 B 2
+510,P063224522-CC.superconductors.tei.xml,19,Mg deficient
+511,P063224522-CC.superconductors.tei.xml,19,Mg excess
+512,P063224522-CC.superconductors.tei.xml,19,1% excess of Mg
+513,P063224522-CC.superconductors.tei.xml,20,1% deficiency in Mg
+514,P063224522-CC.superconductors.tei.xml,20,MgB 2
+515,P063224522-CC.superconductors.tei.xml,20,MgB 2
+516,P063224522-CC.superconductors.tei.xml,21,MgB 4
+517,P063224522-CC.superconductors.tei.xml,22,Mg 1.1 B 2
+518,P063224522-CC.superconductors.tei.xml,22,Mg metal
+519,P063224522-CC.superconductors.tei.xml,22,MgB 2
+520,P063224522-CC.superconductors.tei.xml,22,Mg
+521,P063224522-CC.superconductors.tei.xml,22,Mg 0.9 B 2
+522,P063224522-CC.superconductors.tei.xml,22,MgB 4
+523,P063224522-CC.superconductors.tei.xml,23,Mg 0.9 B 2
+524,P063224522-CC.superconductors.tei.xml,23,MgB 4
+525,P063224522-CC.superconductors.tei.xml,23,MgB 2 / MgB 4
+526,P063224522-CC.superconductors.tei.xml,23,MgB 2
+527,P063224522-CC.superconductors.tei.xml,24,MgB 2
+528,P063224522-CC.superconductors.tei.xml,25,x =1
+529,P063224522-CC.superconductors.tei.xml,25,MgB 2
+530,P063224522-CC.superconductors.tei.xml,25,x=1
+531,P063224522-CC.superconductors.tei.xml,25,Mg deficient
+532,P063224522-CC.superconductors.tei.xml,25,Mg rich
+533,P063224522-CC.superconductors.tei.xml,25,Mg-deficient
+534,P063224522-CC.superconductors.tei.xml,25,MgB 4
+535,P063224522-CC.superconductors.tei.xml,25,Mg-rich
+536,P063224522-CC.superconductors.tei.xml,26,MgB 2
+537,P063224522-CC.superconductors.tei.xml,26,Mg-B
+538,P063224522-CC.superconductors.tei.xml,26,Mg 1-δ Im δ -B
+539,P063224522-CC.superconductors.tei.xml,27,MgB 2
+540,P063224522-CC.superconductors.tei.xml,28,MgB 4 (SL) + MgB 2 (SS)
+541,P063224522-CC.superconductors.tei.xml,28,MgB 4
+542,P063224522-CC.superconductors.tei.xml,28,x = 1
+543,P063224522-CC.superconductors.tei.xml,28,MgB 2
+544,P063224522-CC.superconductors.tei.xml,28,Mg
+545,P063224522-CC.superconductors.tei.xml,28,x < 1
+546,P063224522-CC.superconductors.tei.xml,29,MgB 2 + MgB 4
+547,P063224522-CC.superconductors.tei.xml,29,MgB 4
+548,P063224522-CC.superconductors.tei.xml,29,MgB 2 (SS) + MgB 4 (SL)
+549,P063224522-CC.superconductors.tei.xml,29,Mg + MgB 2 (SS)
+550,P063224522-CC.superconductors.tei.xml,30,Mg-B-Im
+551,P063224522-CC.superconductors.tei.xml,31,MgB 2
+552,P063224522-CC.superconductors.tei.xml,33,Mg 1.3 B 2
+553,P063224522-CC.superconductors.tei.xml,34,MgB 2
+554,P063224522-CC.superconductors.tei.xml,34,1%) Mg deficient
+555,P063224522-CC.superconductors.tei.xml,34,4% Mg vacancy
+556,P063224522-CC.superconductors.tei.xml,34,MgB 2 crystals
+557,P063224522-CC.superconductors.tei.xml,35,MgB 2
+558,P063224522-CC.superconductors.tei.xml,36,MgB 2
+559,P063224522-CC.superconductors.tei.xml,37,Mg-rich
+560,P063224522-CC.superconductors.tei.xml,38,MgB 2
+561,P063224522-CC.superconductors.tei.xml,38,C-doped MgB 2-x C x
+562,P063224522-CC.superconductors.tei.xml,39,MgB 2
+563,P063224522-CC.superconductors.tei.xml,40,MgB 2
+564,P063224522-CC.superconductors.tei.xml,41,MgB 2
+565,P063224522-CC.superconductors.tei.xml,42,MgB 2
+566,P063224522-CC.superconductors.tei.xml,42,MgB 4 (Mg deficient)
+567,P063224522-CC.superconductors.tei.xml,42,Mg (Mg- rich)
+568,P063224522-CC.superconductors.tei.xml,43,MgB 2
+569,P063224522-CC.superconductors.tei.xml,43,Mg-B
+570,P063224522-CC.superconductors.tei.xml,43,Mg
+571,P063224522-CC.superconductors.tei.xml,44,MgB 4
+572,P063224522-CC.superconductors.tei.xml,44,Mg 1.01 B 2
+573,P063224522-CC.superconductors.tei.xml,45,MgB 4
+574,P063224522-CC.superconductors.tei.xml,45,Mg
+575,P063224522-CC.superconductors.tei.xml,45,MgB 2
+576,P063224522-CC.superconductors.tei.xml,46,Mg
+577,P063224522-CC.superconductors.tei.xml,46,Mg x B 2
+578,P063224522-CC.superconductors.tei.xml,46,Mg 1.3 B 2
+579,PHC4210001-CC.superconductors.tei.xml,0,YBa 2 Cu 3 O y
+580,PHC4210001-CC.superconductors.tei.xml,1,YBa 2 Cu 3 O y (Y-123)
+581,PHC4210001-CC.superconductors.tei.xml,1,Y-123
+582,PHC4210001-CC.superconductors.tei.xml,1,y = 6.98
+583,PHC4210001-CC.superconductors.tei.xml,1,Y-123
+584,PHC4210001-CC.superconductors.tei.xml,2,Y-123
+585,PHC4210001-CC.superconductors.tei.xml,3,YBa 2 Cu 3 O y (Y-123)
+586,PHC4210001-CC.superconductors.tei.xml,3,Y-123
+587,PHC4210001-CC.superconductors.tei.xml,3,single crystal Y-123
+588,PHC4210001-CC.superconductors.tei.xml,3,fully oxygenated Y-123 with y > 6.99
+589,PHC4210001-CC.superconductors.tei.xml,3,well-oxygenated polycrystal
+590,PHC4210001-CC.superconductors.tei.xml,5,Y-123
+591,PHC4210001-CC.superconductors.tei.xml,6,YBa 2 Cu 2.85 (CO 3 ) 0.15 O 6.73
+592,PHC4210001-CC.superconductors.tei.xml,6,Ba(CuO x ) 1- y (CO 3 ) y (y < 0.5)
+593,PHC4210001-CC.superconductors.tei.xml,7,Y-123
+594,PHC4210001-CC.superconductors.tei.xml,8,Y-123
+595,PHC4210001-CC.superconductors.tei.xml,8,Y-123 polycrystal
+596,PHC4210001-CC.superconductors.tei.xml,9,Y 2 O 3
+597,PHC4210001-CC.superconductors.tei.xml,9,BaCO 3
+598,PHC4210001-CC.superconductors.tei.xml,9,CuO
+599,PHC4210001-CC.superconductors.tei.xml,10,Y-123
+600,PHC4210001-CC.superconductors.tei.xml,18,Sample A1
+601,PHC4210001-CC.superconductors.tei.xml,18,Y 2 O 3
+602,PHC4210001-CC.superconductors.tei.xml,18,BaCO 3
+603,PHC4210001-CC.superconductors.tei.xml,18,CuO
+604,PHC4210001-CC.superconductors.tei.xml,19,Sample A2
+605,PHC4210001-CC.superconductors.tei.xml,19,A3
+606,PHC4210001-CC.superconductors.tei.xml,22,vacuum-treated sample (B1)
+607,PHC4210001-CC.superconductors.tei.xml,22,BaCu 2 O 2
+608,PHC4210001-CC.superconductors.tei.xml,22,Sample A1
+609,PHC4210001-CC.superconductors.tei.xml,23,Sample B1
+610,PHC4210001-CC.superconductors.tei.xml,23,A1
+611,PHC4210001-CC.superconductors.tei.xml,23,Sample A1
+612,PHC4210001-CC.superconductors.tei.xml,23,Sample B1
+613,PHC4210001-CC.superconductors.tei.xml,23,vacuum-treated sample (B1)
+614,PHC4210001-CC.superconductors.tei.xml,23,YBa 2 Cu 3 O 7
+615,PHC4210001-CC.superconductors.tei.xml,24,B2
+616,PHC4210001-CC.superconductors.tei.xml,24,B3
+617,PHC4210001-CC.superconductors.tei.xml,24,Sample B1
+618,PHC4210001-CC.superconductors.tei.xml,27,Sample B1
+619,PHC4210001-CC.superconductors.tei.xml,27,B3
+620,PHC4210001-CC.superconductors.tei.xml,27,A1
+621,PHC4210001-CC.superconductors.tei.xml,27,B1
+622,PHC4210001-CC.superconductors.tei.xml,27,A1
+623,PHC4210001-CC.superconductors.tei.xml,28,B1
+624,PHC4210001-CC.superconductors.tei.xml,28,y = 6.99
+625,PHC4210001-CC.superconductors.tei.xml,28,B3
+626,PHC4210001-CC.superconductors.tei.xml,28,A1
+627,PHC4210001-CC.superconductors.tei.xml,29,B1
+628,PHC4210001-CC.superconductors.tei.xml,29,B3
+629,PHC4210001-CC.superconductors.tei.xml,29,A1
+630,PHC4210001-CC.superconductors.tei.xml,29,B1
+631,PHC4210001-CC.superconductors.tei.xml,29,B3
+632,PHC4210001-CC.superconductors.tei.xml,30,quenched from 600 ˚C (B5)
+633,PHC4210001-CC.superconductors.tei.xml,30,Y-123
+634,PHC4210001-CC.superconductors.tei.xml,31,B1
+635,PHC4210001-CC.superconductors.tei.xml,31,B3
+636,PHC4210001-CC.superconductors.tei.xml,31,A1
+637,PHC4210001-CC.superconductors.tei.xml,33,Sample C1
+638,PHC4210001-CC.superconductors.tei.xml,33,B1
+639,PHC4210001-CC.superconductors.tei.xml,33,C1
+640,PHC4210001-CC.superconductors.tei.xml,33,B1
+641,PHC4210001-CC.superconductors.tei.xml,34,Sample C2
+642,PHC4210001-CC.superconductors.tei.xml,34,B1
+643,PHC4210001-CC.superconductors.tei.xml,34,C2
+644,PHC4210001-CC.superconductors.tei.xml,34,B1
+645,PHC4210001-CC.superconductors.tei.xml,34,C1
+646,PHC4210001-CC.superconductors.tei.xml,35,Sample C3 that was prepared without vacuum-treatment and sintered in CO 2 mixed gas
+647,PHC4210001-CC.superconductors.tei.xml,35,C1and
+648,PHC4210001-CC.superconductors.tei.xml,35,C2
+649,PHC4210001-CC.superconductors.tei.xml,36,Y-123
+650,PHC4210001-CC.superconductors.tei.xml,36,CO 2
+651,PHC4210001-CC.superconductors.tei.xml,37,Y-123
+652,PHC4210001-CC.superconductors.tei.xml,39,Y-123
+653,PHC4210001-CC.superconductors.tei.xml,40,"Sample C1, D1, D2, and D3"
+654,PHC4210001-CC.superconductors.tei.xml,40,heavily carbon- substituted sample (D2)
+655,PHC4210001-CC.superconductors.tei.xml,40,optimally (A1)
+656,PHC4210001-CC.superconductors.tei.xml,40,overdoped (B1)
+657,PHC4210001-CC.superconductors.tei.xml,40,Sample D2
+658,PHC4210001-CC.superconductors.tei.xml,40,600˚C-quenched sample (B5)
+659,PHC4210001-CC.superconductors.tei.xml,40,Y 0.8 Ca 0.2 Ba 2 Cu 1-x C x O y
+660,PHC4210001-CC.superconductors.tei.xml,42,Y-123 polycrystals
+661,PHC4210001-CC.superconductors.tei.xml,42,Y-123
+662,PHC4210001-CC.superconductors.tei.xml,43,Y-123
+663,PHC4210001-CC.superconductors.tei.xml,43,Y-123
+664,PHC4210001-CC.superconductors.tei.xml,44,Y-123
+665,PHC4210001-CC.superconductors.tei.xml,46,Y-123
+666,PHC4210001-CC.superconductors.tei.xml,47,YBa 2 Cu 3 O y
+667,PHC4210001-CC.superconductors.tei.xml,48,YBa 2 Cu 3 O y
+668,PHC4210001-CC.superconductors.tei.xml,49,YBa 2 Cu 3 O y
+669,PHC4210001-CC.superconductors.tei.xml,50,YBa 2 Cu 3 O y
+670,PHC4210001-CC.superconductors.tei.xml,51,YBa 2 Cu 3 O y
+671,PHC4210001-CC.superconductors.tei.xml,51,conventional (A1)
+672,PHC4210001-CC.superconductors.tei.xml,51,vacuum-treated samples(B1)
+673,PHC4210001-CC.superconductors.tei.xml,51,vacuum-treated samples; furnace cooled (B1)
+674,PHC4210001-CC.superconductors.tei.xml,51,400 ˚C (B2)
+675,PHC4210001-CC.superconductors.tei.xml,51,460˚C (B3)
+676,PHC4210001-CC.superconductors.tei.xml,52,YBa 2 Cu 3 O y
+677,PHC4210001-CC.superconductors.tei.xml,53,YBa 2 Cu 3 O y
+678,PHC4210001-CC.superconductors.tei.xml,54,YBa 2 Cu 3 O y
+679,PHC4210001-CC.superconductors.tei.xml,55,YBa 2 Cu 3 O y
+680,PHC4210001-CC.superconductors.tei.xml,56,B1
+681,PHC4210001-CC.superconductors.tei.xml,57,YBa 2 Cu 3 O y
+682,PHC4210001-CC.superconductors.tei.xml,58,YBa 2 Cu 3 O y
+683,P065224520-CC.superconductors.tei.xml,0,Sr 0.9 La 0.1 CuO 2
+684,P065224520-CC.superconductors.tei.xml,1,Sr 0.9 La 0.1 CuO 2
+685,P065224520-CC.superconductors.tei.xml,1,La 2-x Sr x CuO 4
+686,P065224520-CC.superconductors.tei.xml,1,Nd 1.85 Ce 0.15 CuO 4
+687,P065224520-CC.superconductors.tei.xml,2,R 2-x Ce x CuO 4
+688,P065224520-CC.superconductors.tei.xml,3,Sr 1-x La x CuO 2
+689,P065224520-CC.superconductors.tei.xml,3,R 2-x Ce x CuO 4
+690,P065224520-CC.superconductors.tei.xml,3,Sr 0.9 La 0.1 CuO 2
+691,P065224520-CC.superconductors.tei.xml,5,Sr 0.9 La 0.1 CuO 2
+692,P065224520-CC.superconductors.tei.xml,16,Sr 0.9 Nd 0.1 CuO 2
+693,P065224520-CC.superconductors.tei.xml,17,Nd 2-x Ce x CuO 4
+694,P065224520-CC.superconductors.tei.xml,17,Sr 1-x La x CuO 2 with x>=0.07
+695,P065224520-CC.superconductors.tei.xml,18,YBa 2 Cu 4 O 8
+696,P065224520-CC.superconductors.tei.xml,19,YBa 2 Cu 3 O 7
+697,P065224520-CC.superconductors.tei.xml,19,Tl 2 Ba 2 CuO 6+δ
+698,P065224520-CC.superconductors.tei.xml,19,La 2-x Sr x CuO 4
+699,P065224520-CC.superconductors.tei.xml,19,Sr 0.9 La 0.1 CuO 2
+700,P065224520-CC.superconductors.tei.xml,19,La 1.85 Sr 0.15 CuO 4
+701,P065224520-CC.superconductors.tei.xml,23,Sr 0.9 La 0.1 CuO 2
+702,P065224520-CC.superconductors.tei.xml,23,Sr 0.9 La 0.1 CuO 2 thin films
+703,PR06012475-CC.superconductors.tei.xml,2,overdoped Tl 2 Ba 2 CuO y (Tl-2201)
+704,PR06012475-CC.superconductors.tei.xml,2,overdoped Bi 2 Sr 2 CuO y (Bi-2201)
+705,PR06012475-CC.superconductors.tei.xml,3,Tl-2201
+706,PR06012475-CC.superconductors.tei.xml,3,Tl-2201 and Bi- 2201
+707,PR06012475-CC.superconductors.tei.xml,4,La 2−x Sr x CuO 4 (LSCO)
+708,PR06012475-CC.superconductors.tei.xml,4,LSCO
+709,PR06012475-CC.superconductors.tei.xml,4,doped Bi 2 Sr 2 CaCu 2 O y (Bi-2212)
+710,PR06012475-CC.superconductors.tei.xml,4,YBa 2 Cu 3 O 7−δ (YBCO)
+711,PR06012475-CC.superconductors.tei.xml,5,LSCO crystals
+712,PR06012475-CC.superconductors.tei.xml,5,x=0.08 and 0.17
+713,PR06012475-CC.superconductors.tei.xml,5,x=0.15
+714,PR06012475-CC.superconductors.tei.xml,5,Bi-2212 crystals
+715,PR06012475-CC.superconductors.tei.xml,5,YBCO crystals
+716,PR06012475-CC.superconductors.tei.xml,5,YBCO
+717,PR06012475-CC.superconductors.tei.xml,6,LSCO (x=0.15)
+718,PR06012475-CC.superconductors.tei.xml,7,underdoped LSCO
+719,PR06012475-CC.superconductors.tei.xml,8,La 2-x Sr x CuO 4 x=0.08
+720,PR06012475-CC.superconductors.tei.xml,8,optimally-doped LSCO (x=0.15)
+721,PR06012475-CC.superconductors.tei.xml,8,underdoped LSCO (x=0.08)
+722,PR06012475-CC.superconductors.tei.xml,9,optimally-doped LSCO (x=0.15)
+723,PR06012475-CC.superconductors.tei.xml,9,under-doped LSCO (x=0.08)
+724,PR06012475-CC.superconductors.tei.xml,9,LSCO (x=0.08)
+725,PR06012475-CC.superconductors.tei.xml,9,LSCO (x=0.15)
+726,PR06012475-CC.superconductors.tei.xml,9,optimally-doped LSCO
+727,PR06012475-CC.superconductors.tei.xml,9,overdoped Tl-2201 and overdoped Bi-2201
+728,PR06012475-CC.superconductors.tei.xml,10,underdoped LSCO (x=0.08)
+729,PR06012475-CC.superconductors.tei.xml,10,LSCO (x=0.15)
+730,PR06012475-CC.superconductors.tei.xml,10,LSCO (x=0.17)
+731,PR06012475-CC.superconductors.tei.xml,10,LSCO (x=0.08)
+732,PR06012475-CC.superconductors.tei.xml,10,overdoped Tl-2201 or Bi-2201
+733,PR06012475-CC.superconductors.tei.xml,10,underdoped LSCO
+734,PR06012475-CC.superconductors.tei.xml,10,"Bi-2212, LSCO (x=0.17) "
+735,PR06012475-CC.superconductors.tei.xml,10,YBCO
+736,PR06012475-CC.superconductors.tei.xml,10,Bi-2212
+737,PR06012475-CC.superconductors.tei.xml,12,Bi-2212
+738,PR06012475-CC.superconductors.tei.xml,12,LSCO (x=0.17)
+739,PR06012475-CC.superconductors.tei.xml,12,YBCO
+740,PR06012475-CC.superconductors.tei.xml,12,Bi-2212
+741,PR06012475-CC.superconductors.tei.xml,12,LSCO (x=0.17)
+742,PR06012475-CC.superconductors.tei.xml,12,YBCO
+743,PR06012475-CC.superconductors.tei.xml,14,Bi-2212
+744,PR06012475-CC.superconductors.tei.xml,14,LSCO (x=0.17)
+745,PR06012475-CC.superconductors.tei.xml,14,YBCO
+746,PR06012475-CC.superconductors.tei.xml,15,Bi-2212
+747,PR06012475-CC.superconductors.tei.xml,15,LSCO (x=0.17)
+748,PR06012475-CC.superconductors.tei.xml,15,YBCO
+749,PR06012475-CC.superconductors.tei.xml,15,LSCO (x=0.17)
+750,PR06012475-CC.superconductors.tei.xml,16,YBCO
+751,PR06012475-CC.superconductors.tei.xml,16,LSCO
+752,PR06012475-CC.superconductors.tei.xml,18,Bi-2212 or under- doped LSCO
+753,P072064520-CC.superconductors.tei.xml,0,La 2 C 3
+754,P072064520-CC.superconductors.tei.xml,1,La2C3
+755,P072064520-CC.superconductors.tei.xml,1,La2C3
+756,P072064520-CC.superconductors.tei.xml,1,LaC2
+757,P072064520-CC.superconductors.tei.xml,2,"RE 2 C 3 , RE being the nonmagnetic rare earth metals Y and La"
+758,P072064520-CC.superconductors.tei.xml,2,binary Y 2 C 3
+759,P072064520-CC.superconductors.tei.xml,2,RE 2 C 3
+760,P072064520-CC.superconductors.tei.xml,2,Y 2 C 3
+761,P072064520-CC.superconductors.tei.xml,3,La2C3
+762,P072064520-CC.superconductors.tei.xml,4,Y 2 C 3
+763,P072064520-CC.superconductors.tei.xml,4,La 2 C 3
+764,P072064520-CC.superconductors.tei.xml,5,La 2 C 3
+765,P072064520-CC.superconductors.tei.xml,5,La 2 C 3−x
+766,P072064520-CC.superconductors.tei.xml,5,La 2 C 3−x (0 < x < 0.33)
+767,P072064520-CC.superconductors.tei.xml,5,x = 0
+768,P072064520-CC.superconductors.tei.xml,5,x = 0.33
+769,P072064520-CC.superconductors.tei.xml,5,x = 0.33
+770,P072064520-CC.superconductors.tei.xml,6,La2C3
+771,P072064520-CC.superconductors.tei.xml,6,La 2 C 3
+772,P072064520-CC.superconductors.tei.xml,6,polycrystalline sample of La 2 C 3
+773,P072064520-CC.superconductors.tei.xml,7,La 2 C 3
+774,P072064520-CC.superconductors.tei.xml,7,"tetragonal LaC 2 (a=3.9323(6)Å, c=6.574(1)Å)"
+775,P072064520-CC.superconductors.tei.xml,8,La2C3
+776,P072064520-CC.superconductors.tei.xml,8,tetrag- onal LaC2
+777,P072064520-CC.superconductors.tei.xml,9,La 2 C 3
+778,P072064520-CC.superconductors.tei.xml,9,tetragonal LaC 2
+779,P072064520-CC.superconductors.tei.xml,9,LaC 2
+780,P072064520-CC.superconductors.tei.xml,10,tetragonal LaC 2
+781,P072064520-CC.superconductors.tei.xml,11,La 2 C 3
+782,P072064520-CC.superconductors.tei.xml,11,Y 2 C 3
+783,P072064520-CC.superconductors.tei.xml,12,La2C3
+784,P072064520-CC.superconductors.tei.xml,12,La 2 C 3
+785,P072064520-CC.superconductors.tei.xml,12,Y 2 C 3
+786,P072064520-CC.superconductors.tei.xml,12,La metal
+787,P072064520-CC.superconductors.tei.xml,12,carbon in the diamond modification
+788,P072064520-CC.superconductors.tei.xml,12,diamond
+789,P072064520-CC.superconductors.tei.xml,13,La 2 C 3
+790,P072064520-CC.superconductors.tei.xml,14,La 2 C 3
+791,P072064520-CC.superconductors.tei.xml,14,cI16 phase of Li
+792,P072064520-CC.superconductors.tei.xml,14,Y 2 C 3
+793,P072064520-CC.superconductors.tei.xml,15,LaC 2
+794,P072064520-CC.superconductors.tei.xml,16,LaC 2
+795,P072064520-CC.superconductors.tei.xml,16,La 2 C 3
+796,P072064520-CC.superconductors.tei.xml,17,LaC 2
+797,P072064520-CC.superconductors.tei.xml,17,CaC 2
+798,P072064520-CC.superconductors.tei.xml,18,tetragonal LaC2
+799,P072064520-CC.superconductors.tei.xml,18,tetragonal LaC 2
+800,P072064520-CC.superconductors.tei.xml,19,La 2 C 3
+801,P072064520-CC.superconductors.tei.xml,19,La 2 C 3
+802,P072064520-CC.superconductors.tei.xml,20,cubic La2C3
+803,P072064520-CC.superconductors.tei.xml,20,tetragonal LaC2
+804,P072064520-CC.superconductors.tei.xml,21,tetragonal CaC2-type crystal structure of LaC2
+805,P064172514-CC.superconductors.tei.xml,0,Bi 2 Sr 2−x La x CuO 6+δ single crystals
+806,P064172514-CC.superconductors.tei.xml,1,Bi2Sr2−xLaxCu1−zZnzO 6+δ (Zn-doped BSLCO) single crystals with z of up to 2.2%
+807,P064172514-CC.superconductors.tei.xml,1,Zn-doped
+808,P064172514-CC.superconductors.tei.xml,1,non-superconducting Zn-doped
+809,P064172514-CC.superconductors.tei.xml,2,YBa 2 Cu 3 O 7−δ (YBCO)
+810,P064172514-CC.superconductors.tei.xml,2,La 2−x Sr x CuO 4 (LSCO)
+811,P064172514-CC.superconductors.tei.xml,2,Bi 2 Sr 2 CaCu 2 O 8+δ (Bi-2212)
+812,P064172514-CC.superconductors.tei.xml,2,single crystals of Bi 2 Sr 2−x La x CuO 6+δ (BSLCO)
+813,P064172514-CC.superconductors.tei.xml,2,BSLCO
+814,P064172514-CC.superconductors.tei.xml,2,Zn- doping of up to 2.2%
+815,P064172514-CC.superconductors.tei.xml,2,BSLCO crystals
+816,P064172514-CC.superconductors.tei.xml,3,Zn-doped BSLCO crystals
+817,P064172514-CC.superconductors.tei.xml,4,BSLCO
+818,P064172514-CC.superconductors.tei.xml,4,BSLCO
+819,P064172514-CC.superconductors.tei.xml,5,Zn-doped BSLCO (Bi 2 Sr 2−x La x Cu 1−z Zn z O 6+δ ) single crystals with z of up to 2.2% for x = 0.50 and 0.66
+820,P064172514-CC.superconductors.tei.xml,5,x = 0.66
+821,P064172514-CC.superconductors.tei.xml,5,Zn-doped
+822,P064172514-CC.superconductors.tei.xml,6,BSLCO crys- tals
+823,P064172514-CC.superconductors.tei.xml,7,Bi2Sr2−xLaxCu1−zZnzO 6+δ single crystals
+824,P064172514-CC.superconductors.tei.xml,7,x = 0.50
+825,P064172514-CC.superconductors.tei.xml,7,x = 0.66
+826,P064172514-CC.superconductors.tei.xml,7,x = 0.50 and 0.66
+827,P064172514-CC.superconductors.tei.xml,7,x = 0.50 and 0.66
+828,P064172514-CC.superconductors.tei.xml,7,YBCO
+829,P064172514-CC.superconductors.tei.xml,7,BSLCO
+830,P064172514-CC.superconductors.tei.xml,8,x = 0.66
+831,P064172514-CC.superconductors.tei.xml,8,YBCO
+832,P064172514-CC.superconductors.tei.xml,8,LSCO
+833,P064172514-CC.superconductors.tei.xml,8,x = 0.66
+834,P064172514-CC.superconductors.tei.xml,8,LSCO
+835,P064172514-CC.superconductors.tei.xml,8,Bi-2212
+836,P064172514-CC.superconductors.tei.xml,8,BSLCO
+837,P064172514-CC.superconductors.tei.xml,8,BSLCO
+838,P064172514-CC.superconductors.tei.xml,10,x = 0.50
+839,P064172514-CC.superconductors.tei.xml,10,x = 0.66
+840,P064172514-CC.superconductors.tei.xml,11,2.2%-Zn-doped samples at x = 0.66
+841,P064172514-CC.superconductors.tei.xml,11,pristine BSLCO crystals with x = 0.66
+842,P064172514-CC.superconductors.tei.xml,11,pristine sample with x = 0.66
+843,P064172514-CC.superconductors.tei.xml,11,Zn-doped
+844,P064172514-CC.superconductors.tei.xml,11,underdoped pristine samples (p < 1/8)
+845,P064172514-CC.superconductors.tei.xml,12,2.2%-Zn-doped x = 0.66
+846,P064172514-CC.superconductors.tei.xml,12,Zn-doped
+847,P064172514-CC.superconductors.tei.xml,13,non-superconducting Zn- doped
+848,P064172514-CC.superconductors.tei.xml,13,pristine
+849,P064172514-CC.superconductors.tei.xml,13,Zn-doped
+850,P064172514-CC.superconductors.tei.xml,14,2.2%-Zn-doped x = 0.66
+851,P064172514-CC.superconductors.tei.xml,14,non-superconducting samples of pristine Bi 2 Sr 2 CuO 6+δ
+852,P064172514-CC.superconductors.tei.xml,14,Zn-doped
+853,P064172514-CC.superconductors.tei.xml,15,Zn-doped
+854,P064172514-CC.superconductors.tei.xml,15,pristine
+855,P064172514-CC.superconductors.tei.xml,16,BSLCO crystals
+856,P064172514-CC.superconductors.tei.xml,16,Zn-doped
+857,P065024523-CC.superconductors.tei.xml,0,underdoped La 2−x Sr x CuO 4+δ
+858,P065024523-CC.superconductors.tei.xml,1,La2−xSrxCuO 4+δ
+859,P065024523-CC.superconductors.tei.xml,2,La 2−x Sr x CuO 4+δ
+860,P065024523-CC.superconductors.tei.xml,2,x = 0
+861,P065024523-CC.superconductors.tei.xml,3,La 2−x Sr x CuO 4+δ
+862,P065024523-CC.superconductors.tei.xml,5,single crystal of La 1.90 Sr 0.10 CuO 4+δ
+863,P065024523-CC.superconductors.tei.xml,5,Y Ba 2 Cu 3 O 7−δ
+864,P065024523-CC.superconductors.tei.xml,5,Y Ba 2 Cu 3 O 7−δ 9
+865,P065024523-CC.superconductors.tei.xml,5,La 2−x Sr x CuO 4+δ
+866,P065024523-CC.superconductors.tei.xml,5,La 1.90 Sr 0.10 CuO 4+δ
+867,P065024523-CC.superconductors.tei.xml,5,x = 0.10
+868,P065024523-CC.superconductors.tei.xml,7,x = 0.13 single crystal
+869,P065024523-CC.superconductors.tei.xml,7,x = 1/8
+870,P065024523-CC.superconductors.tei.xml,8,x = 1/8
+871,P065024523-CC.superconductors.tei.xml,8,La 2−x Ba x CuO 4+δ
+872,P065024523-CC.superconductors.tei.xml,9,x = 0.10 single crystal
+873,P065024523-CC.superconductors.tei.xml,9,"x = 0.10, 0.14, 0.16, 0.20, 0.26 "
+874,P065024523-CC.superconductors.tei.xml,10,Y Ba 2 Cu 3 O 7−δ
+875,P065024523-CC.superconductors.tei.xml,11,x = 0.10
+876,P065024523-CC.superconductors.tei.xml,11,x equal to 0.07 − 0.08
+877,P065024523-CC.superconductors.tei.xml,14,La 2−x Sr x CuO 4+δ
+878,P065024523-CC.superconductors.tei.xml,14,x = 1/8
+879,P065024523-CC.superconductors.tei.xml,14,x = 0.010
+880,P065024523-CC.superconductors.tei.xml,15,La 2−x Sr x CuO 4+δ
+881,P065024523-CC.superconductors.tei.xml,16,La 2−x Sr x CuO 4+δ
+882,P065024523-CC.superconductors.tei.xml,16,x = 1/8
+883,P065024523-CC.superconductors.tei.xml,16,x = 0.10
+884,P065024523-CC.superconductors.tei.xml,19,"x = 0.10, 0.14, 0.16, 0.20, 0.26"
+885,P065024523-CC.superconductors.tei.xml,21,x = 0.156
+886,P065024523-CC.superconductors.tei.xml,22,x = 0.156
+887,P066020503-CC.superconductors.tei.xml,0,single-layer Bi 2 Sr 2 CuO 6+δ
+888,P066020503-CC.superconductors.tei.xml,1,single-layer Bi 2 Sr 2 CuO 6+δ
+889,P066020503-CC.superconductors.tei.xml,2,La 2-x Sr x CuO 4 (LSCO)
+890,P066020503-CC.superconductors.tei.xml,2,Bi 2 Sr 2-y La y CuO 6+δ (Bi(La)-2201) single crystals
+891,P066020503-CC.superconductors.tei.xml,4,Bi(La)-2201
+892,P066020503-CC.superconductors.tei.xml,5,Bi 2 Sr 2 CuO 6+δ (Bi-2201)
+893,P066020503-CC.superconductors.tei.xml,6,Polycrystalline Bi 2 Sr 2 CuO 6+δ
+894,P066020503-CC.superconductors.tei.xml,7,Bi 2 Sr 2 CuO 6+δ
+895,P066020503-CC.superconductors.tei.xml,7,most overdoped
+896,P066020503-CC.superconductors.tei.xml,7,Bi(La)-2201 ceramics
+897,P066020503-CC.superconductors.tei.xml,7,δ=0.14
+898,P066020503-CC.superconductors.tei.xml,7,δ=0.13
+899,P066020503-CC.superconductors.tei.xml,7,δ=0.175 and 0.18
+900,P066020503-CC.superconductors.tei.xml,8,Bi-2201 polycrystalline
+901,P066020503-CC.superconductors.tei.xml,8,Bi(La)-2201 single crystals
+902,P066020503-CC.superconductors.tei.xml,9,δ =0.175 and 0.18
+903,P066020503-CC.superconductors.tei.xml,9,δ=0.175 and 0.18
+904,P066020503-CC.superconductors.tei.xml,11,Bi(La)-2201 single crystals
+905,P066020503-CC.superconductors.tei.xml,14,Bi(La)-2201
+906,P066020503-CC.superconductors.tei.xml,14,Bi 1.8 Pb 0.38 Sr 2 CuO 6-δ (Bi(Pb)-2201)
+907,P066020503-CC.superconductors.tei.xml,14,overdoped case of Bi(Pb)-2201
+908,P066020503-CC.superconductors.tei.xml,17,Bi-2201
+909,SSC1230017-CC.superconductors.tei.xml,0,Sr 0.9 La 0.1 CuO 2
+910,SSC1230017-CC.superconductors.tei.xml,1,Sr0.9La0.1CuO2
+911,SSC1230017-CC.superconductors.tei.xml,2,ACuO 2 (A = alkaline-earth ions)
+912,SSC1230017-CC.superconductors.tei.xml,2,SrCuO 2
+913,SSC1230017-CC.superconductors.tei.xml,3,pure-phase Sr 0.9 La 0.1 CuO 2 (Sr(La)-112)
+914,SSC1230017-CC.superconductors.tei.xml,3,YBa 2 Cu 3 O 7−δ (Y-123)
+915,SSC1230017-CC.superconductors.tei.xml,3,Sr(La)-112
+916,SSC1230017-CC.superconductors.tei.xml,4,Sr(La)-112
+917,SSC1230017-CC.superconductors.tei.xml,7,Y-123
+918,SSC1230017-CC.superconductors.tei.xml,7,Sr(La)-112
+919,SSC1230017-CC.superconductors.tei.xml,8,Y-123
+920,SSC1230017-CC.superconductors.tei.xml,10,Bi 2 Sr 2 CaCu 2 O 8 (Bi-2212)
+921,SSC1230017-CC.superconductors.tei.xml,10,Y-123
+922,SSC1230017-CC.superconductors.tei.xml,10,Bi-2212
+923,SSC1230017-CC.superconductors.tei.xml,10,Sr(La)-112
+924,SSC1230017-CC.superconductors.tei.xml,14,Sr 0.9 La 0.1 CuO 2
+925,SSC1230017-CC.superconductors.tei.xml,14,Y-123
+926,SSC1230017-CC.superconductors.tei.xml,15,Sr0.9La0.1CuO2
+927,PR0446999-CC.superconductors.tei.xml,0,"Eu 1−x K x Fe 2 As 2 with x= 0, 0.35, 0.45 and 0.5 "
+928,PR0446999-CC.superconductors.tei.xml,0,single crystalline EuFe 2 As 2
+929,PR0446999-CC.superconductors.tei.xml,0,x = 0.5
+930,PR0446999-CC.superconductors.tei.xml,1,"AFe 2 As 2 (A: Ba, Sr, Eu or Ca) "
+931,PR0446999-CC.superconductors.tei.xml,1,AFe 2 As 2
+932,PR0446999-CC.superconductors.tei.xml,1,EuFe 2 As 2
+933,PR0446999-CC.superconductors.tei.xml,1,EuFe 2 As 2 single crystals and Eu 0.5 K 0.5 Fe 2 As 2 polycrystals
+934,PR0446999-CC.superconductors.tei.xml,1,Eu 0.5 K 0.5 Fe 2 As 2
+935,PR0446999-CC.superconductors.tei.xml,2,EuFe 2 As 2
+936,PR0446999-CC.superconductors.tei.xml,3,EuFe 2 As 2 single crystals
+937,PR0446999-CC.superconductors.tei.xml,3,Eu 1−x K x Fe 2 As 2
+938,PR0446999-CC.superconductors.tei.xml,3,"x= 0.35, 0.45 and 0.5"
+939,PR0446999-CC.superconductors.tei.xml,3,x= 0.5
+940,PR0446999-CC.superconductors.tei.xml,4,of polycrystalline samples of Eu 1−x K x Fe 2 As 2
+941,PR0446999-CC.superconductors.tei.xml,4,"x= 0.0, 0.45 and 0.5"
+942,PR0446999-CC.superconductors.tei.xml,4,"Eu 1−x K x Fe 2 As 2 samples with x = 0.35, 0.45 and 0.5 "
+943,PR0446999-CC.superconductors.tei.xml,4,x = 0.45
+944,PR0446999-CC.superconductors.tei.xml,4,x = 0.35 and 0.5
+945,PR0446999-CC.superconductors.tei.xml,4,Eu 0.55 K 0.45 Fe 2 As 2
+946,PR0446999-CC.superconductors.tei.xml,4,Eu 0.5 K 0.5 Fe 2 As 2
+947,PR0446999-CC.superconductors.tei.xml,5,"x= 0, 0.45 and 0.5 "
+948,PR0446999-CC.superconductors.tei.xml,5,x= 0.45 and 0.5
+949,PR0446999-CC.superconductors.tei.xml,5,SrFe 2 As 2
+950,PR0446999-CC.superconductors.tei.xml,5,Eu 0.55 K 0.45 Fe 2 As 2
+951,PR0446999-CC.superconductors.tei.xml,6,EuFe 2 As 2 single crystals
+952,PR0446999-CC.superconductors.tei.xml,6,FeAs
+953,PhysRevX.8.041024-CC.superconductors.tei.xml,0,Cu x Bi 2 Se 3
+954,PhysRevX.8.041024-CC.superconductors.tei.xml,1,Cu x Bi 2 Se 3
+955,PhysRevX.8.041024-CC.superconductors.tei.xml,4,Cu x Bi 2 Se 3
+956,PhysRevX.8.041024-CC.superconductors.tei.xml,5,Cu x Bi 2 Se 3
+957,PhysRevX.8.041024-CC.superconductors.tei.xml,5,"Cu-, Sr-, and Nb-doped Bi 2 Se 3 "
+958,PhysRevX.8.041024-CC.superconductors.tei.xml,6,Cu x Bi 2 Se 3 (x ¼ 0.31) single crystals
+959,PhysRevX.8.041024-CC.superconductors.tei.xml,6,Cu x Bi 2 Se 3
+960,PhysRevX.8.041024-CC.superconductors.tei.xml,7,Cu x Bi 2 Se 3 crystals
+961,PhysRevX.8.041024-CC.superconductors.tei.xml,8,Cu x Bi 2 Se 3
+962,PhysRevX.8.041024-CC.superconductors.tei.xml,9,Cu x Bi 2 Se 3
+963,PhysRevX.8.041024-CC.superconductors.tei.xml,10,bulk Cu x Bi 2 Se 3
+964,PhysRevX.8.041024-CC.superconductors.tei.xml,11,Sr 2 RuO 4
+965,PhysRevX.8.041024-CC.superconductors.tei.xml,14,Cu x Bi 2 Se 3
+966,PhysRevX.8.041024-CC.superconductors.tei.xml,16,Cu x Bi 2 Se 3
+967,PhysRevX.8.041024-CC.superconductors.tei.xml,16,Bi 2 Te 3 films grown on a NbSe 2 substrate
+968,PhysRevX.8.041024-CC.superconductors.tei.xml,17,Cu x Bi 2 Se 3
+969,PhysRevX.8.041024-CC.superconductors.tei.xml,17,Bi 2 Te 3 films grown on NbSe 2
+970,PhysRevX.8.041024-CC.superconductors.tei.xml,18,Cu x Bi 2 Se 3
+971,PhysRevX.8.041024-CC.superconductors.tei.xml,19,Cu x Bi 2 Se 3
+972,PhysRevX.8.041024-CC.superconductors.tei.xml,22,Cu x Bi 2 Se 3
+973,PhysRevX.8.041024-CC.superconductors.tei.xml,23,Cu x Bi 2 Se 3
+974,PhysRevX.8.041024-CC.superconductors.tei.xml,24,Cu x Bi 2 Se 3
+975,PhysRevX.8.041024-CC.superconductors.tei.xml,25,Cu x Bi 2 Se 3
+976,PhysRevX.8.041024-CC.superconductors.tei.xml,26,Cu x Bi 2 Se 3
+977,PhysRevX.8.041024-CC.superconductors.tei.xml,27,Cu x Bi 2 Se 3
+978,PR05914099-CC.superconductors.tei.xml,0,RuSr 2 GdCu 2 O 8
+979,PR05914099-CC.superconductors.tei.xml,1,RuSr2GdCu2O8
+980,PR05914099-CC.superconductors.tei.xml,2,La 2−x Ba x CuO 4
+981,PR05914099-CC.superconductors.tei.xml,2,Sr 2 RuO 4
+982,PR05914099-CC.superconductors.tei.xml,2,SrRuO 3
+983,PR05914099-CC.superconductors.tei.xml,3,1212-type RuSr 2 GdCu 2 O 8
+984,PR05914099-CC.superconductors.tei.xml,3,RuO 2
+985,PR05914099-CC.superconductors.tei.xml,3,RuSr 2 GdCu 2 O 8
+986,PR05914099-CC.superconductors.tei.xml,4,RuSr 2 GdCu 2 O 8
+987,PR05914099-CC.superconductors.tei.xml,5,RuSr 2 GdCu 2 O 8
+988,PR05914099-CC.superconductors.tei.xml,5,SrRuO 3
+989,PR05914099-CC.superconductors.tei.xml,5,Zn-substituted RuSr 2 GdCu 1.94 Zn 0.06 O 8
+990,PR05914099-CC.superconductors.tei.xml,5,Y ↔ Gd cosubsti- tuted sample RuSr 2 Gd 0.9 Y 0.1 Cu 2 O 8
+991,PR05914099-CC.superconductors.tei.xml,6,RuSr2GdCu2O8
+992,PR05914099-CC.superconductors.tei.xml,6,RuSr2GdCu2O8
+993,PR05914099-CC.superconductors.tei.xml,7,RuSr 2 GdCu 2 O 8
+994,PR05914099-CC.superconductors.tei.xml,8,RuSr2GdCu2O 8−δ
+995,PR05914099-CC.superconductors.tei.xml,8,RuSr 2 GdCu 2 O 8
+996,PR05914099-CC.superconductors.tei.xml,11,RuSr 2 GdCu 2 O 8
+997,PR05914099-CC.superconductors.tei.xml,13,RuSr2GdCu2O8
+998,PR05914099-CC.superconductors.tei.xml,14,RuSr 2 GdCu 2 O 8
+999,PR05914099-CC.superconductors.tei.xml,14,strongly underdoped YBa 2 Cu 3 O 7−δ
+1000,PR05914099-CC.superconductors.tei.xml,15,RuSr2GdCu2O8
+1001,PR05914099-CC.superconductors.tei.xml,15,GdBa 2 Cu 3 O 7−δ
+1002,PR05914099-CC.superconductors.tei.xml,16,RuSr2GdCu2O8
+1003,PR05914099-CC.superconductors.tei.xml,16,RuSr2GdCu1.94Zn0.06O8
+1004,PR05914099-CC.superconductors.tei.xml,16,Y ←→ Gd co- substituted RuSr2Gd0.9Y0.1Cu2O8
+1005,PR05914099-CC.superconductors.tei.xml,16,10% Y ↔ Gd cosubstituted RuSr 2 Gd 0.9 Y 0.1 Cu 2 O 8
+1006,PR05914099-CC.superconductors.tei.xml,16,pure RuSr 2 GdCu 2 O 8
+1007,PR05914099-CC.superconductors.tei.xml,16,RuSr 2 Cu 1.94 Zn 0.06 O 8
+1008,PR05914099-CC.superconductors.tei.xml,16,RuSr 2 GdCu 2 O 8
+1009,PR05914099-CC.superconductors.tei.xml,19,RuSr2GdCu2O8
+1010,PR05914099-CC.superconductors.tei.xml,20,RuSr 2 GdCu 2 O 8
+1011,PR05914099-CC.superconductors.tei.xml,21,GdBa 2 Cu 3 O 7−δ (Gd-123)
+1012,PR05914099-CC.superconductors.tei.xml,22,ErRh 4 B 4
+1013,PR05914099-CC.superconductors.tei.xml,22,HoMo 6 S 8 20
+1014,PR05914099-CC.superconductors.tei.xml,22,Y 9 Co 7
+1015,PR05914099-CC.superconductors.tei.xml,22,Ru-1212
+1016,PR05914099-CC.superconductors.tei.xml,23,RuSr 2 GdCu 2 O 8
+1017,PR05914099-CC.superconductors.tei.xml,23,RuSr 2 Gd 1−x RE x Cu 2 O 8
+1018,PR05914099-CC.superconductors.tei.xml,23,Ru-1212
+1019,PR05914099-CC.superconductors.tei.xml,24,Ru-1212
+1020,PR05914099-CC.superconductors.tei.xml,24,YBa 2 Cu 3 O 7−δ
+1021,PR05914099-CC.superconductors.tei.xml,25,Ru-1212
+1022,PR05914099-CC.superconductors.tei.xml,26,Ru-1212
+1023,PR05914099-CC.superconductors.tei.xml,26,Sr 2 RuO 4
+1024,PR05914099-CC.superconductors.tei.xml,27,RuSr 2 GdCu 2 O 8
+1025,P064144524-CC.superconductors.tei.xml,0,single-crystal La 2−x Ba x CuO 4 with x = 0.11
+1026,P064144524-CC.superconductors.tei.xml,1,La2−xBaxCuO4 with x ∼ 1/8
+1027,P064144524-CC.superconductors.tei.xml,1,single crystals of x = 0.11
+1028,P064144524-CC.superconductors.tei.xml,1,single-crystal La2−xBaxCuO4 with x = 0.11
+1029,P064144524-CC.superconductors.tei.xml,1,single-crystal La1.6−xNd0.4SrxCuO4 with x ∼ 1/8
+1030,P064144524-CC.superconductors.tei.xml,1,La2−xBaxCuO4 with x ∼ 1/8
+1031,P064144524-CC.superconductors.tei.xml,1,La1.6−xNd0.4SrxCuO4 with x ∼ 1/8
+1032,P064144524-CC.superconductors.tei.xml,2,La 2−x Ba x CuO 4 with x ∼ 1/8
+1033,P064144524-CC.superconductors.tei.xml,2,La 1.6−x Nd 0.4 Sr x CuO 4 with x = 0.12
+1034,P064144524-CC.superconductors.tei.xml,3,La 2−x Ba x CuO 4 with x ∼ 1/8
+1035,P064144524-CC.superconductors.tei.xml,3,La 1.6−x Nd 0.4 Sr x CuO 4
+1036,P064144524-CC.superconductors.tei.xml,3,La 2−x Ba x CuO 4
+1037,P064144524-CC.superconductors.tei.xml,3,La 2−x Sr x CuO 4
+1038,P064144524-CC.superconductors.tei.xml,3,single crystals of La 2−x Ba x CuO 4 with x ∼ 1/8
+1039,P064144524-CC.superconductors.tei.xml,3,single crystals of La 2−x Ba x CuO 4
+1040,P064144524-CC.superconductors.tei.xml,3,x ∼ 1/8
+1041,P064144524-CC.superconductors.tei.xml,3,La 2−x Sr x CuO 4 single crystals
+1042,P064144524-CC.superconductors.tei.xml,4,crystal growth of La 2−x Ba x CuO 4 with x ∼ 1/8
+1043,P064144524-CC.superconductors.tei.xml,4,powders of La 2−x Ba x CuO 4
+1044,P064144524-CC.superconductors.tei.xml,4,La 2−x Ba x CuO 4
+1045,P064144524-CC.superconductors.tei.xml,4,La 2−x Ba x CuO 4 with x = 0.125
+1046,P064144524-CC.superconductors.tei.xml,9,La 2 O 3
+1047,P064144524-CC.superconductors.tei.xml,10,As-grown crystal of La2−xBaxCuO4
+1048,P064144524-CC.superconductors.tei.xml,10,La 2−x Sr x CuO 4 single crystals
+1049,P064144524-CC.superconductors.tei.xml,10,La 1+x Ba 2−x Cu 3 O 7−δ
+1050,P064144524-CC.superconductors.tei.xml,10,La 4 BaCu 5 O 13
+1051,P064144524-CC.superconductors.tei.xml,10,La 2 O 3
+1052,P064144524-CC.superconductors.tei.xml,11,x = 0.11
+1053,P064144524-CC.superconductors.tei.xml,11,over- doped La 2−x Sr x Cu 1−y Zn y O 4
+1054,P064144524-CC.superconductors.tei.xml,11,La2−xBaxCuO4
+1055,P064144524-CC.superconductors.tei.xml,12,La 0.94 Ba 1.06 : Cu = 2.0 : 8.0
+1056,P064144524-CC.superconductors.tei.xml,12,"(La, Ba) 2 Cu 2 O 5 "
+1057,P064144524-CC.superconductors.tei.xml,12,x = 0.11
+1058,P064144524-CC.superconductors.tei.xml,13,La 2−x Ba x CuO 4
+1059,P064144524-CC.superconductors.tei.xml,13,δ = 0.00 ± 0.01 for La 2−x Ba x CuO 4−δ with x = 0.11
+1060,P064144524-CC.superconductors.tei.xml,13,single crystals of La 2−x Ba x CuO 4
+1061,P064144524-CC.superconductors.tei.xml,13,La 2−x Ba x CuO 4 with x = 0.11
+1062,P064144524-CC.superconductors.tei.xml,14,La2−xBaxCuO4 with x = 0.11
+1063,P064144524-CC.superconductors.tei.xml,14,single-crystal La 2−x Ba x CuO 4 with x = 0.11
+1064,P064144524-CC.superconductors.tei.xml,14,single crystals of La 2−x Sr x CuO 4
+1065,P064144524-CC.superconductors.tei.xml,14,La 2−x Sr x CuO 4 with x ∼ 1/8
+1066,P064144524-CC.superconductors.tei.xml,14,polycrystalline sample with x = 0.11
+1067,P064144524-CC.superconductors.tei.xml,14,polycrystalline samples with x ∼ 1/8
+1068,P064144524-CC.superconductors.tei.xml,14,single-crystal La 1.6−x Nd 0.4 Sr x CuO 4 with x = 0.12
+1069,P064144524-CC.superconductors.tei.xml,14,polycrystalline sample with x = 0.11
+1070,P064144524-CC.superconductors.tei.xml,15,single-crystal La2−xBaxCuO4 with x = 0.11
+1071,P064144524-CC.superconductors.tei.xml,15,La2−xBaxCuO4
+1072,P064144524-CC.superconductors.tei.xml,15,single-crystal La 2−x Ba x CuO 4 with x = 0.11
+1073,P064144524-CC.superconductors.tei.xml,16,La 1.6−x Nd 0.4 Sr x CuO 4 with x = 0.12
+1074,P064144524-CC.superconductors.tei.xml,16,La 1.6−x Nd 0.4 Sr x CuO 4
+1075,P064144524-CC.superconductors.tei.xml,17,single-crystal La2−xBaxCuO4 with x = 0.11
+1076,P064144524-CC.superconductors.tei.xml,18,La 2−x Ba x CuO 4
+1077,P064144524-CC.superconductors.tei.xml,18,La 1.6−x Nd 0.4 Sr x CuO 4 with x ∼ 1/8
+1078,P064144524-CC.superconductors.tei.xml,18,polycrystalline La 2−x Ba x CuO 4 with x ∼ 1/8
+1079,P064144524-CC.superconductors.tei.xml,18,La 1.6−x Nd 0.4 Sr x CuO 4
+1080,P064144524-CC.superconductors.tei.xml,18,La 2−x Ba x CuO 4 with x = 0.11
+1081,P064144524-CC.superconductors.tei.xml,18,La 1.6−x Nd 0.4 Sr x CuO 4 with x = 0.12
+1082,P064144524-CC.superconductors.tei.xml,19,single-crystal La 2−x Ba x CuO 4 with x = 0.11
+1083,P064144524-CC.superconductors.tei.xml,19,polycrystalline La 2−x Ba x CuO 4 with x = 1/8
+1084,P064144524-CC.superconductors.tei.xml,19,polycrystalline La 2−x Ba x CuO 4
+1085,P064144524-CC.superconductors.tei.xml,19,single-crystal La 2−x Ba x CuO 4 with x = 0.11
+1086,P064144524-CC.superconductors.tei.xml,20,single-crystal La2−xBaxCuO4 with x = 0.11
+1087,P064144524-CC.superconductors.tei.xml,20,single- crystal La 2−x Ba x CuO 4 with x = 0.11
+1088,P064144524-CC.superconductors.tei.xml,20,La 1.6−x Nd 0.4 Sr x CuO 4 with x ∼ 1/8
+1089,P064144524-CC.superconductors.tei.xml,20,La 1.4−x Nd 0.6 Sr x CuO 4
+1090,P064144524-CC.superconductors.tei.xml,20,La 2−x Ba x CuO 4 with x = 0.11
+1091,P064144524-CC.superconductors.tei.xml,20,La 1.6−x Nd 0.4 Sr x CuO 4 with x = 0.12
+1092,P064144524-CC.superconductors.tei.xml,20,La 1.6−x Nd 0.4 Sr x CuO 4 with x = 0.10
+1093,P064144524-CC.superconductors.tei.xml,21,single crys- tals of La 2−x Ba x CuO 4 with x = 0.11
+1094,P064144524-CC.superconductors.tei.xml,21,polycrystalline La 2−x Ba x CuO 4 with x ∼ 1/8
+1095,P064144524-CC.superconductors.tei.xml,21,La 2−x Ba x CuO 4 with x = 0.11
+1096,P064144524-CC.superconductors.tei.xml,21,La 1.6−x Nd 0.4 Sr x CuO 4 with x ∼ 1/8
+1097,P064144524-CC.superconductors.tei.xml,21,La 2−x Ba x CuO 4 with x ∼ 1/8
+1098,PR05907184-CC.superconductors.tei.xml,0,Underdoped La 2−x Sr x CuO 4
+1099,PR05907184-CC.superconductors.tei.xml,1,underdoped La2−xSrxCuO4
+1100,PR05907184-CC.superconductors.tei.xml,1,La1.87Sr0.13CuO4
+1101,PR05907184-CC.superconductors.tei.xml,1,La1.86Sr0.14CuO4
+1102,PR05907184-CC.superconductors.tei.xml,1,underdoped LSCO
+1103,PR05907184-CC.superconductors.tei.xml,2,Bi 2 Sr 2 CaCu 2 O 8+δ (Bi221)
+1104,PR05907184-CC.superconductors.tei.xml,2,YBa 2 Cu 3 O 7−δ (Y123)
+1105,PR05907184-CC.superconductors.tei.xml,3,LSCO
+1106,PR05907184-CC.superconductors.tei.xml,3,Y123
+1107,PR05907184-CC.superconductors.tei.xml,3,YBa 2 Cu 4 O 4 (Y124)
+1108,PR05907184-CC.superconductors.tei.xml,3,La 2−x Sr x CuO 4 (LSCO)
+1109,PR05907184-CC.superconductors.tei.xml,3,x = 0.17
+1110,PR05907184-CC.superconductors.tei.xml,3,x = 0.34
+1111,PR05907184-CC.superconductors.tei.xml,3,LSCO
+1112,PR05907184-CC.superconductors.tei.xml,5,La1.86Sr0.14CuO4
+1113,PR05907184-CC.superconductors.tei.xml,5,YBa 2 Cu 3 O 7−x (Y123)
+1114,PR05907184-CC.superconductors.tei.xml,5,YBa 2 Cu 4 O 8 (Y124)
+1115,PR05907184-CC.superconductors.tei.xml,5,LSCO
+1116,PR05907184-CC.superconductors.tei.xml,5,slightly underdoped LSCO
+1117,PR05907184-CC.superconductors.tei.xml,5,"doped La 2 CuO 4−δ , thin films of LSCO "
+1118,PR05907184-CC.superconductors.tei.xml,5,La 1.87 Sr 0.13 CuO 4
+1119,PR05907184-CC.superconductors.tei.xml,7,La1.86Sr0.14CuO4
+1120,PR05907184-CC.superconductors.tei.xml,7,La1.87Sr0.13CuO4
+1121,PR05907184-CC.superconductors.tei.xml,8,La 2−x Sr x CuO 4
+1122,PR05907184-CC.superconductors.tei.xml,8,x = 0.14
+1123,PR05907184-CC.superconductors.tei.xml,8,x = 0.13
+1124,PR05907184-CC.superconductors.tei.xml,8,Sr x = 0.14
+1125,PR05907184-CC.superconductors.tei.xml,8,LSCO
+1126,PR05907184-CC.superconductors.tei.xml,8,x = 0.17
+1127,PR05907184-CC.superconductors.tei.xml,9,x = 0.14
+1128,PR05907184-CC.superconductors.tei.xml,9,x = 0.13
+1129,PR05907184-CC.superconductors.tei.xml,10,La1.87Sr0.13CuO4
+1130,PR05907184-CC.superconductors.tei.xml,10,underdoped La1.87Sr0.13CuO4
+1131,PR05907184-CC.superconductors.tei.xml,11,La1.87Sr0.13CuO4
+1132,PR05907184-CC.superconductors.tei.xml,12,La1.86Sr 0.14CuO4
+1133,PR05907184-CC.superconductors.tei.xml,15,La 1.86 Sr 0.14 CuO 4 single crystal
+1134,PR05907184-CC.superconductors.tei.xml,15,LSCO
+1135,PR05907184-CC.superconductors.tei.xml,15,x = 0.13
+1136,PR05907184-CC.superconductors.tei.xml,15,x = 0.14
+1137,PR05907184-CC.superconductors.tei.xml,16,LSCO
+1138,PR05907184-CC.superconductors.tei.xml,17,La1.87Sr0.13CuO4
+1139,PR05907184-CC.superconductors.tei.xml,19,x = 0.14
+1140,PR05907184-CC.superconductors.tei.xml,19,x = 0.13
+1141,PR05907184-CC.superconductors.tei.xml,20,La 1.86 Sr 0.14 CuO 4
+1142,PR05907184-CC.superconductors.tei.xml,20,La 1.87 Sr 0.13 CuO 4
+1143,PR05907184-CC.superconductors.tei.xml,21,x = 0.13
+1144,PR05907184-CC.superconductors.tei.xml,22,YBCO 123 and 124
+1145,PR05907184-CC.superconductors.tei.xml,23,LSCO
+1146,PR05907184-CC.superconductors.tei.xml,23,underdoped LSCO
+1147,PR05907184-CC.superconductors.tei.xml,23,Y123
+1148,PR05907184-CC.superconductors.tei.xml,25,La1.86Sr0.14CuO4
+1149,PR05907184-CC.superconductors.tei.xml,25,La1.87Sr0.13CuO4
+1150,PR05907184-CC.superconductors.tei.xml,25,under- doped La 2−x Sr x CuO 4
+1151,PR05907184-CC.superconductors.tei.xml,26,x = 0.13
+1152,PR05907184-CC.superconductors.tei.xml,26,x = 0.14
+1153,PR05907184-CC.superconductors.tei.xml,26,LSCO
+1154,PR05907184-CC.superconductors.tei.xml,27,x = 0.14
+1155,PR05907184-CC.superconductors.tei.xml,27,La 1.87 Sr 0.13 CuO 4
+1156,PR05907184-CC.superconductors.tei.xml,27,Y123
+1157,PR05907184-CC.superconductors.tei.xml,27,Y124
+1158,PR05907184-CC.superconductors.tei.xml,27,Bi2212
+1159,PR05907184-CC.superconductors.tei.xml,27,La 2−x Sr x CuO 4+δ films
+1160,PR05907184-CC.superconductors.tei.xml,27,doped La 2 CuO 4+δ
+1161,PR05907184-CC.superconductors.tei.xml,27,Tl2202
+1162,PR05907184-CC.superconductors.tei.xml,27,LSCO
+1163,PR05907184-CC.superconductors.tei.xml,29,La1.87Sr0.13CuO4
+1164,PR05907184-CC.superconductors.tei.xml,29,YBCO
+1165,PR05907184-CC.superconductors.tei.xml,29,BSCO
+1166,PR05907184-CC.superconductors.tei.xml,30,La 1.87 Sr 0.13 CuO 4
+1167,PR05907184-CC.superconductors.tei.xml,30,La 1.86 Sr 0.14 CuO 4
+1168,PR05907184-CC.superconductors.tei.xml,31,La1.86Sr0.14CuO4
+1169,PR06006991-CC.superconductors.tei.xml,0,Bi 2 Sr 2−x La x CuO 6
+1170,PR06006991-CC.superconductors.tei.xml,1,Bi2Sr2−xLaxCuO6 crystals
+1171,PR06006991-CC.superconductors.tei.xml,3,Bi 2 Sr 2 CuO 6 (Bi-2201)
+1172,PR06006991-CC.superconductors.tei.xml,3,La 2−x Sr x CuO 4 (LSCO)
+1173,PR06006991-CC.superconductors.tei.xml,3,Bi-2201
+1174,PR06006991-CC.superconductors.tei.xml,3,LSCO
+1175,PR06006991-CC.superconductors.tei.xml,3,B-2201
+1176,PR06006991-CC.superconductors.tei.xml,3,YBa 2 Cu 3 O 7 (YBCO)
+1177,PR06006991-CC.superconductors.tei.xml,3,Bi 2 Sr 2 CaCu 2 O 8 (Bi- 2212)
+1178,PR06006991-CC.superconductors.tei.xml,3,Bi 2 Sr 2−x La x CuO 6 with x≃0.4
+1179,PR06006991-CC.superconductors.tei.xml,4,Bi-2201 crystals
+1180,PR06006991-CC.superconductors.tei.xml,5,Bi 2 Sr 2−x La x CuO 6 (BSLCO)
+1181,PR06006991-CC.superconductors.tei.xml,5,pure Bi-2201
+1182,PR06006991-CC.superconductors.tei.xml,5,pure Bi-2201
+1183,PR06006991-CC.superconductors.tei.xml,5,x=0.24
+1184,PR06006991-CC.superconductors.tei.xml,5,0.30
+1185,PR06006991-CC.superconductors.tei.xml,5,0.44
+1186,PR06006991-CC.superconductors.tei.xml,5,0.57
+1187,PR06006991-CC.superconductors.tei.xml,5,0.66
+1188,PR06006991-CC.superconductors.tei.xml,5,BSLCO
+1189,PR06006991-CC.superconductors.tei.xml,5,Bi- 2201
+1190,PR06006991-CC.superconductors.tei.xml,5,x=0.44
+1191,PR06006991-CC.superconductors.tei.xml,5,Bi 1.8 Sr 1.57 La 0.44 CuO 6+δ
+1192,PR06006991-CC.superconductors.tei.xml,6,BSLCO crystals
+1193,PR06006991-CC.superconductors.tei.xml,7,x=0.44
+1194,PR06006991-CC.superconductors.tei.xml,7,pure Bi-2201
+1195,PR06006991-CC.superconductors.tei.xml,7,BSLCO
+1196,PR06006991-CC.superconductors.tei.xml,8,x=0.57 and 0.66
+1197,PR06006991-CC.superconductors.tei.xml,8,underdoped YBCO
+1198,PR06006991-CC.superconductors.tei.xml,8,x=0.30 and 0.24
+1199,PR06006991-CC.superconductors.tei.xml,8,LSCO
+1200,PR06006991-CC.superconductors.tei.xml,8,Tl 2 Ba 2 CuO 6+δ (Tl-2201)
+1201,PR06006991-CC.superconductors.tei.xml,8,x=0.30 and 0.24
+1202,PR06006991-CC.superconductors.tei.xml,8,Bi-2201
+1203,PR06006991-CC.superconductors.tei.xml,9,BSLCO crystals
+1204,PR06006991-CC.superconductors.tei.xml,9,x=0.30 and 0.24
+1205,PR06006991-CC.superconductors.tei.xml,9,x=0.66
+1206,PR06006991-CC.superconductors.tei.xml,9,"x =0.57, 0.44, 0.30, and 0.24"
+1207,PR06006991-CC.superconductors.tei.xml,9,BSLCO
+1208,PR06006991-CC.superconductors.tei.xml,10,x=0.57
+1209,PR06006991-CC.superconductors.tei.xml,10,x=0.44
+1210,PR06006991-CC.superconductors.tei.xml,10,x=0.30
+1211,PR06006991-CC.superconductors.tei.xml,10,x=0.24
+1212,PR06006991-CC.superconductors.tei.xml,10,"x=0.24, 0.44, 0.57, and 0.66"
+1213,PR06006991-CC.superconductors.tei.xml,10,x=0.30
+1214,PR06006991-CC.superconductors.tei.xml,11,x=0.24
+1215,PR06006991-CC.superconductors.tei.xml,11,x=0.44
+1216,PR06006991-CC.superconductors.tei.xml,11,x=0.57
+1217,PR06006991-CC.superconductors.tei.xml,11,x=0.66
+1218,PR06006991-CC.superconductors.tei.xml,11,LSCO
+1219,PR06006991-CC.superconductors.tei.xml,11,YBCO
+1220,PR06006991-CC.superconductors.tei.xml,11,x=0.66
+1221,PR06006991-CC.superconductors.tei.xml,12,Bi-2201
+1222,PR06006991-CC.superconductors.tei.xml,12,Tl-2201
+1223,PR06006991-CC.superconductors.tei.xml,12,BSLCO
+1224,P065104523-CC.superconductors.tei.xml,0,Ti-doped Sr 2 RuO 4
+1225,P065104523-CC.superconductors.tei.xml,1,single crystals of Sr2Ru1−xTixO4
+1226,P065104523-CC.superconductors.tei.xml,1,x = 0.1 and 0.2
+1227,P065104523-CC.superconductors.tei.xml,2,Sr 2 RuO 4
+1228,P065104523-CC.superconductors.tei.xml,3,SrRuO 3
+1229,P065104523-CC.superconductors.tei.xml,3,Sr 3 Ru 2 O 7
+1230,P065104523-CC.superconductors.tei.xml,3,Sr 2 RuO 4
+1231,P065104523-CC.superconductors.tei.xml,4,La 2 CuO 4
+1232,P065104523-CC.superconductors.tei.xml,4,Sr 2 RuO 4
+1233,P065104523-CC.superconductors.tei.xml,4,Ca 2 RuO 4
+1234,P065104523-CC.superconductors.tei.xml,4,Sr 2 IrO 4
+1235,P065104523-CC.superconductors.tei.xml,4,Sr 2 Ru 1−x Ti x O 4 with 0 < x < 1
+1236,P065104523-CC.superconductors.tei.xml,5,Sr 2 Ru 1−x Ti x O 4 for Ti concentra- tions 0 < x < 0.25
+1237,P065104523-CC.superconductors.tei.xml,6,single crystalline material doped with 10 % and 20 % Ti
+1238,P065104523-CC.superconductors.tei.xml,7,Single crystals of Sr 2 Ru 1−x Ti x O 4
+1239,P065104523-CC.superconductors.tei.xml,8,Ti-doped
+1240,P065104523-CC.superconductors.tei.xml,11,Sr 2 Ru 0.8 Ti 0.2 O 4
+1241,P065104523-CC.superconductors.tei.xml,11,pure Sr 2 RuO 4
+1242,P065104523-CC.superconductors.tei.xml,11,x = 0.2
+1243,P065104523-CC.superconductors.tei.xml,11,x = 0
+1244,P065104523-CC.superconductors.tei.xml,12,Sr2Ru0.8Ti0.2O4
+1245,P065104523-CC.superconductors.tei.xml,13,Sr 2 Ru 0.8 Ti 0.2 O 4
+1246,P065104523-CC.superconductors.tei.xml,13,undoped Sr 2 RuO 4
+1247,P065104523-CC.superconductors.tei.xml,13,x = 0.1
+1248,P065104523-CC.superconductors.tei.xml,14,Sr2Ru0.8Ti0.2O4
+1249,P065104523-CC.superconductors.tei.xml,15,Sr 2 Ru 1−x Ti x O 4
+1250,P065104523-CC.superconductors.tei.xml,16,Sr 2 Ru 1−x Ti x O 4
+1251,P065104523-CC.superconductors.tei.xml,17,Sr2Ru1−xTixO4 for x = 0.1
+1252,P065104523-CC.superconductors.tei.xml,17,x = 0.2
+1253,P065104523-CC.superconductors.tei.xml,17,pure Sr 2 RuO 4
+1254,P065104523-CC.superconductors.tei.xml,18,x > 0.12
+1255,P065104523-CC.superconductors.tei.xml,18,x = 0.1 and 0.2
+1256,P065104523-CC.superconductors.tei.xml,19,Sr2Ru0.8Ti0.2O4
+1257,P065104523-CC.superconductors.tei.xml,20,Sr2Ru1−xTixO4 for x = 0.1
+1258,P065104523-CC.superconductors.tei.xml,20,x = 0.2
+1259,P065104523-CC.superconductors.tei.xml,21,Sr 2 Ru 1−x Ti x O 4 for x = 0.1 and 0.2
+1260,P065104523-CC.superconductors.tei.xml,21,x = 0.1
+1261,P065104523-CC.superconductors.tei.xml,21,La 0.8 Sr 0.2 MnO 3
+1262,P065104523-CC.superconductors.tei.xml,22,Sr2Ru0.8Ti0.2O4
+1263,P065104523-CC.superconductors.tei.xml,22,Sr 2 Ru 0.8 Ti 0.2 O 4
+1264,P065104523-CC.superconductors.tei.xml,22,Sr 2 RuO 4
+1265,P065104523-CC.superconductors.tei.xml,23,Sr 2 Ru 0.8 Ti 0.2 O 4
+1266,P065104523-CC.superconductors.tei.xml,24,Sr 2 Ru 0.8 Ti 0.2 O 4
+1267,P065104523-CC.superconductors.tei.xml,25,Sr2Ru0.8Ti0.2O4
+1268,P065104523-CC.superconductors.tei.xml,25,x = 0.2
+1269,P065104523-CC.superconductors.tei.xml,25,x = 0.1
+1270,P065104523-CC.superconductors.tei.xml,25,Sr 2 Ru 0.8 Ti 0.2 O 4
+1271,P065104523-CC.superconductors.tei.xml,25,pure Sr 2 RuO 4
+1272,P065104523-CC.superconductors.tei.xml,25,x = 0.2
+1273,P065104523-CC.superconductors.tei.xml,26,x = 0.2
+1274,P065104523-CC.superconductors.tei.xml,26,Sr 2 Ru 0.8 Ti 0.2 O 4
+1275,P065104523-CC.superconductors.tei.xml,26,La 2−y Sr y CuO 4
+1276,P065104523-CC.superconductors.tei.xml,26,y = 0.06
+1277,P065104523-CC.superconductors.tei.xml,26,y = 0.1
+1278,P065104523-CC.superconductors.tei.xml,26,La 1.9 Sr 0.1 CuO 4
+1279,P065104523-CC.superconductors.tei.xml,27,x = 0.2
+1280,P065104523-CC.superconductors.tei.xml,27,x = 0.1
+1281,P065104523-CC.superconductors.tei.xml,27,Sr2Ru0.8Ti0.2O4
+1282,P065104523-CC.superconductors.tei.xml,27,pure Sr 2 RuO 4
+1283,P065104523-CC.superconductors.tei.xml,27,20 % Ti-doped
+1284,P065104523-CC.superconductors.tei.xml,30,single crystals of Sr 2 Ru 1−x Ti x O 4 with concentrations of x = 0.1 and 0.2
+1285,P065104523-CC.superconductors.tei.xml,30,undoped Sr 2 RuO 4
+1286,P065104523-CC.superconductors.tei.xml,30,La 2 CuO 4
+1287,P065104523-CC.superconductors.tei.xml,30,La 2 NiO 4
+1288,P065104523-CC.superconductors.tei.xml,30,Ca 2 RuO 4
+1289,P065104523-CC.superconductors.tei.xml,30,Sr-doped La 2 CuO 4
+1290,P065104523-CC.superconductors.tei.xml,30,x = 0.1
+1291,P065104523-CC.superconductors.tei.xml,30,x = 0.2
+1292,P065104523-CC.superconductors.tei.xml,31,La 2−y Sr y CuO 4 (y ≈ 0.06)
+1293,P065104523-CC.superconductors.tei.xml,32,Sr2Ru1−xTixO4
+1294,P065104523-CC.superconductors.tei.xml,32,x = 0.1 and 0.2
+1295,P065104523-CC.superconductors.tei.xml,33,Sr2Ru1−xTixO4
+1296,P065104523-CC.superconductors.tei.xml,33,low-doped La 2−x Sr x CuO 4
+1297,1609.04957-CC.superconductors.tei.xml,0,LaFeAsO 1−x H x
+1298,1609.04957-CC.superconductors.tei.xml,1,LaFeAsO1−xHx
+1299,1609.04957-CC.superconductors.tei.xml,2,LaFeAsO 1−x H x
+1300,1609.04957-CC.superconductors.tei.xml,2,from x = 0.05 to x = 0.44
+1301,1609.04957-CC.superconductors.tei.xml,3,FeSe
+1302,1609.04957-CC.superconductors.tei.xml,4,LaFeAsO 1−x F x
+1303,1609.04957-CC.superconductors.tei.xml,4,x = 0.14
+1304,1609.04957-CC.superconductors.tei.xml,5,x = 0.14
+1305,1609.04957-CC.superconductors.tei.xml,5,LaFeAsO 1−x F x
+1306,1609.04957-CC.superconductors.tei.xml,5,x = 0.14 − 0.15
+1307,1609.04957-CC.superconductors.tei.xml,5,0.20 ≤ x ≤ 0.44
+1308,1609.04957-CC.superconductors.tei.xml,6,"x =0.20, 0.40, and 0.44"
+1309,1609.04957-CC.superconductors.tei.xml,7,x =0.20
+1310,1609.04957-CC.superconductors.tei.xml,7,x =0.40 and 0.44
+1311,1609.04957-CC.superconductors.tei.xml,7,x=0.44
+1312,1609.04957-CC.superconductors.tei.xml,8,x = 0.20
+1313,1609.04957-CC.superconductors.tei.xml,8,K y Fe 2−x Se 2
+1314,1609.04957-CC.superconductors.tei.xml,8,LaFeAsO 1−x H x
+1315,1609.04957-CC.superconductors.tei.xml,8,LaFeAsO 1−x F x
+1316,1609.04957-CC.superconductors.tei.xml,8,x =0.20
+1317,1609.04957-CC.superconductors.tei.xml,9,LaFeAsO 1−x F x
+1318,1609.04957-CC.superconductors.tei.xml,9,x =0.20
+1319,1609.04957-CC.superconductors.tei.xml,9,x = 0.20
+1320,1609.04957-CC.superconductors.tei.xml,10,14% F-and 20% H-doped
+1321,1609.04957-CC.superconductors.tei.xml,10,40% and 44% H-doped
+1322,1609.04957-CC.superconductors.tei.xml,11,NaFe 1−x Co x As
+1323,1609.04957-CC.superconductors.tei.xml,13,x = 0.14 − 0.20
+1324,1609.04957-CC.superconductors.tei.xml,14,LaFeAsO 1−x H x
+1325,1609.04957-CC.superconductors.tei.xml,14,x = 0.20
+1326,1609.04957-CC.superconductors.tei.xml,14,x = 0.44
+1327,1609.04957-CC.superconductors.tei.xml,15,LaFeAsO1−xHx
+1328,1609.04957-CC.superconductors.tei.xml,15,Ba(Fe1−xCox)2As2
+1329,1609.04957-CC.superconductors.tei.xml,16,x = 0.20
+1330,1609.04957-CC.superconductors.tei.xml,16,x = 0.40
+1331,1609.04957-CC.superconductors.tei.xml,16,x = 0.44
+1332,1609.04957-CC.superconductors.tei.xml,16,x =0.40 and 0.44
+1333,1609.04957-CC.superconductors.tei.xml,17,x = 0.20
+1334,1609.04957-CC.superconductors.tei.xml,17,x = 0.40
+1335,1609.04957-CC.superconductors.tei.xml,17,x = 0.44
+1336,1609.04957-CC.superconductors.tei.xml,18,LaFeAsO1−xHx (0.05 ≤ x ≤ 0.5)
+1337,1609.04957-CC.superconductors.tei.xml,18,LaFeAsO1−xFx (0.05 ≤ x ≤ 0.14)
+1338,1609.04957-CC.superconductors.tei.xml,19,LaFeAsO1−xFx (x =0.14)
+1339,1609.04957-CC.superconductors.tei.xml,19,LaFeAsO1−xFx
+1340,1609.04957-CC.superconductors.tei.xml,19,LaFeAsO1−xHx
+1341,1609.04957-CC.superconductors.tei.xml,19,x =0.14
+1342,1609.04957-CC.superconductors.tei.xml,19,"x =0.20, 0.40, and 0.44 (H doping)"
+1343,L092157004-CC.superconductors.tei.xml,0,Na x CoO 2 • yH 2 O Single Crystals
+1344,L092157004-CC.superconductors.tei.xml,1,NaxCoO2 • yH2O
+1345,L092157004-CC.superconductors.tei.xml,1,Na0.3CoO2 • 1.3H2O
+1346,L092157004-CC.superconductors.tei.xml,2,Na x CoO 2 (x ≈ 0.65 to 0.75)
+1347,L092157004-CC.superconductors.tei.xml,2,Na x CoO 2 • yH 2 O
+1348,L092157004-CC.superconductors.tei.xml,2,x ≈ 0.3
+1349,L092157004-CC.superconductors.tei.xml,2,Na 0.3 CoO 2 • 1.3H 2 O
+1350,L092157004-CC.superconductors.tei.xml,2,Na x CoO 2
+1351,L092157004-CC.superconductors.tei.xml,2,single crystals of Na x CoO 2
+1352,L092157004-CC.superconductors.tei.xml,3,Na 0.75 CoO 2 polycrystalline
+1353,L092157004-CC.superconductors.tei.xml,3,Na 0.75 CoO 2 feed rod
+1354,L092157004-CC.superconductors.tei.xml,3,single crystals of Na 0.75 CoO 2
+1355,L092157004-CC.superconductors.tei.xml,3,Na x CoO 2
+1356,L092157004-CC.superconductors.tei.xml,3,Na
+1357,L092157004-CC.superconductors.tei.xml,3,NaOH
+1358,L092157004-CC.superconductors.tei.xml,4,Na 0.3 CoO 2 • yH 2 O
+1359,L092157004-CC.superconductors.tei.xml,4,x = 0.75
+1360,L092157004-CC.superconductors.tei.xml,4,x ≃ 0.28 − 0.32
+1361,L092157004-CC.superconductors.tei.xml,6,Na
+1362,L092157004-CC.superconductors.tei.xml,7,Na 0.68 CoO 2
+1363,L092157004-CC.superconductors.tei.xml,7,Co 3 O 4
+1364,L092157004-CC.superconductors.tei.xml,7,lanthanum strontium cuprate (La 2−x Sr x CuO 4 )
+1365,L092157004-CC.superconductors.tei.xml,7,Na
+1366,L092157004-CC.superconductors.tei.xml,12,x = 0.5
+1367,L092157004-CC.superconductors.tei.xml,12,Na 0.3 CoO 2 •yH 2 O
+1368,L092157004-CC.superconductors.tei.xml,15,single crystals of the hydrated Na x CoO 2 • yH 2 O
+1369,L092227003-CC.superconductors.tei.xml,0,Pr 1.3−x La 0.7 Ce x CuO 4
+1370,L092227003-CC.superconductors.tei.xml,1,electron-doped Pr1.3−xLa0.7CexCuO4 (x = 0.01) crystals
+1371,L092227003-CC.superconductors.tei.xml,3,Nd 2−x Ce x CuO 4
+1372,L092227003-CC.superconductors.tei.xml,4,hole-doped La 2−x Sr x CuO 4
+1373,L092227003-CC.superconductors.tei.xml,4,electron-doped Pr 1.3−x La 0.7 Ce x CuO 4 (PLCCO) single crystals
+1374,L092227003-CC.superconductors.tei.xml,4,hole-doped La 2−x Sr x CuO 4
+1375,L092227003-CC.superconductors.tei.xml,5,PLCCO single crystals with x = 0.01
+1376,L092227003-CC.superconductors.tei.xml,5,PLCCO
+1377,L092227003-CC.superconductors.tei.xml,8,Pr 2 CuO 4 (PCO)
+1378,L092227003-CC.superconductors.tei.xml,9,PLCCO
+1379,L092227003-CC.superconductors.tei.xml,9,PCO
+1380,L092227003-CC.superconductors.tei.xml,11,PLCCO (x = 0.01)
+1381,L092227003-CC.superconductors.tei.xml,11,pure PCO
+1382,L092227003-CC.superconductors.tei.xml,11,PCO
+1383,L092227003-CC.superconductors.tei.xml,11,PLCCO
+1384,L092227003-CC.superconductors.tei.xml,13,electron-doped PLCCO
+1385,L092227003-CC.superconductors.tei.xml,13,hole-doped analog LSCO
+1386,L092227003-CC.superconductors.tei.xml,13,YBa 2 Cu 3 O 6+x (YBCO)
+1387,L092227003-CC.superconductors.tei.xml,13,PLCCO
+1388,L092227003-CC.superconductors.tei.xml,13,doped PLCCO
+1389,L092227003-CC.superconductors.tei.xml,13,LSCO
+1390,L092227003-CC.superconductors.tei.xml,13,YBCO
+1391,L092227003-CC.superconductors.tei.xml,14,PLCCO
+1392,L092227003-CC.superconductors.tei.xml,14,electron-doped PLCCO
+1393,L092227003-CC.superconductors.tei.xml,15,LSCO
+1394,L092227003-CC.superconductors.tei.xml,15,PLCCO
+1395,L092227003-CC.superconductors.tei.xml,15,LSCO
+1396,L092227003-CC.superconductors.tei.xml,15,YBCO
+1397,L092227003-CC.superconductors.tei.xml,15,PLCCO
+1398,L092227003-CC.superconductors.tei.xml,20,Pr 1.85 Ce 0.15 CuO 4
+1399,L092227003-CC.superconductors.tei.xml,21,Pr2CuO4
+1400,L092227003-CC.superconductors.tei.xml,22,PLCCO (x = 0.01)
+1401,L092227003-CC.superconductors.tei.xml,23,PLCCO (x = 0.01) single crystals

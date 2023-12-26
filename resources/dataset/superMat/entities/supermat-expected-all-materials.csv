@@ -1,0 +1,1307 @@
+id,filename,par_id,material
+0,PR06014617-CC,4,x = 0.10
+1,PR06014617-CC,4,0.15
+2,PR06014617-CC,4,0.20
+3,PR06014617-CC,4,0.22
+4,PR06014617-CC,4,0.24
+5,PR06014617-CC,4,Hg-1201
+6,PR06014617-CC,4,Hg-1201
+7,PR06114956-CC,5,z=0.39
+8,PR06114956-CC,8,BSLCO crystals
+9,PR06114956-CC,17,BSLCO
+10,PR05003221-CC,3,x=0.15
+11,PR05003221-CC,3,x=0.15
+12,PR05713422-CC,2,slightly overdoped HgBa 2 CuO 4+δ (Hg-1201)
+13,PR05713422-CC,2,slightly underdoped HgBa 2 Ca 2 Cu 3 O 8+δ (Hg-1223)
+14,PR05713422-CC,3,YBCO 7
+15,PR05713422-CC,3,YBCO 6.7
+16,PR05713422-CC,3,YBCO 6.57
+17,PR05713422-CC,3,YBCO 6.57
+18,PR05713422-CC,3,YBCO 6.57
+19,PR05713422-CC,3,YBCO 6.57
+20,PR05514152-CC,4,Bi 2 Sr 2 CuO 6
+21,PR05514152-CC,6,Bi 2 Sr 2 Cu0 6 single crystals
+22,PR05514152-CC,6,Bi 2 Sr 2 Cu0 6 single crystals
+23,PR05814617-CC,3,Y- 123
+24,PR05814617-CC,4,(189 and 259) were grown in Al 2 O 3 crucibles
+25,PR05814617-CC,4,"third crystal (315), grown in Y 2 O 3"
+26,PR05814617-CC,5,Y-123
+27,PR05814617-CC,5,Y-123
+28,PR05814617-CC,10,Y-123
+29,PR06103808-CC,2,nearly opti- mally doped HgBa 2 CuO 4+x
+30,PR06103808-CC,2,slightly over- doped HgBa 2 CuO 4+x
+31,PR06103808-CC,5,HgBa 2 CuO 4+x (x=0.10
+32,PR06103808-CC,8,p ∼ 0.09
+33,PR06103808-CC,8,0.18
+34,PR06103808-CC,8,Hg-1201
+35,PR06103808-CC,9,Hg-1201
+36,PR04310568-CC,2,"fully doped orthorhombic RBa 2 Cu 3 O 7−y (R=Y, rare earth)"
+37,PR06013094-CC,3,
+38,PR05809504-CC,1,"oxygen-deficient, fluorine-free polycrystalline samples with nominal chemical formula NdFeAsO 1-y"
+39,PR05809504-CC,2,LaFeAs(O 1-x F x )
+40,PR05809504-CC,2,oxygen-deficient NdFeAsO 1-y
+41,PR05809504-CC,11,1-y=0.75 and 0.70
+42,PR05809504-CC,11,1-y=0.80
+43,PR05809504-CC,11,"oxygen-deficient, fluorine-free NdFeAsO 1-y"
+44,PR05809504-CC,13,1-y*=0.94
+45,PR05809504-CC,14,"oxygen-deficient, fluorine-free NdFeAsO 1-y"
+46,PR06100107-CC,1,La2−xSrxCuO4
+47,PR06100107-CC,1,La2−xSrxCuO4
+48,PR06100107-CC,12,x = 0.15
+49,PR06100107-CC,12,x = 0.15
+50,PR06100107-CC,12,LSCO
+51,PR06100107-CC,19,LSCO
+52,PR0446999-CC,1,x = 0.5
+53,PR0446999-CC,2,Eu 0.5 K 0.5 Fe 2 As 2
+54,PR0446999-CC,3,EuFe 2 As 2
+55,PR05914099-CC,1,RuSr2GdCu2O8
+56,PR05914099-CC,2,Sr 2 RuO 4
+57,PR05914099-CC,3,1212-type RuSr 2 GdCu 2 O 8
+58,PR05914099-CC,4,RuSr 2 GdCu 2 O 8
+59,PR05914099-CC,8,RuSr 2 GdCu 2 O 8
+60,PR05914099-CC,11,RuSr 2 GdCu 2 O 8
+61,PR05914099-CC,11,RuSr 2 GdCu 2 O 8
+62,PR05914099-CC,13,RuSr2GdCu2O8
+63,PR05914099-CC,23,RuSr 2 GdCu 2 O 8
+64,PR05914099-CC,27,RuSr 2 GdCu 2 O 8
+65,PR05511832-CC,17,T l 0.5 P b 0. 5 Sr 2 Ca 1−x Y x Cu 2 O 7
+66,PR06015055-CC,6,pure crystals
+67,PR05907184-CC,3,x = 0.17
+68,PR05907184-CC,3,x = 0.34
+69,PR05907184-CC,5,La1.86Sr0.14CuO4
+70,PR05907184-CC,8,Sr x = 0.14
+71,PR05907184-CC,8,x = 0.13
+72,PR05907184-CC,8,x = 0.17
+73,PR05907184-CC,25,under- doped La 2−x Sr x CuO 4
+74,PR06006991-CC,3,Bi 2 Sr 2−x La x CuO 6 with x≃0.4
+75,PR06006991-CC,5,x=0.24
+76,PR06006991-CC,5,0.30
+77,PR06006991-CC,5,0.44
+78,PR06006991-CC,5,0.57
+79,PR06006991-CC,5,0.66
+80,PR06006991-CC,5,BSLCO
+81,PR06006991-CC,12,Tl-2201
+82,PR04909084-CC,3,x > 0.22
+83,PR06114350-CC,4,x=0
+84,PR06114350-CC,4,0.01
+85,PR06114350-CC,4,0.02
+86,PR06114350-CC,4,0.02
+87,PR06114350-CC,4,0.02
+88,PR06114350-CC,4,0.02
+89,SST01600L7-CC,2,x = 0.15
+90,SST01600L7-CC,7,x = 0.063
+91,SST01600L7-CC,7,x = 0.125
+92,SST01600L7-CC,7,x = 0.125
+93,PhysRevX.9.021044-CC,4,Sr 2 RuO 4
+94,PhysRevX.9.021044-CC,7,Single-crystalline Sr 2 RuO 4
+95,EPL0580589,1,overdoped Bi2Sr2CaCu2O 8+δ
+96,EPL0580589,4,Bi-2212
+97,EPL0580589,8,underdoped Bi-2212
+98,EPL0580589,9,overdoped Bi-2212
+99,EPL0580589,10,underdoped and overdoped Bi-2212
+100,EPL0580589,10,underdoped and overdoped Bi-2212
+101,EPL0580589,10,underdoped and overdoped Bi-2212
+102,EPL0580589,10,underdoped and overdoped Bi-2212
+103,EPL0580589,11,overdoped Bi-2212
+104,EPL0580589,12,overdoped Bi-2212
+105,EPL0580589,12,overdoped Bi-2212
+106,EPL0580589,19,overdoped Bi-2212
+107,EPL0580589,19,underdoped Bi-2212
+108,Tanaka_etal_2017-CC,1,CeOBiS2
+109,Tanaka_etal_2017-CC,1,non-doped CeOBiS2
+110,Tanaka_etal_2017-CC,18,CeOBiS2
+111,Tanaka_etal_2017-CC,19,"Ce(O,F)BiS2"
+112,Tanaka_etal_2017-CC,21,CeOBiS2
+113,Tanaka_etal_2017-CC,21,CeOBiS2 crystals
+114,Tanaka_etal_2017-CC,22,CeOBiS2
+115,Tanaka_etal_2017-CC,22,CeOBiS2
+116,Tanaka_etal_2017-CC,25,CeOBiS2 crystals
+117,Tanaka_etal_2017-CC,25,CeOBiS2 crystals
+118,Tanaka_etal_2017-CC,36,CeOBiS2 crystals
+119,Drozdov_etal_2015,0,
+120,Drozdov_etal_2015,1,sulfur hydride
+121,Drozdov_etal_2015,1,
+122,Drozdov_etal_2015,1,
+123,Drozdov_etal_2015,1,
+124,Drozdov_etal_2015,1,
+125,Drozdov_etal_2015,2,MgB 2
+126,Drozdov_etal_2015,3,molecular hydrogen
+127,Drozdov_etal_2015,3,molecular hydrogen
+128,Drozdov_etal_2015,4,H 2 S
+129,Drozdov_etal_2015,7,
+130,Drozdov_etal_2015,7,
+131,Drozdov_etal_2015,9,H 2 S
+132,Drozdov_etal_2015,9,H 2 S
+133,Drozdov_etal_2015,9,H 3 S
+134,Drozdov_etal_2015,9,H 3 S
+135,Drozdov_etal_2015,9,H 3 S
+136,Drozdov_etal_2015,9,H 3 S
+137,Drozdov_etal_2015,10,H 3 S
+138,Drozdov_etal_2015,20,sulfur hydride
+139,Drozdov_etal_2015,20,sulfur hydride
+140,Drozdov_etal_2015,20,sulfur hydride
+141,Drozdov_etal_2015,20,sulfur hydride
+142,Drozdov_etal_2015,22,
+143,Drozdov_etal_2015,23,sulfur hydride
+144,Drozdov_etal_2015,23,sulfur hydride
+145,Drozdov_etal_2015,23,sulfur hydride
+146,Drozdov_etal_2015,23,
+147,Drozdov_etal_2015,23,
+148,Drozdov_etal_2015,23,
+149,Drozdov_etal_2015,25,sulfur hydride
+150,Drozdov_etal_2015,25,sulfur hydride
+151,Drozdov_etal_2015,25,sulfur hydride
+152,Drozdov_etal_2015,25,sulfur hydride
+153,Drozdov_etal_2015,25,
+154,L088227002-CC,1,doped Sr 0.9 La 0.1 CuO 2
+155,L088227002-CC,2,Sr 0.9 La 0.1 CuO 2
+156,L088227002-CC,3,SLCO
+157,L088227002-CC,3,1% Zn-SLCO
+158,L088227002-CC,3,1% Ni-SLCO
+159,L088227002-CC,3,doped YBa 2 Cu 3 O 72d
+160,L088227002-CC,16,doped YBa 2 Cu 3 O 72d
+161,SSC1310125-CC,1,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+162,SSC1310125-CC,3,"Na x CoO 2 • yH 2 O (x ≈ 0.35, y ≈ 1.3)"
+163,SSC1310125-CC,3,"Na x CoO 2 • yH 2 O (x ≈ 0.35, y ≈ 1.3)"
+164,SSC1310125-CC,17,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+165,SSC1310125-CC,17,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+166,SSC1310125-CC,17,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+167,SSC1310125-CC,17,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+168,SSC1310125-CC,22,Na 0.22 H 0.1 CoO 2 • 0.85H 2 O
+169,L093156802-CC,2,CaC 6
+170,L093156802-CC,4,CaC 6
+171,L095167004-CC,1,"AOs 2 O 6 (A = Cs, Rb, K)"
+172,L095167004-CC,1,"AOs 2 O 6 (A = Cs, Rb, K)"
+173,L095167004-CC,1,"AOs 2 O 6 (A = Cs, Rb, K)"
+174,L095167004-CC,1,"AOs 2 O 6 (A = Cs, Rb, K)"
+175,L095167004-CC,2,"AOs 2 O 6 (A = Cs, Rb, K)"
+176,L095167004-CC,2,"AOs 2 O 6 (A = Cs, Rb, K)"
+177,L095167004-CC,2,"AOs 2 O 6 (A = Cs, Rb, K)"
+178,L095167004-CC,2,"AOs 2 O 6 (A = Cs, Rb, K)"
+179,L095167004-CC,5,Cd 2 Re 2 O 7
+180,L095167004-CC,8,CsOs 2 O 6
+181,L095167004-CC,8,CsOs 2 O 6
+182,L095167004-CC,8,CsOs 2 O 6
+183,L095167004-CC,8,CsOs 2 O 6
+184,L095167004-CC,8,CsOs 2 O 6
+185,L095167004-CC,8,CsOs 2 O 6
+186,L095167004-CC,8,CsOs 2 O 6
+187,L095167004-CC,9,RbOs 2 O 6
+188,L095167004-CC,9,KOs 2 O 6
+189,L095167004-CC,9,
+190,L095167004-CC,9,
+191,L095167004-CC,9,
+192,L095167004-CC,9,"AOs 2 O 6 (A = Cs, Rb, K)"
+193,L095167004-CC,21,"AOs 2 O 6 (A = Cs, Rb, K)"
+194,L095167004-CC,21,"AOs 2 O 6 (A = Cs, Rb, K)"
+195,L095167004-CC,21,"AOs 2 O 6 (A = Cs, Rb, K)"
+196,L095167004-CC,21,"AOs 2 O 6 (A = Cs, Rb, K)"
+197,L094047001-CC,5,CeCoIn 5
+198,L094037007-CC,1,CeIrIn5
+199,L094037007-CC,2,CeIrIn 5
+200,L094037007-CC,2,CeCoIn 5
+201,L094037007-CC,2,CeRhIn 5
+202,L094037007-CC,3,CeRhIrIn 5
+203,L094037007-CC,3,CeIrIn 5
+204,L094037007-CC,6,CeIrIn 5
+205,L094037007-CC,14,CeIrIn 5
+206,L093157004-CC,1,RbOs 2 O 6
+207,L093157004-CC,2,KOs 2 O 6
+208,L093157004-CC,2,CdRe 2 O 7
+209,L093157004-CC,2,RbOs 2 O 6
+210,L093157004-CC,2,CsOs 2 O 6
+211,L093157004-CC,6,In
+212,L093157004-CC,6,In
+213,L090137002-CC,4,underdoped Bi 2 Sr 2 CaCu 2 O 8+δ
+214,Li_2018_Supercond._Sci._Technol._31_085001,4,Zr 5 Sb 3
+215,Li_2018_Supercond._Sci._Technol._31_085001,9,Ge site doped sample Zr 5 Ge 2.5 Pt 0.5
+216,Li_2018_Supercond._Sci._Technol._31_085001,10,Zr 5 Pt 3
+217,Li_2018_Supercond._Sci._Technol._31_085001,12,Zr 5 Ge 2.8 Pt 0.2
+218,Li_2018_Supercond._Sci._Technol._31_085001,12,Zr 5 Ge 2 Pt
+219,Li_2018_Supercond._Sci._Technol._31_085001,12,Zr 5 Ge 2.5 Pt 0.5
+220,Li_2018_Supercond._Sci._Technol._31_085001,13,Zr 5 Ge 2.5 Pt 0.5
+221,Li_2018_Supercond._Sci._Technol._31_085001,13,Zr 5 Ge 2.5 Pt 0.5
+222,Li_2018_Supercond._Sci._Technol._31_085001,14,Zr 5 Pt 3
+223,Li_2018_Supercond._Sci._Technol._31_085001,15,Zr 5 Sb 3
+224,Li_2018_Supercond._Sci._Technol._31_085001,16,Zr 5 Ge 2.5 Pt 0.5
+225,Li_2018_Supercond._Sci._Technol._31_085001,18,Zr 5 Ge 2.5 Pt 0.5
+226,SSC1280097-CC,1,x = 0.5 (La-2125 stoichiometry)
+227,SSC1280097-CC,4,x = 0.5
+228,SSC1280097-CC,13,La-2125
+229,EPL0410207-CC,4,single-crystalline Ba 1−x K x BiO 3
+230,EPL0410207-CC,4,Ba 1−x K x BiO 3 single crystal
+231,EPL0410207-CC,13,Ba 1−x K x BiO 3 crystal
+232,L094047006-CC,1,x=0.40
+233,L094047006-CC,6,Bi 2 Sr 2 CuO 6.36
+234,L094047006-CC,6,x=0.4
+235,L094047006-CC,11,x opt =0.40
+236,L094047006-CC,15,x ≤0.40
+237,L094047006-CC,16,Bi2Sr2CuO 6+δ
+238,L094047006-CC,16,x=0
+239,L091217001-CC,18,Na x CoO 2 • yH 2 O
+240,L091217001-CC,20,Na x CoO 2 • yH 2 O
+241,L094127001-CC,5,Sr 0.9 La 0.1 CuO 2
+242,L094127001-CC,5,Sr 0.9 La 0.1 CuO 2
+243,L094127001-CC,7,Sr 0.9 La 0.1 CuO 2 (SLCO)
+244,SSC1270493-CC,1,x = 0.3
+245,SSC1270493-CC,4,Ga-1212
+246,SSC1270493-CC,4,Al-1212
+247,SSC1270493-CC,4,Co-1212
+248,SSC1270493-CC,4,CoSr 2 YCu 2 O 7+δ
+249,SSC1270493-CC,12,x = 0.3
+250,SSC1270493-CC,16,x = 0.4 sample using 25 and 100 mol-% Ag 2 O 2
+251,SSC1270493-CC,16,x = 0.4 sample using 25 and 100 mol-% Ag 2 O 2
+252,SSC1270493-CC,16,x = 0.3
+253,SSC1230017-CC,3,pure-phase Sr 0.9 La 0.1 CuO 2 (Sr(La)-112)
+254,PhysRevX.8.041024-CC,6,Cu x Bi 2 Se 3 (x ¼ 0.31) single crystals
+255,EPJ0290369-CC,11,La 1.94 Sr 0.06 CuO 4
+256,EPJ0290369-CC,11,La 1.94 Sr 0.06 CuO 4
+257,EPJ0290369-CC,13,La 1.9 Sr 0.1 CuO 4
+258,EPJ0290369-CC,13,La 1.9 Sr 0.1 CuO 4
+259,EPJ0290369-CC,13,La 1.9 Sr 0.1 CuO 4
+260,EPJ0290369-CC,14,overdoped La 1.8 Sr 0.2 CuO 4
+261,EPJ0290369-CC,16,overdoped La 1.75 Sr 0.25 CuO 4
+262,EPJ0290369-CC,16,La 1.75 Sr 0.25 CuO 4
+263,EPJ0290369-CC,17,La 1.73 Sr 0.27 CuO 4
+264,EPJ0290369-CC,22,La 2-x Sr x CuO 4 samples with x = 0.05 and 0.055
+265,EPJ0290369-CC,23,La 1.94 Sr 0.06 CuO 4
+266,EPJ0290369-CC,24,La 1.8 Sr 0.2 CuO 4
+267,EPJ0290369-CC,24,La 1.75 Sr 0.25 CuO 4
+268,EPJ0290369-CC,24,La 1.73 Sr 0.27 CuO 4
+269,EPJ0290369-CC,30,La 1.94 Sr 0.06 CuO 4
+270,EPJ0290369-CC,30,La 1.9 Sr 0.1 CuO 4
+271,EPJ0290369-CC,34,La 1.9 Sr 0.1 CuO 4
+272,EPJ0290369-CC,38,La 1.94 Sr 0.06 CuO 4
+273,EPJ0290369-CC,38,La 1.9 Sr 0.1 CuO 4
+274,APL0774202-CC,12,YBCO crystals
+275,APL0774202-CC,12,BSCCO
+276,APL0774202-CC,13,Single crystals of PCCO
+277,APL0774202-CC,16,Al
+278,APL0774202-CC,16,Al
+279,L088207003-CC,1,doped Pr1.855Ce0.145CuO4−y films
+280,L088207003-CC,4,Pr 2 CuO 4
+281,Liu_2018_Supercond._Sci._Technol._31_125011-CC,4,SnSb
+282,Liu_2018_Supercond._Sci._Technol._31_125011-CC,4,
+283,Liu_2018_Supercond._Sci._Technol._31_125011-CC,4,
+284,Liu_2018_Supercond._Sci._Technol._31_125011-CC,7,SnSb
+285,Liu_2018_Supercond._Sci._Technol._31_125011-CC,10,SnSb
+286,Liu_2018_Supercond._Sci._Technol._31_125011-CC,11,SnSb
+287,Liu_2018_Supercond._Sci._Technol._31_125011-CC,18,SnSb
+288,Liu_2018_Supercond._Sci._Technol._31_125011-CC,18,
+289,Liu_2018_Supercond._Sci._Technol._31_125011-CC,22,SnSb
+290,L090137001-CC,6,Single crystal of Sr 2 Ca 12 Cu 24 O 41
+291,L095117006-CC,2,2H-NbSe 2
+292,1609.04957-CC,1,LaFeAsO1−xHx
+293,1609.04957-CC,1,LaFeAsO1−xHx
+294,1609.04957-CC,2,
+295,1609.04957-CC,4,x = 0.14
+296,1609.04957-CC,7,
+297,1609.04957-CC,8,K y Fe 2−x Se 2
+298,1609.04957-CC,14,x = 0.20
+299,1903.04321-CC,1,Cu-intercalated PdTe2
+300,1903.04321-CC,2,PdTe 2
+301,1903.04321-CC,3,Cu-intercalated PdTe 2 with 4% Cu
+302,L092157004-CC,7,
+303,L092157004-CC,8,
+304,L092157004-CC,12,Na 0.3 CoO 2 •yH 2 O
+305,L092157004-CC,15,single crystals of the hydrated Na x CoO 2 • yH 2 O
+306,Carnicom_2018_Supercond._Sci._Technol._31_115005,1,WB 4.2
+307,Carnicom_2018_Supercond._Sci._Technol._31_115005,3,MgB 2
+308,Carnicom_2018_Supercond._Sci._Technol._31_115005,3,(Mo 0.96 Zr 0.04 ) 0.85 B 2
+309,Carnicom_2018_Supercond._Sci._Technol._31_115005,3,NbB 2
+310,Carnicom_2018_Supercond._Sci._Technol._31_115005,5,WB 4.2
+311,Carnicom_2018_Supercond._Sci._Technol._31_115005,12,WB 4.2
+312,Carnicom_2018_Supercond._Sci._Technol._31_115005,13,WB 4.2
+313,Carnicom_2018_Supercond._Sci._Technol._31_115005,13,WB 4.2
+314,Carnicom_2018_Supercond._Sci._Technol._31_115005,16,WB 4.2
+315,Carnicom_2018_Supercond._Sci._Technol._31_115005,17,WB 4.2
+316,Carnicom_2018_Supercond._Sci._Technol._31_115005,17,WB 4.2
+317,Carnicom_2018_Supercond._Sci._Technol._31_115005,17,WB 4.2
+318,Carnicom_2018_Supercond._Sci._Technol._31_115005,17,WB 4.2
+319,JPS081033701-CC,4,x = 0.20
+320,JPS081033701-CC,4,x = 0.25
+321,JPS081033701-CC,4,x = 0.25
+322,JPS081033701-CC,4,x = 0.25
+323,JPS081033701-CC,4,x = 0.25
+324,JPS081033701-CC,4,x = 0.25
+325,JPS081033701-CC,5,x = 0.25
+326,JPS081033701-CC,9,x = 0.25
+327,L089147002-CC,3,Cd 2 Re 2 O 7
+328,L089147002-CC,3,Cd 2 Re 2 O 7
+329,L088167005-CC,3,un- twinned YBa 2 Cu 3 O y (YBCO) single crystals
+330,L088167005-CC,5,y=6.50
+331,L091087001-CC,2,PCCO films onto Pr 2 CuO 4 (PCO)/SrTiO 3
+332,L091087001-CC,4,Zn plate
+333,JPS081113707-CC,2,FeSe
+334,JPS081113707-CC,2,K 0.8 Fe 2 Se 2
+335,JPS081113707-CC,2,(LiNH 2 ) x Fe 2 Se 2
+336,JPS081113707-CC,2,FeSe monolayer synthesized by MBE method
+337,JPS081113707-CC,2,
+338,JPS081113707-CC,6,FeTe 0.65 Se 0.35 thin films
+339,Suzuki_etal_2015-CC,1,Polycrystalline EuFBiS 2
+340,Suzuki_etal_2015-CC,4,EuFBiS 2
+341,Suzuki_etal_2015-CC,4,EuFBiS 2
+342,Suzuki_etal_2015-CC,4,EuFBiS 2
+343,Suzuki_etal_2015-CC,4,EuFBiS 2
+344,Suzuki_etal_2015-CC,5,EuFBiS 2
+345,Suzuki_etal_2015-CC,5,EuFBiS 2
+346,Suzuki_etal_2015-CC,5,EuFBiS 2
+347,Suzuki_etal_2015-CC,5,EuFBiS 2
+348,Suzuki_etal_2015-CC,5,EuFBiS 2
+349,Suzuki_etal_2015-CC,9,EuFBiS 2
+350,Suzuki_etal_2015-CC,9,EuFBiS 2
+351,Suzuki_etal_2015-CC,9,EuFBiS 2
+352,Suzuki_etal_2015-CC,10,EuFBiS 2
+353,Suzuki_etal_2015-CC,10,EuFBiS 2
+354,Suzuki_etal_2015-CC,10,EuFBiS 2
+355,Suzuki_etal_2015-CC,10,EuFBiS 2
+356,SST0180041-CC,1,Pr 1−x Ca x Ba 2 Cu 3 O 7−δ (x ≈0.5) thin films
+357,SST0180041-CC,1,Pr 1−x Ca x Ba 2 Cu 3 O 7−δ (x ≈0.5) thin films
+358,SST0180041-CC,4,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ epitaxial thin films
+359,SST0180041-CC,6,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ epitaxial thin films
+360,SST0180041-CC,14,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ epitaxial thin films
+361,SST0180041-CC,14,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ epitaxial thin films
+362,SST0180041-CC,14,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ epitaxial thin films
+363,SST0180041-CC,15,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ thin films grown on STO
+364,SST0180041-CC,18,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ films grown on (a) STO and (b) YSZ
+365,SST0180041-CC,18,Pr 0.5 Ca 0.5 Ba 2 Cu 3 O 7−δ films grown on (a) STO and (b) YSZ
+366,xing2014theAnomaly-CC,8,undoped LiFeAs crystal
+367,xing2014theAnomaly-CC,8,LiFeAs crystal
+368,xing2014theAnomaly-CC,9,Cu doping level of 7%
+369,kotegawa2008abrupt-CC,0,SrFe 2 As 2
+370,kotegawa2008abrupt-CC,2,SrFe2As2
+371,kotegawa2008abrupt-CC,3,F-doped system LaFeAsO 1−x F x (ZrCuSiAs-type struc- ture)
+372,kotegawa2008abrupt-CC,4,SrFe 2 As 2
+373,kotegawa2008abrupt-CC,5,single-crystalline samples of SrFe 2 As 2
+374,kotegawa2008abrupt-CC,5,SrFe 2 As 2
+375,kotegawa2008abrupt-CC,8,SrFe 2 As 2
+376,kotegawa2008abrupt-CC,8,(Ba 0.6 K 0.4 )Fe 2 As 2 and (K 0.4 Sr 0.6 )Fe 2 As 2
+377,kotegawa2008abrupt-CC,8,
+378,kotegawa2008abrupt-CC,8,SrFe 2 As 2
+379,kotegawa2008abrupt-CC,12,SrFe 2 As 2
+380,kotegawa2008abrupt-CC,13,
+381,kotegawa2008abrupt-CC,14,SrFe 2 As 2
+382,kotegawa2008abrupt-CC,14,doped systems
+383,kotegawa2008abrupt-CC,14,
+384,kotegawa2008abrupt-CC,15,SrFe 2 As 2
+385,kotegawa2008abrupt-CC,16,SrFe 2 As 2
+386,yamaguchi2014ac,1,LiFeAs
+387,yamaguchi2014ac,1,LiFeAs
+388,yamaguchi2014ac,5,
+389,yamaguchi2014ac,5,
+390,yamaguchi2014ac,10,LiFeAs
+391,yamaguchi2014ac,10,LiFeAs
+392,yamaguchi2014ac,10,LiFeAs
+393,yamaguchi2014ac,10,LiFeAs
+394,yamaguchi2014ac,10,LiFeAs
+395,yamaguchi2014ac,10,LiFeAs
+396,yamaguchi2014ac,10,LiFeAs
+397,yamaguchi2014ac,10,
+398,yamaguchi2014ac,10,
+399,yamaguchi2014ac,10,
+400,yamaguchi2014ac,10,
+401,yamaguchi2014ac,10,
+402,yamaguchi2014ac,10,
+403,sun2012re-emerging-CC,1,Tl 0.6 Rb 0.4 Fe 1.67 Se 2
+404,sun2012re-emerging-CC,1,K 0.8 Fe 1.7 Se 2
+405,sun2012re-emerging-CC,1,K 0.8 Fe 1.78 Se 2
+406,sun2012re-emerging-CC,1,K 0.8 Fe 1.78 Se 2
+407,sun2012re-emerging-CC,1,
+408,sun2012re-emerging-CC,3,Tl 0.6 Rb 0.4 Fe 1.67 Se 2 single crystals
+409,sun2012re-emerging-CC,3,Tl 0.6 Rb 0.4 Fe 1.67 Se 2 single crystals
+410,sun2012re-emerging-CC,4,Tl 0.6 Rb 0.4 Fe 1.67 Se 2
+411,sun2012re-emerging-CC,5,
+412,sun2012re-emerging-CC,6,K 0.8 Fe 1.7 Se 2
+413,sun2012re-emerging-CC,6,
+414,sun2012re-emerging-CC,7,K 0.8 Fe 1.7 Se 2
+415,sun2012re-emerging-CC,7,Tl 0.6 Rb 0.4 Fe 1.67 Se 2
+416,sun2012re-emerging-CC,11,K 0.8 Fe 1.7 Se 2
+417,sun2012re-emerging-CC,15,Tl 0.6 Rb 0.4 Fe 1.67 Se 2
+418,sun2012re-emerging-CC,17,K 0.8 Fe 1.7 Se 2
+419,piva2015combined-CC,1,pure BaFe 2 As 2
+420,piva2015combined-CC,1,BaFe 2−x Cu x As 2
+421,piva2015combined-CC,1,x = 0.02
+422,piva2015combined-CC,3,RFeAsO (R = La − Gd)
+423,piva2015combined-CC,3,"AFe 2 As 2 (A = Ba, Sr, Ca, Eu)"
+424,piva2015combined-CC,4,BaFe 2−x Cu x As 2
+425,piva2015combined-CC,4,Co-substituted
+426,piva2015combined-CC,5,Cu-substituted BaFe 2 As 2 single crystals
+427,piva2015combined-CC,5,x = 0.02
+428,piva2015combined-CC,10,BaFe 2−x Cu x As 2
+429,piva2015combined-CC,10,BaFe 2−x Cu x As 2
+430,piva2015combined-CC,10,BaFe 2−x Cu x As 2
+431,piva2015combined-CC,10,
+432,piva2015combined-CC,12,BaFe 2−x Cu x As 2
+433,piva2015combined-CC,12,x = 0.02
+434,wang2011effect,3,LaO 1−x F x FeAs
+435,wang2011effect,3,LaO 1−x F x FeAs
+436,wang2011effect,8,NaFeAs
+437,wang2011effect,11,NaFeAs
+438,kotegawa2009contrasting-CC,1,Sr2VFeAsO3
+439,kotegawa2009contrasting-CC,1,Sr2VFeAsO3
+440,kotegawa2009contrasting-CC,1,Sr2ScFePO3
+441,kotegawa2009contrasting-CC,1,Sr2ScFePO3
+442,kotegawa2009contrasting-CC,3,FeSe
+443,kotegawa2009contrasting-CC,5,Sr 2 ScFePO 3
+444,kotegawa2009contrasting-CC,5,Sr 2 VFeAsO 3
+445,kotegawa2009contrasting-CC,6,
+446,kotegawa2009contrasting-CC,6,
+447,kotegawa2009contrasting-CC,6,
+448,kotegawa2009contrasting-CC,6,
+449,kotegawa2009contrasting-CC,6,
+450,kotegawa2009contrasting-CC,6,
+451,kotegawa2009contrasting-CC,6,
+452,kotegawa2009contrasting-CC,6,
+453,kotegawa2009contrasting-CC,6,
+454,kotegawa2009contrasting-CC,6,
+455,kotegawa2009contrasting-CC,10,Sr 2 ScFePO 3
+456,kotegawa2009contrasting-CC,10,Sr 2 ScFePO 3
+457,kotegawa2009contrasting-CC,10,Sr 2 ScFePO 3
+458,kotegawa2009contrasting-CC,10,Sr 2 ScFePO 3
+459,kotegawa2009contrasting-CC,10,
+460,kotegawa2009contrasting-CC,15,Sr 2 VFeAsO 3
+461,kotegawa2009contrasting-CC,15,Sr 2 VFeAsO 3
+462,kotegawa2009contrasting-CC,16,Sr 2 VFeAsO 3
+463,kotegawa2009contrasting-CC,16,Sr 2 VFeAsO 3
+464,kotegawa2009contrasting-CC,16,Sr 2 VFeAsO 3
+465,kotegawa2009contrasting-CC,16,Sr 2 VFeAsO 3
+466,kotegawa2009contrasting-CC,16,
+467,ivanovskii2008newHigh,1,fluorine-doped oxyarsenide LaO 1-x F x FeAs
+468,ivanovskii2008newHigh,2,fluorine- doped iron and lanthanum oxyarsenide LaO 1Àx F x FeAs
+469,ivanovskii2008newHigh,5,LaO 1Àx F x FeAs
+470,ivanovskii2008newHigh,6,fluorine-doped samarium oxyarsenide SmO 1Àx F x FeAs
+471,ivanovskii2008newHigh,6,NdO 1Àx FeAs
+472,ivanovskii2008newHigh,6,SmO 1Àx FeAs
+473,ivanovskii2008newHigh,8,Ba 1Àx K x Fe 2 As 2
+474,ivanovskii2008newHigh,8,Sr 1Àx Cs x Fe 2 As 2
+475,ivanovskii2008newHigh,8,LiFeAs
+476,ivanovskii2008newHigh,8,Li 0:6 FeAs
+477,ivanovskii2008newHigh,14,NdO 1Àx F x FeAs
+478,ivanovskii2008newHigh,18,SmO 0:7 F 0:3 FeAs
+479,ivanovskii2008newHigh,19,LaO 1Àx F x FeAs
+480,ivanovskii2008newHigh,45,LaOFeP
+481,ivanovskii2008newHigh,45,LaONiP
+482,ivanovskii2008newHigh,45,LaFe 4 P 12
+483,ivanovskii2008newHigh,45,lanthanum
+484,ivanovskii2008newHigh,45,LaOFeP
+485,ivanovskii2008newHigh,47,LaOFeAs
+486,ivanovskii2008newHigh,47,LaO 1Àx F x FeAs (x 0:12À0:15)
+487,ivanovskii2008newHigh,47,"LnOFeAs phases (Ln Ce, Pr, Nd, Sm, Gd)"
+488,ivanovskii2008newHigh,47,GdO 1Àx F x FeAs
+489,ivanovskii2008newHigh,47,TbO 1Àx F x FeAs
+490,ivanovskii2008newHigh,47,DyO 1Àx F x FeAs
+491,ivanovskii2008newHigh,48,Gd 1Àx Th x OFeAs
+492,ivanovskii2008newHigh,48,Tb 1Àx Th x OFeAs
+493,ivanovskii2008newHigh,50,La 0:85 Sr 0:15 O 0:87 FeAs
+494,ivanovskii2008newHigh,50,LaO 1Àx F x FeAs
+495,ivanovskii2008newHigh,50,LaO 0:9 F 0:1 FeAs 1Àx
+496,ivanovskii2008newHigh,55,La 0:89 F 0:11 FeAs
+497,ivanovskii2008newHigh,55,La 0:89 F 0:11 FeAs
+498,ivanovskii2008newHigh,56,CeO 0:88 F 0:12 FeAs
+499,ivanovskii2008newHigh,56,CeO 0:88 F 0:12 FeAs
+500,ivanovskii2008newHigh,57,SmO 0:85 F 0:15 FeAs
+501,ivanovskii2008newHigh,59,LaO 0:89 F 0:11 FeAs
+502,ivanovskii2008newHigh,69,LaO 1Àx F x FeAs
+503,ivanovskii2008newHigh,69,LaO 1Àx F x FeAs
+504,ivanovskii2008newHigh,70,LaO 0:94 F 0:06 FeP
+505,ivanovskii2008newHigh,72,LaOFeP
+506,ivanovskii2008newHigh,76,SmO 0:85 FeAs
+507,ivanovskii2008newHigh,77,LaOFeP
+508,ivanovskii2008newHigh,80,La 1:85 Sr 0:15 CuO 4
+509,ivanovskii2008newHigh,97,LaOFeAs
+510,ivanovskii2008newHigh,97,LaOFeAs
+511,ivanovskii2008newHigh,97,LaOFeAs
+512,ivanovskii2008newHigh,102,LaONiP
+513,ivanovskii2008newHigh,102,LaONiP
+514,ivanovskii2008newHigh,129,potassium-doped arsenide Ba 1Àx K x Fe 2 As 2
+515,ivanovskii2008newHigh,129,Ba 0:6 K 0:4 Fe 2 As 2
+516,ivanovskii2008newHigh,129,LaIr 2 Ge 2
+517,ivanovskii2008newHigh,129,LaRu 2 P 2
+518,ivanovskii2008newHigh,129,YIr 2Àx Si 2x
+519,ivanovskii2008newHigh,129,YIr 2Àx Si 2x
+520,ivanovskii2008newHigh,129,BaNi 2 P 2
+521,ivanovskii2008newHigh,129,BaNi 2 P 2
+522,ivanovskii2008newHigh,129,BaNi 2 P 2
+523,ivanovskii2008newHigh,140,Ba 0:6 K 0:4 Fe 2 As 2
+524,ivanovskii2008newHigh,140,Sr 1Àx K; Cs x Fe 2 As 2
+525,ivanovskii2008newHigh,151,LnOFeAs
+526,ivanovskii2008newHigh,151,AFe 2 As 2
+527,ivanovskii2008newHigh,155,cobalt-doped LaOFeAs
+528,ivanovskii2008newHigh,155,LaOFe 0:89 Co 0:11 As )
+529,ivanovskii2008newHigh,155,LiFeAs
+530,ivanovskii2008newHigh,155,Li 0:6 FeAs )
+531,ivanovskii2008newHigh,159,HoO 1Àd FeAs
+532,ivanovskii2008newHigh,159,YO 1Àd FeAs
+533,ivanovskii2008newHigh,159,DyO 1Àd FeAs
+534,ivanovskii2008newHigh,159,TbO 1Àd FeAs
+535,ivanovskii2008newHigh,159,GdONiBi
+536,ivanovskii2008newHigh,159,Gd 0:9 Sr 0:1 ONiBi
+537,ivanovskii2008newHigh,161,EuFe 2 As 2
+538,ivanovskii2008newHigh,161,Eu 0:5 K 0:5 Fe 2 As 2
+539,ivanovskii2008newHigh,161,BaFe 1:8 Co 0:2 As 2
+540,ivanovskii2008newHigh,161,SrNi 2 As 2
+541,ivanovskii2008newHigh,161,BaFe 1:9 Ni 0:1 As 2
+542,ivanovskii2008newHigh,161,BaNi 2 As 2
+543,ivanovskii2008newHigh,162,LiFeAs
+544,ivanovskii2008newHigh,163,FeSe 1Àx (x $ 0:12)
+545,ivanovskii2008newHigh,163,FeSe 1Àx
+546,ivanovskii2008newHigh,163,FeSe 1Àx Te x 0:82
+547,ivanovskii2008newHigh,164,CaFe 2 As 2
+548,ivanovskii2008newHigh,164,CaFe 2 As 2
+549,ivanovskii2008newHigh,164,BaFe 2 As 2
+550,ivanovskii2008newHigh,168,SmO 0:7 F 0:3 FeAs
+551,ying2011pressure-CC,2,FeSe
+552,ying2011pressure-CC,2,FeSe
+553,ying2011pressure-CC,2,Fe-Se
+554,ying2011pressure-CC,3,K x Fe 2 Se 2 crystal
+555,ying2011pressure-CC,3,K x Fe 2 Se 2
+556,ying2011pressure-CC,3,K x Fe 2 Se 2
+557,ying2011pressure-CC,4,Cs x Fe 2 Se 2
+558,ying2011pressure-CC,4,K 0.85 Fe 2 Se 1.80
+559,ying2011pressure-CC,4,K 0.86 Fe 2 Se 1.82
+560,ying2011pressure-CC,5,K x Fe 2 Se 2 -1
+561,ying2011pressure-CC,5,K x Fe 2 Se 2 -2
+562,ying2011pressure-CC,7,K x Fe 2 Se 2 -1
+563,ying2011pressure-CC,7,K x Fe 2 Se 2 -1
+564,ying2011pressure-CC,9,Cs x Fe 2 Se 2
+565,ying2011pressure-CC,10,K x Fe 2 Se 2
+566,ying2011pressure-CC,13,K x Fe 2 Se 2 -1
+567,ying2011pressure-CC,15,single crystal Cs x Fe 2 Se 2
+568,ying2011pressure-CC,15,single crystal Cs x Fe 2 Se 2
+569,ying2011pressure-CC,17,single crystal K x Fe 2 Se 2 -2
+570,ying2011pressure-CC,17,K x Fe 2 Se 2 -1
+571,okada2008supercondctivity-CC,1,LaFeAsO
+572,okada2008supercondctivity-CC,3,LaFeAsO 1-x F x
+573,okada2008supercondctivity-CC,3,LaFeAsO 0.89 F 0.11
+574,okada2008supercondctivity-CC,3,RFeAsO (R = rare earth) having smaller R atom than La atom
+575,okada2008supercondctivity-CC,4,LaFeAsO
+576,okada2008supercondctivity-CC,7,
+577,okada2008supercondctivity-CC,7,
+578,okada2008supercondctivity-CC,7,
+579,okada2008supercondctivity-CC,7,
+580,okada2008supercondctivity-CC,8,F -substitution of 5 at%
+581,okada2008supercondctivity-CC,9,LaFeAsO 0.95 F 0.05
+582,okada2008supercondctivity-CC,9,LaFeAsO 0.89 F 0.11
+583,okada2008supercondctivity-CC,9,LaFeAsO 0.86 F 0.14
+584,okada2008supercondctivity-CC,9,"""over-doped"" LaFeAsO 0.86 F 0.14"
+585,okada2008supercondctivity-CC,10,LaFeAsO
+586,okada2008supercondctivity-CC,10,LaFeAsO
+587,hott2013review-CC,2,Mercury
+588,hott2013review-CC,4,tin
+589,hott2013review-CC,4,thallium
+590,hott2013review-CC,4,indium
+591,hott2013review-CC,4,tantalum
+592,hott2013review-CC,4,thorium
+593,hott2013review-CC,4,titanium
+594,hott2013review-CC,4,vanadium
+595,hott2013review-CC,4,niobium
+596,hott2013review-CC,7,NbTi
+597,hott2013review-CC,10,
+598,hott2013review-CC,11,C 60 introduced by doping and intercalation of alkali-metal atoms
+599,hott2013review-CC,12,MgB 2
+600,hott2013review-CC,12,LaFePO
+601,hott2013review-CC,12,LaFeAsO
+602,hott2013review-CC,12,FeSe
+603,hott2013review-CC,12,FeSe monolayer on a SrTiO 3 substrate
+604,hott2013review-CC,13,hydrogen sulfide
+605,hott2013review-CC,13,phosphorous-hydride
+606,hott2013review-CC,13,"YBa 2 Cu 3 O 7-δ (""YBCO"")"
+607,hott2013review-CC,18,YBCO
+608,hott2013review-CC,20,Hg-1223
+609,hott2013review-CC,20,Hg-1223
+610,hott2013review-CC,22,Pr-123
+611,hott2013review-CC,22,Pr-123
+612,hott2013review-CC,26,Tl-2201
+613,hott2013review-CC,26,Hg-1201
+614,hott2013review-CC,41,BaPb 1-x Bi x O 3
+615,hott2013review-CC,41,x ~ 0.25
+616,hott2013review-CC,41,"Ba 1-x K x BiO 3 (""BKBO""; x ~ 0.35)"
+617,hott2013review-CC,42,Sr 2 RuO 4
+618,hott2013review-CC,43,Ru-1212
+619,hott2013review-CC,44,hydrated sodium cobaltate Na 0.3 CoO 2 •1.4 H 2 O
+620,hott2013review-CC,45,"AOs 2 O 6 with A = K, Rb, Cs"
+621,hott2013review-CC,45,"AOs 2 O 6 with A = K, Rb, Cs"
+622,hott2013review-CC,45,"AOs 2 O 6 with A = K, Rb, Cs"
+623,hott2013review-CC,45,"AOs 2 O 6 with A = K, Rb, Cs"
+624,hott2013review-CC,46,BaTi 2 Sb 2 O
+625,hott2013review-CC,46,Ba 1−x Na x Ti 2 Sb 2 O
+626,hott2013review-CC,48,LaFeAsO
+627,hott2013review-CC,48,Gd 0.8 Th 0.2 FeAsO
+628,hott2013review-CC,49,BaFe 2-x Co x As 2
+629,hott2013review-CC,49,x = 0.06
+630,hott2013review-CC,52,SnMo 6 S 8
+631,hott2013review-CC,52,PbMo 6 S 8
+632,hott2013review-CC,52,Gd 0.2 PbMo 6 S 8
+633,hott2013review-CC,54,2H-NbSe 2
+634,hott2013review-CC,54,2H-TaS 2
+635,hott2013review-CC,54,1T-TiSe 2
+636,hott2013review-CC,54,Cu-doping
+637,hott2013review-CC,54,2H-MoS 2
+638,hott2013review-CC,54,2H-MoSe 2
+639,hott2013review-CC,54,2H-WS 2
+640,hott2013review-CC,55,Bi 4 O 4 S 3
+641,hott2013review-CC,57,PuCoGa 5
+642,hott2013review-CC,75,CeCu 2 Si 2
+643,hott2013review-CC,75,CeCoIn 5
+644,hott2013review-CC,75,CePt 3 Si
+645,hott2013review-CC,75,β-YbAl 4 B
+646,hott2013review-CC,79,UPt 3
+647,hott2013review-CC,79,UPt 3
+648,hott2013review-CC,79,UPt 3
+649,hott2013review-CC,79,UPd 2 Al 3
+650,hott2013review-CC,79,
+651,hott2013review-CC,81,URu 2 Si 2
+652,hott2013review-CC,83,UBe 13
+653,hott2013review-CC,83,UBe 13
+654,hott2013review-CC,84,PuCoGa 5
+655,hott2013review-CC,84,PuRhGa 5
+656,hott2013review-CC,84,NpPd 5 Al 2
+657,hott2013review-CC,85,PrOs 4 Sb 12
+658,hott2013review-CC,86,x ~ 0.6
+659,hott2013review-CC,86,x = 1 compound PrRu 4 Os 12
+660,hott2013review-CC,86,PrOs 4 Sb 12 (x = 0)
+661,hott2013review-CC,86,PrOs 4 Sb 12 (x = 0)
+662,hott2013review-CC,86,
+663,hott2013review-CC,88,NbN
+664,hott2013review-CC,89,La 3 Ni 2 B 2 N 3
+665,hott2013review-CC,89,Li 0.48 (THF) y HfNCl containing cointercalated tetrahydrofuran solvent (THF)
+666,hott2013review-CC,89,"A x TiNCl (A = Li, Na, K, Rb)"
+667,hott2013review-CC,90,NbC
+668,hott2013review-CC,90,MoC
+669,hott2013review-CC,90,(TMTSF)PF 6
+670,hott2013review-CC,90,C 60
+671,hott2013review-CC,91,(TMTSF) 2 ClO 4
+672,hott2013review-CC,92,(BEDT-TTF) 2 Cu[N(CN) 2 ]Br
+673,hott2013review-CC,92,(BEDT-TTF) 2 Cu(NCS) 2
+674,hott2013review-CC,94,diamond
+675,hott2013review-CC,94,diamond
+676,hott2013review-CC,94,silicon carbide
+677,hott2013review-CC,94,~ 1 at % boron
+678,hott2013review-CC,94,silicon thin films
+679,hott2013review-CC,94,boron doping concentration homogenously up to 11 at %
+680,hott2013review-CC,94,KC 8
+681,hott2013review-CC,94,KHgC 8
+682,hott2013review-CC,94,KTl 1.5 C 4
+683,hott2013review-CC,94,YbC 6
+684,hott2013review-CC,94,CaC 6
+685,hott2013review-CC,94,Li 3 Ca 2 C 6
+686,hott2013review-CC,94,"graphene, the atomic monolayer modification of graphite, Li-or Ca-decoration"
+687,hott2013review-CC,94,Rb 3 C 60
+688,hott2013review-CC,94,Cs 3 C 60
+689,hott2013review-CC,95,alkali-doped picene and dibenzopentacen
+690,hott2013review-CC,95,alkali-doped picene and dibenzopentacen
+691,hott2013review-CC,96,double- wall carbon natotubes (DWNT)
+692,hott2013review-CC,102,nonmagnetic YNi 2 B 2 C and LuNi 2 B 2 C
+693,hott2013review-CC,102,nonmagnetic YNi 2 B 2 C and LuNi 2 B 2 C
+694,hott2013review-CC,105,MgB 2
+695,hott2013review-CC,107,MgB 2
+696,hott2013review-CC,132,Li + THF cointercalated β-HfNCl
+697,chu2009high-CC,4,HgBa 2 Ca 2 Cu 3 O 9+δ (Hg1223)
+698,chu2009high-CC,4,HgBa 2 Ca 2 Cu 3 O 9+δ (Hg1223)
+699,chu2009high-CC,5,electron-doped LaOFeAs (La1111)
+700,chu2009high-CC,5,011
+701,chu2009high-CC,6,electron-doped LaOFeAs
+702,chu2009high-CC,6,electron-doped La1111
+703,chu2009high-CC,7,
+704,chu2009high-CC,12,011
+705,chu2009high-CC,12,011
+706,chu2009high-CC,14,electron doped La(O 1-x F x )FeAs
+707,chu2009high-CC,14,polycrystalline optimally doped La(O 1-x F x )FeAs with nominal x = 0.11
+708,chu2009high-CC,14,polycrystalline optimally doped La(O 1-x F x )FeAs with nominal x = 0.11
+709,chu2009high-CC,14,
+710,chu2009high-CC,16,Sm(O 1-x F x )FeAs
+711,chu2009high-CC,16,"x = 0.05, 0.13 and 0.3"
+712,chu2009high-CC,16,"x = 0.05, 0.13 and 0.3"
+713,chu2009high-CC,16,"x = 0.05, 0.13 and 0.3"
+714,chu2009high-CC,16,"x = 0.05, 0.13 and 0.3"
+715,chu2009high-CC,18,x = 0.11 and 0.05
+716,chu2009high-CC,18,x = 0.11 and 0.05
+717,chu2009high-CC,18,x = 0.11
+718,chu2009high-CC,18,x = 0.11
+719,chu2009high-CC,18,x = 0.11
+720,chu2009high-CC,18,x = 0.11
+721,chu2009high-CC,18,La(O 1- x F x )FeAs
+722,chu2009high-CC,18,x = 0.4
+723,chu2009high-CC,20,"x = 0 (undoped), 0.05 (underdoped), 0.11(optimally doped)"
+724,chu2009high-CC,20,"x = 0 (undoped), 0.05 (underdoped), 0.11(optimally doped)"
+725,chu2009high-CC,20,"x = 0 (undoped), 0.05 (underdoped), 0.11(optimally doped)"
+726,chu2009high-CC,20,"x = 0 (undoped), 0.05 (underdoped), 0.11(optimally doped)"
+727,chu2009high-CC,20,x=0.14
+728,chu2009high-CC,21,x = 0.11 and 0.14
+729,chu2009high-CC,21,x = 0.05 and 0
+730,chu2009high-CC,21,x = 0.05 and 0
+731,chu2009high-CC,21,LaOFeP
+732,chu2009high-CC,21,LaOFeP
+733,chu2009high-CC,21,LaOFeP
+734,chu2009high-CC,21,LaOFeP
+735,chu2009high-CC,23,"RO 1-y FeAs (R=Sm, Nd, Gd)"
+736,chu2009high-CC,23,"NdO 1-y FeAs with a nominal 1-y = 0.6, 0.8 and 0.85"
+737,chu2009high-CC,23,"NdO 1-y FeAs with a nominal 1-y = 0.6, 0.8 and 0.85"
+738,chu2009high-CC,23,"NdO 1-y FeAs with a nominal 1-y = 0.6, 0.8 and 0.85"
+739,chu2009high-CC,23,"NdO 1-y FeAs with a nominal 1-y = 0.6, 0.8 and 0.85"
+740,chu2009high-CC,23,1-y = 0.85
+741,chu2009high-CC,25,x ~ 0.4 -0.5
+742,chu2009high-CC,26,(Ba 1-x K x )Fe 2 As 2 with x = 0.45
+743,chu2009high-CC,27,Ba(Fe 1- x Co x ) 2 As 2 (x=0.1)
+744,chu2009high-CC,30,single crystal CaFe 2 As 2
+745,chu2009high-CC,30,
+746,chu2009high-CC,37,single crystal of SrFe 2 As 2
+747,chu2009high-CC,37,single crystal of SrFe 2 As 2
+748,chu2009high-CC,37,single crystal of SrFe 2 As 2
+749,chu2009high-CC,37,single crystal of SrFe 2 As 2
+750,chu2009high-CC,39,SrFe 2 As 2
+751,chu2009high-CC,39,SrFe 2 As 2 single crystals
+752,chu2009high-CC,39,
+753,chu2009high-CC,40,BaFe 2 As 2
+754,chu2009high-CC,43,LiFeAs
+755,chu2009high-CC,43,NaFeAs
+756,chu2009high-CC,46,undoped EuFe 2 (As 0.7 P 0.3 ) 2
+757,chu2009high-CC,46,BaFe 2 (As 1-x P x ) 2
+758,chu2009high-CC,49,FeSe x
+759,chu2009high-CC,49,α-FeSe x
+760,chu2009high-CC,53,FeSe
+761,mydeen2010temperature-CC,2,LaFeAsO 0.89 F 0.11
+762,mydeen2010temperature-CC,2,LaFeAsO 0.89 F 0.11
+763,mydeen2010temperature-CC,4,"As free ""111"" compound LiFeP"
+764,mydeen2010temperature-CC,7,
+765,SCinTiO_1612.02502-CC,1,mercury
+766,SCinTiO_1612.02502-CC,1,Magnesium diboride
+767,SCinTiO_1612.02502-CC,1,sulphur hydride
+768,SCinTiO_1612.02502-CC,1,Ti4O7
+769,SCinTiO_1612.02502-CC,1,g-Ti3O5 films synthesized using advanced epitaxial growth on specific oxide substrates
+770,SCinTiO_1612.02502-CC,12,Ti4O7
+771,SCinTiO_1612.02502-CC,12,g-Ti3O5
+772,SCinTiO_1612.02502-CC,12,TiO
+773,SCinTiO_1612.02502-CC,12,NbO
+774,SCinTiO_1612.02502-CC,12,SnO
+775,SCinTiO_1612.02502-CC,15,Ti4O7 film
+776,SCinTiO_1612.02502-CC,26,Ti4O7 film
+777,SCinTiO_1612.02502-CC,26,Ti4O7 film
+778,SCinTiO_1612.02502-CC,26,Ti4O7 film
+779,SCinTiO_1612.02502-CC,26,Ti4O7 film
+780,SCinTiO_1612.02502-CC,26,g-Ti3O5 film
+781,SCinTiO_1612.02502-CC,26,g-Ti3O5 film
+782,SCinTiO_1612.02502-CC,26,g-Ti3O5 film
+783,SCinTiO_1612.02502-CC,26,g-Ti3O5 film
+784,SCinTiO_1612.02502-CC,26,Ti4O7 film
+785,SCinTiO_1612.02502-CC,26,Ti4O7 film
+786,SCinTiO_1612.02502-CC,26,Ti4O7 film
+787,SCinTiO_1612.02502-CC,26,Ti4O7 film
+788,SCinTiO_1612.02502-CC,26,Ti4O7 film
+789,SCinTiO_1612.02502-CC,26,Ti4O7 film
+790,SCinTiO_1612.02502-CC,42,Ti4O7 film
+791,Tc4k_interfaceBi_Ni-CC,1,Ni/Bi bilayers
+792,Tc4k_interfaceBi_Ni-CC,4,Ni(3 nm)/Bi(20 nm)
+793,Tc4k_interfaceBi_Ni-CC,8,Bi(15 nm)/Ni(4 nm)
+794,Tc4k_interfaceBi_Ni-CC,8,Ni(6 nm)
+795,Tc4k_interfaceBi_Ni-CC,8,35 nm of Bi
+796,Tc4k_interfaceBi_Ni-CC,10,Indium
+797,1802.03907-CC,1,Sr 2 VFeAsO 3 (21113V)
+798,1802.03907-CC,3,Sr 2 ScFePO 3
+799,1802.03907-CC,3,Sr 2 VFeAsO 3
+800,1802.03907-CC,3,"Sr 2 (Mg, Ti)FeAsO 3"
+801,1802.03907-CC,3,Ca 2 AlFePO 3-y
+802,1802.03907-CC,3,Ca 2 AlFeAsO 3-y
+803,1802.03907-CC,4,Sr 2 VFeAsO 3−δ
+804,1802.03907-CC,22,0.031 ≤ δ ≤ 0.145
+805,1802.03907-CC,22,0.031 ≤ δ ≤ 0.145
+806,1802.03907-CC,40,δ = 0.145
+807,1802.09882-CC,3,Sn 1−x In x Te
+808,Rb2Cr3As3_quasi1D_SC1412.2596-CC,1,Rb2Cr3As3
+809,Rb2Cr3As3_quasi1D_SC1412.2596-CC,3,K 2 Cr 3 As 3
+810,Rb2Cr3As3_quasi1D_SC1412.2596-CC,4,Tl 2 Mo 6 Se 6
+811,Rb2Cr3As3_quasi1D_SC1412.2596-CC,4,Rb 2 Cr 3 As 3
+812,Rb2Cr3As3_quasi1D_SC1412.2596-CC,8,Rb 2 Cr 3 As 3 polycrystalline
+813,Rb2Cr3As3_quasi1D_SC1412.2596-CC,16,Rb2Cr3As3
+814,Rb2Cr3As3_quasi1D_SC1412.2596-CC,16,Rb2Cr3As3
+815,HfV2O431805.08285-CC,1,HfV 2 Ga 4
+816,HfV2O431805.08285-CC,1,HfV 2 Ga 4
+817,HfV2O431805.08285-CC,3,HfV 2 Ga 4
+818,HfV2O431805.08285-CC,12,HfV 2 Ga 4
+819,HfV2O431805.08285-CC,12,HfV 2 Ga 4
+820,HfV2O431805.08285-CC,27,HfV 2 Ga 4
+821,HfV2O431805.08285-CC,27,HfV 2 Ga 4
+822,MAT0305503-CC,1,Na0.31CoO2•1.3H2O
+823,MAT0305503-CC,1,Na0.31CoO2•1.3H2O
+824,MAT0305503-CC,1,Na0.31CoO2•1.3H2O
+825,MAT0305503-CC,1,Na 0.31 CoO 2 •1.3H 2 O
+826,MAT0305503-CC,1,Na0.31CoO2•1.3H2O
+827,MAT0305503-CC,7,Na 0.31 CoO 2 •1.3H 2 O
+828,MAT0305503-CC,7,Na 0.31 CoO 2 •1.3H 2 O
+829,MAT0305503-CC,10,
+830,MAT0106521-CC,1,Cd 2 Re 2 O 7
+831,MAT0106521-CC,4,Cd 2 Re 2 O 7
+832,MAT0106521-CC,6,Cd 2 Re 2 O 7
+833,MAT0106521-CC,6,Cd 2 Re 2 O 7
+834,MAT0106521-CC,6,rhenium
+835,MAT0106521-CC,6,Cd 2 Re 2 O 7
+836,MAT0106521-CC,6,Cd 2 Re 2 O 7
+837,MAT0106521-CC,6,Cd 2 Re 2 O 7
+838,MAT0106521-CC,6,Cd 2 Re 2 O 7
+839,MAT0106521-CC,6,Cd 2 Re 2 O 7
+840,MAT0106521-CC,7,Cd 2 Re 2 O 7
+841,MAT0106521-CC,7,
+842,P066024502-CC,7,Bi2212 single crystals
+843,P066024502-CC,12,Bi2212 single crystal
+844,P066024502-CC,15,thinner than 4 unit cells
+845,P066024502-CC,23,thinner than 4 unit cells
+846,P066132510-CC,1,high- pressure oxidized Cu0.75Mo0.25Sr2YCu2O7.54
+847,P066132510-CC,1,high- pressure oxidized Cu0.75Mo0.25Sr2YCu2O7.54
+848,P066132510-CC,2,"Cu 1−x Mo x Sr 2 (Y,Ce) s Cu 2 O 5+2s+δ"
+849,P066132510-CC,8,Cu 1−x Mo x Sr 2 YCu 2 O 7+δ
+850,P066132510-CC,8,underdoped (op- timally doped) Y123
+851,P066132510-CC,9,"oxi- dized (Cu,Mo)1212"
+852,P066132510-CC,13,optimally doped Y123
+853,P066132510-CC,13,optimally-and over-doped La 2−x Sr x CuO 4 (La214) single crystals
+854,P066132510-CC,19,over- doped La2−xSrxCuO4 with x=0.259
+855,P066132510-CC,19,"(Cu,Mo)1212 powder"
+856,P066020501-CC,1,YBa2(Cu1−yCoy)3O 7+δ (y=0.013
+857,P066020501-CC,2,fully oxydised superconducting YBa 2 Cu 3 O 7
+858,P066020501-CC,4,y=0.013
+859,P066020501-CC,19,YBa 2 (Cu 1−y Co y ) 3 O 7+δ (y=0.013
+860,P067172501-CC,6,"x Pr =0.1, 0.25 and 0.43"
+861,P067172501-CC,6,x Er =0.1
+862,P066024503-CC,1,Ce=0.6
+863,P066024503-CC,3,Nb-2122
+864,P066024503-CC,3,Ta-2122
+865,P066024503-CC,5,Ru-2122 materials (for R=Eu)
+866,P066024503-CC,11,Eu 2-x Ce x RuSr 2 Cu 2 O 10-δ
+867,P066024503-CC,11,Ce=0.6
+868,P066024503-CC,12,Nb-2122
+869,P066024503-CC,12,Ta-2122
+870,NAT3500600,0,potassium-doped C60
+871,NAT3500600,1,potassium-doped C60 both as films and bulk
+872,NAT3500600,1,potassium-doped C60 both as films and bulk
+873,NAT3500600,1,potassium-doped C60 both as films and bulk
+874,NAT3500600,1,potassium-doped C60 both as films and bulk
+875,NAT3500600,1,potassium-doped C60 both as films and bulk
+876,NAT3500600,1,potassium-doped C60 both as films and bulk
+877,NAT3500600,1,potassium-doped C60 both as films and bulk
+878,NAT3500600,1,potassium-doped C60 both as films and bulk
+879,NAT3500600,1,potassium-inter- calated graphite
+880,NAT3500600,4,KxC60 film
+881,NAT3500600,4,KxC60 film
+882,NAT3500600,4,potassium-inter- calated graphite
+883,NAT3500600,6,K3C60
+884,NAT3500600,6,K3C60
+885,NAT3500600,6,potassium-inter- calated graphite
+886,NAT3500600,8,KxC60
+887,NAT3500600,8,potassium-inter- calated graphite
+888,P066214509-CC,3,(Sr 1−x Nd x )CuO 2
+889,P066214509-CC,10,Sr 1−x La x CuO 2
+890,P066214509-CC,10,x = 0.1
+891,P066214509-CC,11,Sr(La)-112
+892,P066214509-CC,11,Sr(La)-112
+893,P066214509-CC,13,Sr(La)-112
+894,P066214509-CC,15,Sr 0.9 La 0.1 CuO 2
+895,P066214509-CC,17,Sr0.9La0.1CuO2
+896,P066214509-CC,17,Sr0.9La0.1CuO2
+897,P066104528-CC,5,LYSCO
+898,P066104528-CC,5,LSCO
+899,P066104528-CC,5,orthorhombic LSCO
+900,P066104528-CC,8,orthorhombic LSCO
+901,P063224522-CC,3,MgAlB 2
+902,P063224522-CC,3,pure MgB 2
+903,P063224522-CC,4,NbB 2
+904,P063224522-CC,4,Zr 0.13 Mo 0.87 B 2+x
+905,P063224522-CC,18,"0,1,2 and 4 hr"
+906,P065224520-CC,3,Sr 1-x La x CuO 2
+907,P065224520-CC,3,R 2-x Ce x CuO 4
+908,P065224520-CC,5,Sr 0.9 La 0.1 CuO 2
+909,P065224520-CC,10,
+910,P065224520-CC,16,Sr 0.9 Nd 0.1 CuO 2
+911,P065224520-CC,19,YBa 2 Cu 3 O 7
+912,P065224520-CC,19,La 1.85 Sr 0.15 CuO 4
+913,P064172514-CC,6,BSLCO crys- tals
+914,P066020503-CC,7,most overdoped
+915,P066020503-CC,8,Bi-2201 polycrystalline
+916,P066020503-CC,14,overdoped case of Bi(Pb)-2201
+917,MPL0150497-CC,3,x = 0
+918,MPL0150497-CC,3,x = 0.015 and 0.05
+919,MPL0150497-CC,3,x = 0.015
+920,MPL0150497-CC,6,δ = 0.024
+921,MPL0150497-CC,6,δ = 0.032
+922,MPL0150497-CC,15,δ = 0.032
+923,MPL0150497-CC,15,δ = 0.032
+924,MPL0150497-CC,15,δ = 0.032
+925,MPL0150497-CC,15,δ = 0.032
+926,MPL0150497-CC,15,δ = 0.024
+927,MPL0150497-CC,23,δ = 0.024
+928,MPL0150497-CC,23,δ = 0.032
+929,MPL0150497-CC,23,δ = 0.024
+930,MPL0150497-CC,23,δ = 0.032
+931,MPL0150497-CC,25,underdoped Bi 2 Sr 2 CaCu 2 O 8+δ (Bi2212)
+932,MPL0150497-CC,26,Tl 2 Ba 2 CuO 6+δ
+933,MPL0150497-CC,28,δ = 0.024
+934,MPL0150497-CC,28,δ = 0.024
+935,MPL0150497-CC,29,δ = 0.032
+936,MPL0150497-CC,29,δ = 0.032
+937,P064144524-CC,13,La 2−x Ba x CuO 4 with x = 0.11
+938,P064144524-CC,14,single-crystal La 2−x Ba x CuO 4 with x = 0.11
+939,P064144524-CC,20,single-crystal La2−xBaxCuO4 with x = 0.11
+940,P065104523-CC,2,Sr 2 RuO 4
+941,P068214517-CC,1,Na 0.31(3) CoO 2 •1.25(2)D 2 O
+942,P068214517-CC,2,Na 0.3 CoO 2 •1.4H 2 O
+943,P068214517-CC,2,1/4≤x≤1/3
+944,P068214517-CC,2,x≈0.3
+945,P068214517-CC,6,Na 0.31 CoO 2 •1.25D 2 O
+946,P068214517-CC,17,Na x CoO 2 •yD 2 O
+947,P068214517-CC,17,Na contents above x=1/3
+948,P068214517-CC,18,Na concentration from 0.30 to 0.26
+949,P068214517-CC,19,Na x CoO 2 •yD 2 O
+950,P070020503-CC,1,RbOs 2 O 6
+951,P070020503-CC,14,RbOs 2 O 6
+952,P070020503-CC,16,RbOs 2 O 6
+953,P070020503-CC,16,RbOs 2 O 6
+954,PHC1910237,2,Sr 2 Nd 1.5 Ce 0.5 NbCu 2 -O 10-δ
+955,P072220505-CC,2,MgB 2
+956,P072220505-CC,2,MgB 2
+957,P072220505-CC,6,MgB 2
+958,P072220505-CC,10,poly- crystalline MgB 2
+959,P072220505-CC,10,poly- crystalline MgB 2
+960,P072220505-CC,10,poly- crystalline MgB 2
+961,P072220505-CC,10,poly- crystalline MgB 2
+962,P072220505-CC,12,Tantalum
+963,P072174508-CC,1,RuSr2GdCu2O8
+964,P072174508-CC,2,RuSr 2 GdCu 2 O 8
+965,P072174508-CC,2,RuSr 2 EuCu 2 O 8
+966,P072174508-CC,2,RuSr 2 SmCu 2 O 8
+967,P072174508-CC,7,RuSr2GdCu2 O8
+968,P072174508-CC,7,RuSr2GdCu2 O8
+969,P072174508-CC,8,
+970,P072174508-CC,10,RuSr2GdCu2O8
+971,P072174508-CC,11,RuSr2GdCu2O8
+972,P072174508-CC,11,RuSr2GdCu2O8
+973,P072174508-CC,14,RuSr 2 GdCu 2 O 8
+974,P072174508-CC,14,RuSr 2 GdCu 2 O 8
+975,P072174508-CC,14,
+976,P072174508-CC,19,YBa 2 Cu 3 O 7
+977,P072174508-CC,19,TlBa 2 CaCu 2 O 7
+978,P072174508-CC,19,x = 0.1
+979,P072174508-CC,19,x = 0.4
+980,PCS2739-CC,1,Cd 2 Re 2 O 7
+981,PCS2739-CC,5,Cd 2 Re 2 O 7
+982,PCS2739-CC,6,Single crystals of Cd 2 Re 2 O 7
+983,P072180504-CC,3,Ag 5 Pb 2 O 6
+984,P072180504-CC,6,Ag 5 Pb 2 O 6
+985,P072180504-CC,7,Ag5Pb2O6
+986,P072180504-CC,12,tungsten
+987,P068100502-CC,3,OD Tl 2 Ba 2 CuO 6+δ (Tl2201)
+988,P069014507-CC,8,F e(Co or T i)-doped R-123 phase Y Sr 2 F e x Cu 1−x O 6+δ with x = 0.3
+989,P069014507-CC,8,Y Sr 2 Cu 2.7 F e 0.3 O 7+δ
+990,P069014507-CC,8,F eSr 2 Y Cu 2 O 7+δ
+991,P069014507-CC,9,F e 0.5 Cu 0.5 BaSrY Cu 2 O 7+δ
+992,P069014507-CC,17,HP-sample
+993,P069014507-CC,17,HP-sample
+994,P069014507-CC,17,Y Ba 2 Cu 3 O 7−δ
+995,P069014507-CC,20,F e 0.5 Cu 0.5 Sr 2 Y Cu 2 O 7+δ
+996,P069014507-CC,22,F e 0.5 Cu 0.5 BaSrY Cu 2 O 7+δ
+997,P069014507-CC,25,F eSr 2 Y Cu 2 O 7+δ
+998,P069014507-CC,27,Y Sr 2 Cu 3 O 7−δ
+999,P069014507-CC,27,Y Ba 2 Cu 3 O 7−δ
+1000,PHB1480442,1,YBa2Cu307
+1001,PHB1480442,2,"La2_x(Ba , Sr, Ca)xCuO4_y"
+1002,PHB1480442,2,(RE)Ba2Cu30 7
+1003,PHB1480442,10,YBa2Cu3OT
+1004,PHB1480442,10,YBa2Cu3OT
+1005,PHB1480442,12,YBa2C%O 7
+1006,PHB1480442,16,YBa2Cu307
+1007,PHB1480442,16,YBa2Cu307
+1008,P071184510-CC,12,Zn-free
+1009,P071184510-CC,12,y = 0.06
+1010,P071184510-CC,12,y = 0.06 and x = 0.20
+1011,P071184510-CC,20,Bi-2212
+1012,P071184510-CC,20,optimally doped Bi-2212
+1013,P071184510-CC,29,pure Y123
+1014,P072094504-CC,2,MgB 2
+1015,P072094504-CC,4,lead
+1016,P072104504-CC,1,RbOs2O6
+1017,P072104504-CC,16,RbOs 2 O 6
+1018,P072104504-CC,16,RbOs 2 O 6
+1019,P071104513-CC,0,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1020,P071104513-CC,0,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1021,P071104513-CC,0,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1022,P071104513-CC,0,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1023,P071104513-CC,7,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1024,P071104513-CC,9,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1025,P071104513-CC,17,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1026,P071104513-CC,17,La 1.88 Sr 0.12 CuO 4 polycrystalline
+1027,P071104513-CC,18,La 1.64 Eu 0.2 Sr 0.16 CuO 4
+1028,P071104513-CC,18,La 1.64 Eu 0.2 Sr 0.16 CuO 4
+1029,P071104513-CC,18,La 1.64 Eu 0.2 Sr 0.16 CuO 4
+1030,P071104513-CC,18,La 1.64 Eu 0.2 Sr 0.16 CuO 4
+1031,P071104513-CC,19,La 1.48 Nd 0.4 Sr 0.12 CuO 4
+1032,P071104513-CC,22,La 1.6-x Nd 0.4 Sr x CuO 4
+1033,P071104513-CC,22,x = 1/8
+1034,P068132504-CC,2,two-dimensional CoO 2 layers in the com- pound Na 0.35 CoO 2 •yH 2 O
+1035,P068132504-CC,4,Na x CoO 2 •yH 2 O powder
+1036,P068132504-CC,6,Na 0.35 CoO 2 •yH 2 O powder
+1037,P068132504-CC,7,Na 0.35 CoO 2 •yH 2 O
+1038,P069184513-CC,1,y = 0.993
+1039,P069184513-CC,1,y = 0.77
+1040,P069184513-CC,1,y = 0.52
+1041,P069184513-CC,26,y=0.93
+1042,P069184513-CC,36,YBa 2 Cu 3 O 6.60
+1043,P069184513-CC,36,optimally doped sample of YBa 2 Cu 3 O 6.95
+1044,P070052502-CC,1,Na x CoO 2 ⋅yH 2 O
+1045,P070052502-CC,4,Na x CoO 2 ⋅yH 2 O
+1046,P070052502-CC,5,Na x CoO 2 ⋅yH 2 O
+1047,P070052502-CC,6,Na x CoO 2 ⋅yH 2 O
+1048,P071100502-CC,4,PLCCO crystals
+1049,P071100502-CC,4,PLCCO crystals
+1050,P071100502-CC,4,PLCCO crystals
+1051,P071100502-CC,4,PLCCO crystals
+1052,P071100502-CC,9,Pr 1-x LaCe x CuO 4-δ
+1053,P071100502-CC,10,PLCCO
+1054,P071100502-CC,10,PLCCO
+1055,P071100502-CC,10,PLCCO
+1056,P071100502-CC,10,PLCCO
+1057,P071100502-CC,10,PLCCO
+1058,P071100502-CC,10,PLCCO
+1059,P071100502-CC,10,PLCCO
+1060,P071100502-CC,10,PLCCO
+1061,P071100502-CC,10,PLCCO
+1062,P071100502-CC,10,PLCCO
+1063,P071100502-CC,10,PLCCO
+1064,P071100502-CC,13,PLCCO
+1065,P071100502-CC,15,PLCCO
+1066,P071100502-CC,15,PLCCO
+1067,P071100502-CC,16,PLCCO
+1068,P071100502-CC,16,PLCCO
+1069,P071100502-CC,16,PLCCO
+1070,P071100502-CC,16,PLCCO
+1071,P072064520-CC,1,La2C3
+1072,P072064520-CC,2,binary Y 2 C 3
+1073,P072064520-CC,4,Y 2 C 3
+1074,P072064520-CC,4,La 2 C 3
+1075,P072064520-CC,6,La2C3
+1076,P072064520-CC,6,La2C3
+1077,P072064520-CC,6,La 2 C 3
+1078,P072064520-CC,7,La 2 C 3
+1079,P072064520-CC,7,La 2 C 3
+1080,P072064520-CC,7,cI16 phase of Li
+1081,P072064520-CC,7,La 2 C 3
+1082,P072064520-CC,7,La 2 C 3
+1083,P072064520-CC,14,cI16 phase of Li
+1084,P070054519-CC,1,LiTi 2 O 4
+1085,P070054519-CC,3,LiTi 2 O 4
+1086,P070054519-CC,3,polycrystalline BaPb 1-x Bi x O 3
+1087,P070054519-CC,3,LiTi 2 O 4
+1088,P070054519-CC,4,LiTi 2 O 4
+1089,P070054519-CC,7,LiTi 2 O 4
+1090,P070054519-CC,14,Cd 2 Re 2 O 7
+1091,P070054519-CC,14,Na 0.35 CoO 2 ．1.3H 2 O
+1092,P070054519-CC,14,KOs 2 O 6
+1093,P071134526-CC,3,"Sr 0.9 M 0.1 CuO 2 (M = La, Gd)"
+1094,P071134526-CC,5,Sr0.9La0.1CuO2
+1095,P071134526-CC,6,polycrys- talline Sr 0.9 Gd 0.1 CuO 2
+1096,P071134526-CC,8,Sr 0.9 Gd 0.1 CuO 2
+1097,P071134526-CC,8,Sr 0.9 La 0.1 CuO 2
+1098,P071134526-CC,8,Sr 0.9 Gd 0.1 CuO 2
+1099,P071134526-CC,8,Sr 0.9 La 0.1 CuO 2
+1100,P071134526-CC,11,polycrys- talline Sr 0.9 Gd 0.1 CuO 2
+1101,P068064507-CC,1,middle R ions (Sm and Eu)
+1102,P068064507-CC,2,Ru-1222
+1103,P068064507-CC,2,M-1222 (M= Nb and Ta)
+1104,P068064507-CC,3,middle R=Sm and Eu
+1105,P068064507-CC,8,Mo-1222Eu
+1106,P068064507-CC,8,R=Sm
+1107,P068064507-CC,11,Mo-1222 (Mo 5+ )
+1108,PHC1580178,7,Nd 1:85 Ce 0:15 CuO 4
+1109,PHC1580178,7,Nd 2 CuO 4
+1110,PHC1580178,7,Nd 2 CuO 4
+1111,PHC1580178,7,Nd 2 CuO 4
+1112,PHC1580178,7,Nd 2 CuO 4
+1113,P072214523-CC,8,ZrZn 2
+1114,P072214523-CC,12,ZrZn2
+1115,P072214523-CC,22,Al films of thickness 250Å
+1116,P068132507-CC,1,Na0.35CoO2•1.3H2O
+1117,P068132507-CC,2,Na 0.35 CoO 2 •1.3H 2 O
+1118,P068132507-CC,5,Na 0.35 CoO 2 •1.3H 2 O
+1119,P068132507-CC,13,Na 0.5 CoO 2
+1120,P068132507-CC,14,Na 0.35 CoO 2 •1.3H 2 O
+1121,P072224509-CC,1,ZrB12
+1122,P072224509-CC,4,in- dium
+1123,P072224509-CC,8,ZrB 12
+1124,P069174506-CC,1,La2CuO4.11
+1125,P069174506-CC,3,Oxygen-doped La 2 CuO 4+y
+1126,P069174506-CC,8,single crystal of La 2 CuO 4.11
+1127,P069174506-CC,9,stage-4 phase
+1128,P069174506-CC,9,stage-4 phase
+1129,P069174506-CC,9,stage-4 phase
+1130,P069174506-CC,9,stage-4 phase
+1131,P069174506-CC,9,stage-6 phase
+1132,P069174506-CC,12,La 2 CuO 4.11 single crystal
+1133,P069174506-CC,19,La 2 CuO 4.11
+1134,P072014504-CC,9,Pb-free series with x = 0.33
+1135,P072014504-CC,9,additional Pb doping with x = 0.36
+1136,P072014504-CC,9,Samples without La
+1137,P072014504-CC,9,Pb-free
+1138,P072014504-CC,9,Pb-doped
+1139,P072014504-CC,16,Pb-free
+1140,P072014504-CC,16,Pb- doped
+1141,P070214505-CC,4,x=0.22
+1142,P070214505-CC,4,x=0.15
+1143,P070214505-CC,4,x=0.063
+1144,P070214505-CC,4,x=0.063
+1145,P070214505-CC,4,p = 0.069
+1146,P070214505-CC,4,x = p = 0.063
+1147,P070214505-CC,4,La 2−x Sr x CuO 4 (p = 0.069)
+1148,P070214505-CC,4,La 2−x Sr x CuO 4 (p = 0.069)
+1149,P070214505-CC,4,La 2−x Sr x CuO 4 (p = 0.069)
+1150,P070214505-CC,12,x = 0.22
+1151,P070214505-CC,28,La 2−x Sr x CuO 4 (p = 0.069)
+1152,P068180505-CC,0,three-layer Na 0.3 CoO 2 •1.3H 2 O
+1153,P068180505-CC,2,Na 0.35 CoO 2 •1.35H 2 O
+1154,P068180505-CC,2,three-layer Na 0.30 CoO 2 ⋅1.3H 2 O
+1155,P068180505-CC,9,three-layer Na 0.30 CoO 2 •1.3H 2 O
+1156,PHC4020027-CC,6,Na 0.3 CoO 2 •1.3H 2 O
+1157,PHC4030200-CC,2,B 0.63 K 0.37 BiO 3
+1158,PHC4030200-CC,3,Single crystal of B 1−x K x BiO 3 (x=0.37)
+1159,PHC3200009-CC,1,Bi2Sr2CaCu2O 8+δ
+1160,PHC3200009-CC,6,optimally- doped Tl 2 Ba 2 CuO 6 crystals (Tl-2201)
+1161,PHC3200009-CC,6,Tl-2201 crystals
+1162,PHC3200009-CC,6,Bi-2212
+1163,PHC3200009-CC,7,Tl-2201
+1164,PHC3200009-CC,11,Tl-2201 crystals
+1165,PHC3200009-CC,19,optimally-doped Bi-2212
+1166,PHC3200009-CC,19,Tl-2201
+1167,PHC3200009-CC,19,Tl-2201
+1168,PHC3200009-CC,19,Bi-2212 is annealed in air
+1169,PHC3200009-CC,19,Air annealed Tl-2201
+1170,PHC3200009-CC,21,single crystals of Tl-2201
+1171,PHC3200009-CC,21,Tl-2201
+1172,PHC3411655-CC,4,PCCO
+1173,PHC3411655-CC,4,NCCO
+1174,PHC3410729-CC,1,Ba0.63K0.37BiO3 single crystal
+1175,PHC3410729-CC,2,Ba 1−x K x BiO 3 (BKBO)
+1176,PHC3410729-CC,3,Ba 0.63 K 0.37 BiO 3 single crystal
+1177,PHC3410729-CC,3,x≈0.37
+1178,PHC3830337-CC,15,RuSr 2 GdCu 2 O 8
+1179,PHC2640145-CC,1,Hg0.45Pb0.30Ba1.63Sr0.50Ca1.94Cu3O8
+1180,PHC2640145-CC,1,Hg0.42Pb0.41Ba1.19Sr1.06Ca1.97Cu3O8
+1181,PHC2640145-CC,1,Hg0.50Pb0.50Ba0.59Sr1.24Ca1.83Cu3.34O8
+1182,PHC2640145-CC,1,Hg0.34Pb0.54Ba0.61Sr1.17Ca1.88Cu3O8
+1183,PHC4210001-CC,1,YBa 2 Cu 3 O y (Y-123)
+1184,PHC4210001-CC,1,Y-123
+1185,PHC4210001-CC,3,fully oxygenated Y-123 with y > 6.99
+1186,PHC4210001-CC,3,well-oxygenated polycrystal
+1187,PHC4210001-CC,18,Sample A1
+1188,PHC4210001-CC,23,Sample B1
+1189,PHC4210001-CC,24,B2
+1190,PHC4210001-CC,24,B3
+1191,PHC4210001-CC,28,y = 6.99
+1192,PHC4200023-CC,1,Sr 2 CuO 2+ Cl 2-y
+1193,PHC4200023-CC,5,"(Sr,Ca) 3 Cu 2 O 4+ Cl 2-y"
+1194,PHC4200023-CC,8,Sr 2 CuO 2+ Cl 2-y
+1195,PHC4200023-CC,14,y = 0.8
+1196,PHC4200023-CC,14,1.0
+1197,PHC4200023-CC,14,1.4
+1198,PHC4200023-CC,14,y=1.4
+1199,PHC4200023-CC,15,oxygen doped Cl-0201 phase Sr 2 CuO 2+ Cl 2-y
+1200,PHC4200023-CC,16,Cl-0201 type Sr 2 CuO 2+ Cl 2-y
+1201,PHC4200023-CC,21,Sr 2 CuO 2+ Cl 1.2
+1202,PHC4020152-CC,3,x ∼ 0.15
+1203,PHC4020152-CC,3,x ∼ 0.40
+1204,PHC4020152-CC,3,Hg-2212
+1205,PHC4020152-CC,4,"optimally doped (Hg,Pb)-2212"
+1206,PHC4020152-CC,28,y = 0
+1207,PHC4020152-CC,28,y = 1.0
+1208,PHC4020152-CC,32,Hg 2 (Ba 0.5 Sr 0.5 ) 2 YCu 2 O 8−δ
+1209,PHC4020152-CC,32,Hg 2 Sr 2 YCu 2 O 8−δ
+1210,PHC4020152-CC,32,y = 0
+1211,PHC4020152-CC,32,y = 1
+1212,PHC4020152-CC,32,Hg 2 Ba 2 (Y 0.80 Ca 0.20 )Cu 2 O 8−δ
+1213,PHC4020152-CC,32,y = 0
+1214,PHC4020152-CC,32,y = 0.7-1.0
+1215,PHC4170033-CC,1,x=0.60
+1216,PHC4170033-CC,1,x = 0.80
+1217,PHC4170033-CC,1,1.00
+1218,PHC4170033-CC,1,x = 0.8
+1219,PHC4170033-CC,1,1.00
+1220,PHC4170033-CC,10,x = 0.60
+1221,PHC4170033-CC,10,x = 0.80
+1222,PHC4170033-CC,10,1.0
+1223,PHC4170033-CC,11,x = 0.80
+1224,PHC4170033-CC,11,x = 0.80
+1225,PHC4170033-CC,11,x = 1.00
+1226,PHC4170033-CC,11,x = 1.00
+1227,PHC4170033-CC,12,x = 0.80
+1228,PHC4170033-CC,12,1.00
+1229,PHC3660299-CC,3,(Sr 1−x Nd x )CuO 2 film
+1230,PHC3660299-CC,14,La-112
+1231,PHC3660299-CC,16,La-112
+1232,PHC3660299-CC,24,Sr0.9La0.1CuO2
+1233,JPS0731297-CC,3,layered cobalt oxide Na z CoO 2 ⋅yH 2 O ( z~0.3 and y~1.3)
+1234,JPS0731131-CC,1,Na0.35CoO2•1.3H2O single crystal
+1235,JPS0731131-CC,3,Na 0.35 CoO 2 •1.3H 2 O
+1236,JPS0731131-CC,8,single crystal of Na 0.35 CoO 2 •1.3H 2 O
+1237,JPS0731131-CC,8,single crystal of Na 0.35 CoO 2 •1.3H 2 O
+1238,JPS0731131-CC,8,single crystal of Na 0.35 CoO 2 •1.3H 2 O
+1239,JPS0731131-CC,8,single crystal of Na 0.35 CoO 2 •1.3H 2 O
+1240,JP01103169-CC,8,x=0
+1241,JP01103169-CC,8,x=0
+1242,JP01103169-CC,8,x=0.1
+1243,JPS0722453-CC,1,Na x CoO 2 ⋅yH 2 O
+1244,JPS0722453-CC,6,Na x CoO 2 ⋅yH 2 O
+1245,JPS0722453-CC,7,Na x CoO 2 ⋅yH 2 O
+1246,JPS0722453-CC,13,Na x CoO 2 ⋅yH 2 O
+1247,JPS0710709-CC,2,Cd 2 Re 2 O 7
+1248,JPS0731655-CC,1,CsOs 2 O 6
+1249,JPS0731655-CC,1,KOs 2 O 6
+1250,JPS0731655-CC,1,RbOs 2 O 6
+1251,JPS0731655-CC,3,Cd 2 Re 2 O 7
+1252,JPS0731655-CC,3,RbOs 2 O 6
+1253,JPS0731655-CC,3,KOs 2 O 6
+1254,JPS0731655-CC,3,CsOs 2 O 6
+1255,JPS0731655-CC,4,
+1256,JPS0731655-CC,4,
+1257,JPS0731655-CC,4,
+1258,JPS0731655-CC,4,
+1259,JPS0731655-CC,5,CsOs 2 O 6
+1260,JPS0731655-CC,5,RbOs 2 O 6
+1261,JPS0731655-CC,5,KOs 2 O 6
+1262,JPS0731655-CC,5,
+1263,JPS0731655-CC,9,CsOs 2 O 6
+1264,JPS0730819-CC,1,RbOs 2 O 6
+1265,JPS0730819-CC,1,RbOs 2 O 6
+1266,JPS0730819-CC,1,RbOs 2 O 6
+1267,JPS0730819-CC,1,RbOs 2 O 6
+1268,JPS0730819-CC,1,RbOs 2 O 6
+1269,JPS0730819-CC,3,Cd 2 Re 2 O 7 (Re 5+ : 5d 2 )
+1270,JPS0730819-CC,3,KOs 2 O 6
+1271,JPS0730819-CC,3,RbOs 2 O 6
+1272,JPS0730819-CC,8,RbOs 2 O 6
+1273,JPS0730819-CC,8,RbOs 2 O 6
+1274,JPS0730819-CC,8,RbOs 2 O 6
+1275,JPS0730819-CC,8,RbOs 2 O 6
+1276,JPS0730819-CC,8,RbOs 2 O 6
+1277,JPS0730819-CC,9,
+1278,JPS0730819-CC,10,
+1279,JPS0730819-CC,11,RbOs 2 O 6
+1280,JPS0730819-CC,12,RbOs 2 O 6
+1281,JPS0731123-CC,5,La 1.64 Eu 0.2 Sr 0.16 CuO 4 single crystals
+1282,JPS0731123-CC,9,underdoped La 2−x Sr(Ba) x CuO 4 thin films
+1283,EPL0490086-CC,1,slightly overdoped Bi 2 Sr 2 CaCu 2 O 8-x (Bi2212) single crystals
+1284,EPL0490086-CC,6,Bi 2 Sr 1.9 CaCu 1.8 O 8+x
+1285,EPL0490086-CC,7,overdoped Bi2212 single crystal
+1286,EPL0490086-CC,7,overdoped Bi2212 single crystal
+1287,EPL0490086-CC,9,Bi2223
+1288,EPL0490086-CC,10,Bi2212
+1289,EPL0490086-CC,10,slightly overdoped Bi2212
+1290,JPS0732912-CC,2,Cd 2 Re 2 O 7
+1291,JPS0732912-CC,2,"AOs 2 O 6 (A = K, Rb, Cs)"
+1292,JPS0732912-CC,2,"AOs 2 O 6 (A = K, Rb, Cs)"
+1293,JPS0732912-CC,2,"AOs 2 O 6 (A = K, Rb, Cs)"
+1294,JPS0732912-CC,2,"AOs 2 O 6 (A = K, Rb, Cs)"
+1295,JPS0732912-CC,2,Cd 2 Re 2 O 7
+1296,JPS0732912-CC,2,Cd 2 Re 2 O 7
+1297,JPS0732912-CC,2,KOs 2 O 6
+1298,JPS0732912-CC,4,KOs 2 O 6
+1299,JPS0732912-CC,5,KOs 2 O 6
+1300,JPS0732912-CC,5,KOs 2 O 6
+1301,JPS0723041-CC,1,NaxCoO2
+1302,JPS0723041-CC,1,bilayer-hydrate
+1303,JPS0723041-CC,3,"Na x CoO 2 ·yH 2 O (x ∼ 0.35, y ∼ 1.3)"
+1304,JPS0723041-CC,6,bilayer-hydrate Na x CoO 2 ·yH 2 O
+1305,JPS0723041-CC,12,Sr 2 RuO 4
