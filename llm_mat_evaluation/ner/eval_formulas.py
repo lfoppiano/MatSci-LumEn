@@ -2,11 +2,10 @@ import argparse
 from typing import Union
 
 import dotenv
-from document_qa.grobid_processors import GrobidMaterialsProcessor
 from tqdm import tqdm
 
 from commons.evaluation import calculate_metrics
-from commons.grobid.grobid_client_generic import GrobidClientGeneric
+from commons.grobid.material_parsers_client import MaterialParsersClient
 
 dotenv.load_dotenv(override=True)
 
@@ -14,22 +13,30 @@ from commons.reader import load_texts_and_classes_generic, group_by
 from commons.writer import print_markdown
 
 
-def get_processor():
-    materials_client = GrobidClientGeneric(ping=True)
-    config_materials = {
-        'grobid': {
-            "server": "http://falcon.nims.go.jp/material/nlp/unstable",
-            # "server": "http://localhost:8090",
-            "url_mapping": {
-                "parseMaterial": "/process/material",
-                "parseMaterials": "/process/material",
-                "ping": "/"
-            }
-        }
-    }
+class FormulaMatcher:
+    def __init__(self, base_url="http://localhost:8090"):
+        self.materials_client = MaterialParsersClient(base_url=base_url, ping=True)
 
-    materials_client.set_config(config_materials, ping=False)
-    return materials_client
+    def parse_materials(self, text):
+        status, result = self.materials_client.parse_materials(text)
+
+        if status != 200:
+            result = []
+
+        results = []
+        for position_material in result:
+            compositions = []
+            for material in position_material:
+                if 'resolvedFormulas' in material:
+                    for resolved_formula in material['resolvedFormulas']:
+                        if 'formulaComposition' in resolved_formula:
+                            compositions.append(resolved_formula['formulaComposition'])
+                elif 'formula' in material:
+                    if 'formulaComposition' in material['formula']:
+                        compositions.append(material['formula']['formulaComposition'])
+            results.append(compositions)
+
+        return results
 
 
 def compare_compositions(compositions_expected: list, compositions_predicted: list) -> Union[bool, None]:
@@ -51,8 +58,6 @@ def match_by_formula(expected, predicted):
         for composition_expected in compositions_expected:
             for composition_predicted in compositions_predicted:
                 if compare_compositions(composition_expected, composition_predicted):
-                    # with open("matching.3.formula.csv", 'a') as ftp:
-                    #     ftp.write(f'"{predicted}","{expected}"\n')
                     return True
     else:
         return True
@@ -107,9 +112,7 @@ def get_matches(expected_entities, predicted_entities, verbose=False) -> (list, 
     return tp, fp, fn
 
 
-def evaluate(expected_dict, predicted_dict, verbose=False):
-    grobid_processor = GrobidMaterialsProcessor(get_processor())
-
+def evaluate(expected_dict, predicted_dict, grobid_processor, verbose=False):
     tp_by_filename = {}
     fn_by_filename = {}
     fp_by_filename = {}
@@ -165,8 +168,8 @@ def evaluate(expected_dict, predicted_dict, verbose=False):
     return tp_by_filename, fp_by_filename, fn_by_filename
 
 
-def calculate_scores(expected_dict, predicted_dict, verbose):
-    tp, fp, fn = evaluate(expected_dict, predicted_dict, verbose)
+def calculate_scores(expected_dict, predicted_dict, grobid_processor, verbose):
+    tp, fp, fn = evaluate(expected_dict, predicted_dict, grobid_processor, verbose)
 
     return calculate_metrics(fn, fp, tp)
 
@@ -185,12 +188,18 @@ if __name__ == '__main__':
                         help="Enable tons of prints",
                         required=False,
                         default=False, action="store_true")
+    parser.add_argument("--base-url",
+                        help="Formula matcher base url",
+                        default="http://localhost:8090",
+                        required=False)
 
     args = parser.parse_args()
 
     predicted_path = args.predicted
     expected_path = args.expected
     verbose = args.verbose
+
+    grobid_processor = FormulaMatcher(base_url=args.base_url)
 
     predicted, _ = load_texts_and_classes_generic(predicted_path)
     files_predicted = set([str.strip(x[1]) for x in predicted])
@@ -213,7 +222,7 @@ if __name__ == '__main__':
     result_table = [["Avg. Type", "Method", "Precision", "Recall", "F1-score", "Support"]]
 
     precision_micro_avg, recall_micro_avg, f1_score_micro_avg, precision_macro_avg, recall_macro_avg, f1_score_macro_avg = calculate_scores(
-        expected_dict, predicted_dict, verbose)
+        expected_dict, predicted_dict, grobid_processor, verbose)
     result_table.append(
         ["micro", "formula", precision_micro_avg, recall_micro_avg, f1_score_micro_avg, str(len(predicted))])
     result_table.append(

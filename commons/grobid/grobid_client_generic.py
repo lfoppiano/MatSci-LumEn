@@ -93,31 +93,6 @@ class GrobidClientGeneric(ApiClient):
 
         return action_url
 
-    def process_texts(self, input, method_name='superconductors', params={}, headers={"Accept": "application/json"}):
-
-        files = {
-            'texts': input
-        }
-
-        the_url = self.get_grobid_url(method_name)
-        params, the_url = self.get_params_from_url(the_url)
-
-        res, status = self.post(
-            url=the_url,
-            files=files,
-            data=params,
-            headers=headers
-        )
-
-        if status == 503:
-            time.sleep(self.config['sleep_time'])
-            return self.process_texts(input, method_name, params, headers)
-        elif status != 200:
-            print('Processing failed with error ' + str(status))
-            return status, None
-        else:
-            return status, json.loads(res.text)
-
     def process_text(self, input, method_name='superconductors', params={}, headers={"Accept": "application/json"}):
 
         files = {
@@ -125,7 +100,6 @@ class GrobidClientGeneric(ApiClient):
         }
 
         the_url = self.get_grobid_url(method_name)
-        params, the_url = self.get_params_from_url(the_url)
 
         res, status = self.post(
             url=the_url,
@@ -139,15 +113,12 @@ class GrobidClientGeneric(ApiClient):
             return self.process_text(input, method_name, params, headers)
         elif status != 200:
             print('Processing failed with error ' + str(status))
-            return status, None
         else:
-            return status, json.loads(res.text)
+            return res.text
 
-    def process(self, form_data: dict, method_name='superconductors', params={},
-                headers={"Accept": "application/json"}):
+    def process(self, form_data: dict, method_name='superconductors', params={}, headers={"Accept": "application/json"}):
 
         the_url = self.get_grobid_url(method_name)
-        params, the_url = self.get_params_from_url(the_url)
 
         res, status = self.post(
             url=the_url,
@@ -181,7 +152,12 @@ class GrobidClientGeneric(ApiClient):
 
         the_url = self.get_grobid_url(method_name)
 
-        params, the_url = self.get_params_from_url(the_url)
+        if "?" in the_url:
+            split = the_url.split("?")
+            the_url = split[0]
+            params = split[1]
+
+            params = {param.split("=")[0]: param.split("=")[1] for param in params.split("&")}
 
         res, status = self.post(
             url=the_url,
@@ -218,16 +194,6 @@ class GrobidClientGeneric(ApiClient):
         else:
             return res.text, status
 
-    def get_params_from_url(self, the_url):
-        params = {}
-        if "?" in the_url:
-            split = the_url.split("?")
-            the_url = split[0]
-            params = split[1]
-
-            params = {param.split("=")[0]: param.split("=")[1] for param in params.split("&")}
-        return params, the_url
-
     def process_json(self, text, method_name="processJson", params={}, headers={"Accept": "application/json"},
                      verbose=False):
         files = {
@@ -241,7 +207,12 @@ class GrobidClientGeneric(ApiClient):
 
         the_url = self.get_grobid_url(method_name)
 
-        params, the_url = self.get_params_from_url(the_url)
+        if "?" in the_url:
+            split = the_url.split("?")
+            the_url = split[0]
+            params = split[1]
+
+            params = {param.split("=")[0]: param.split("=")[1] for param in params.split("&")}
 
         res, status = self.post(
             url=the_url,
