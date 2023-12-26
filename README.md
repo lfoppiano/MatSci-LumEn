@@ -1,2 +1,2 @@
-# Large Language Models Evaluation in Materials Science
+# MatSci-LumEn: Materials Science Large Language Models Evaluation
 
