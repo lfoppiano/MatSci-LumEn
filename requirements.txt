@@ -1,4 +1,4 @@
 document-qa-engine
 openai
 tiktoken
-langchain==0.0.244
+textdistance[extras]

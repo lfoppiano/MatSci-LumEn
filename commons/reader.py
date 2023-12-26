@@ -4,7 +4,6 @@ from datetime import datetime, date
 from hashlib import blake2b
 from pathlib import Path
 
-from bson import ObjectId
 from tqdm import tqdm
 
 
@@ -143,16 +142,6 @@ def get_str_hash(string):
     hash_md5 = blake2b()
     hash_md5.update(string.encode("utf-8"))
     return hash_md5.hexdigest()
-
-
-def json_serial(obj):
-    """JSON serializer for objects not serializable by default json code"""
-
-    if isinstance(obj, (datetime, date)):
-        return obj.isoformat()
-    if isinstance(obj, (ObjectId)):
-        return str(obj)
-    raise TypeError("Type %s not serializable" % type(obj))
 
 
 def is_too_short_text(text):
