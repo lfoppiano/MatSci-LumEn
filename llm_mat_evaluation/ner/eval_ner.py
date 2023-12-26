@@ -9,9 +9,6 @@ from commons.evaluation import MATCHING_TYPES, match, get_matches, calculate_met
 from commons.reader import load_texts_and_classes_generic, group_by
 from commons.writer import print_markdown
 
-ENTITY_TYPES_INDICES = {"material": {"predicted": 1, "expected": 1}, "quantity": {"predicted": 1, "expected": 1},
-                        "doping": {"predicted": 2, "expected": 2}}
-
 
 def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=None, verbose=False, sbert=None):
     if not sbert:
@@ -20,8 +17,7 @@ def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=No
             sbert = SentenceTransformer('all-MiniLM-L6-v2')
         elif matching_type == "sbert_cross":
             from sentence_transformers import CrossEncoder
-            sbert = CrossEncoder(
-                '/Users/lfoppiano/development/projects/embeddings/pre-trained-embeddings/stsb-distilroberta-base')
+            sbert = CrossEncoder('stsb-distilroberta-base')
 
     tp_by_filename = {}
     fn_by_filename = {}
@@ -70,8 +66,8 @@ def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=No
             # with open("not_matching.strict.csv", 'a') as ftp:
             #     for t in fp:
             #         ftp.write(f'"",{filename}, {pid}, "{t}"\n')
-                # for f in fn:
-                #     ftp.write(f'"",{filename}, {pid}, "{f}"\n')
+            # for f in fn:
+            #     ftp.write(f'"",{filename}, {pid}, "{f}"\n')
 
     return tp_by_filename, fp_by_filename, fn_by_filename
 
@@ -113,9 +109,9 @@ if __name__ == '__main__':
     parser.add_argument("--expected", help="Expected dataset", required=True)
 
     parser.add_argument("--entity-type", help="Types of entities to evaluate",
-                        choices=list(ENTITY_TYPES_INDICES.keys()),
+                        choices=["material", "property"],
                         required=True,
-                        default=list(ENTITY_TYPES_INDICES.keys())[0])
+                        default="material")
 
     parser.add_argument("--matching-type", help="Type of matching", choices=MATCHING_TYPES, default="all",
                         required=False)
@@ -159,8 +155,10 @@ if __name__ == '__main__':
         for mt in filter(lambda m: m != 'all', MATCHING_TYPES):
             precision_micro_avg, recall_micro_avg, f1_score_micro_avg, precision_macro_avg, recall_macro_avg, f1_score_macro_avg = calculate_scores(
                 expected_dict, predicted_dict, mt, matching_threshold, verbose)
-            result_table.append(["micro", mt, precision_micro_avg, recall_micro_avg, f1_score_micro_avg, str(len(predicted))])
-            result_table.append(["macro", mt, precision_macro_avg, recall_macro_avg, f1_score_macro_avg, str(len(predicted))])
+            result_table.append(
+                ["micro", mt, precision_micro_avg, recall_micro_avg, f1_score_micro_avg, str(len(predicted))])
+            result_table.append(
+                ["macro", mt, precision_macro_avg, recall_macro_avg, f1_score_macro_avg, str(len(predicted))])
 
         print("\n")
         print(print_markdown(result_table))
@@ -169,8 +167,10 @@ if __name__ == '__main__':
 
         precision_micro_avg, recall_micro_avg, f1_score_micro_avg, precision_macro_avg, recall_macro_avg, f1_score_macro_avg = calculate_scores(
             expected_dict, predicted_dict, matching_type, matching_threshold, verbose)
-        result_table.append(["micro", matching_type, precision_micro_avg, recall_micro_avg, f1_score_micro_avg, str(len(predicted))])
-        result_table.append(["macro", matching_type, precision_macro_avg, recall_macro_avg, f1_score_macro_avg, str(len(predicted))])
+        result_table.append(
+            ["micro", matching_type, precision_micro_avg, recall_micro_avg, f1_score_micro_avg, str(len(predicted))])
+        result_table.append(
+            ["macro", matching_type, precision_macro_avg, recall_macro_avg, f1_score_macro_avg, str(len(predicted))])
 
         print("\n")
         print(print_markdown(result_table))

@@ -1,1 +1,2 @@
-# llm-mat-evaluation
+# Large Language Models Evaluation in Materials Science
+

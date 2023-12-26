@@ -18,14 +18,9 @@ def get_processor():
     materials_client = GrobidClientGeneric(ping=True)
     config_materials = {
         'grobid': {
-            # "server": "http://falcon.nims.go.jp/superconductors/stable",
             "server": "http://falcon.nims.go.jp/material/nlp/unstable",
             # "server": "http://localhost:8090",
             "url_mapping": {
-                "processText": "/service/process/text",
-                "processText_disable_linking": "/service/process/text?disableLinking=true",
-                # "parseMaterial": "/service/material/parse",
-                # "parseMaterials": "/service/material/multiparse",
                 "parseMaterial": "/process/material",
                 "parseMaterials": "/process/material",
                 "ping": "/"
