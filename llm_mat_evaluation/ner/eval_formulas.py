@@ -6,7 +6,7 @@ from document_qa.grobid_processors import GrobidMaterialsProcessor
 from tqdm import tqdm
 
 from commons.evaluation import calculate_metrics
-from commons.grobid_client_generic import GrobidClientGeneric
+from commons.grobid.grobid_client_generic import GrobidClientGeneric
 
 dotenv.load_dotenv(override=True)
 

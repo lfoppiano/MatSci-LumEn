@@ -8,7 +8,7 @@ import dotenv
 from langchain.schema import OutputParserException
 
 from commons.ner import prepare_data
-from llm_mat_evaluation.properties.process_openai_ner_properties import extract_entities, _parse_json
+from llm_mat_evaluation.ner.process_openai_ner_properties import extract_entities, _parse_json
 from commons.openai import CHATS
 
 dotenv.load_dotenv(override=True)

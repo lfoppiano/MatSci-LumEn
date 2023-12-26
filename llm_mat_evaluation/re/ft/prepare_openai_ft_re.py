@@ -6,7 +6,7 @@ from pathlib import Path
 
 from langchain.prompts import PromptTemplate
 
-from llm_mat_evaluation.relations.process_openai_re_supermat import PROMPT_TEMPLATE_CHAT_SYSTEM, prepare_data, \
+from llm_mat_evaluation.re.process_openai_re_supermat import PROMPT_TEMPLATE_CHAT_SYSTEM, prepare_data, \
     PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED, FORBIDDEN_VALUES
 
 

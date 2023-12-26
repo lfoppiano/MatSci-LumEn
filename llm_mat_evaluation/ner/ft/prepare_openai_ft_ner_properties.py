@@ -7,7 +7,7 @@ from pathlib import Path
 import dotenv
 from langchain.prompts import PromptTemplate
 
-from llm_mat_evaluation.properties.process_openai_ner_properties import PROMPT_TEMPLATE_CHAT_SYSTEM, \
+from llm_mat_evaluation.ner.process_openai_ner_properties import PROMPT_TEMPLATE_CHAT_SYSTEM, \
     PROMPT_TEMPLATE_CHAT_USER_QUANTITIES
 
 dotenv.load_dotenv(override=True)

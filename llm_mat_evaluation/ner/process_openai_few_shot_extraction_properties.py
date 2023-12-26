@@ -11,7 +11,7 @@ from langchain.schema import OutputParserException
 
 from commons.grobid.grobid_client_generic import GrobidClientGeneric
 from commons.openai import CHATS
-from llm_mat_evaluation.properties.process_openai_ner_properties import prepare_data, extract_entities, \
+from llm_mat_evaluation.ner.process_openai_ner_properties import prepare_data, extract_entities, \
     PROMPT_TEMPLATE_CHAT_USER_QUANTITIES, ListOfQuantitiesOutputParser, _parse_json
 
 dotenv.load_dotenv(override=True)

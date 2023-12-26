@@ -5,9 +5,15 @@ from pathlib import Path
 from typing import List, Optional
 
 import dotenv
+from langchain_core.exceptions import OutputParserException
+from document_qa.grobid_processors import GrobidMaterialsProcessor
 
 from commons.grobid.grobid_client_generic import GrobidClientGeneric
+from commons.ner import prepare_data
 from commons.openai import CHATS
+from llm_mat_evaluation.ner.process_openai_ner_materials import ListOfMaterialsOutputParser, \
+    PROMPT_TEMPLATE_CHAT_USER_MATERIALS_SIMPLE
+from llm_mat_evaluation.ner.process_openai_ner_properties import _parse_json, extract_entities
 
 dotenv.load_dotenv(override=True)
 
