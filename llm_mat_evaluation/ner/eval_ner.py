@@ -17,7 +17,7 @@ def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=No
             sbert = SentenceTransformer('all-MiniLM-L6-v2')
         elif matching_type == "sbert_cross":
             from sentence_transformers import CrossEncoder
-            sbert = CrossEncoder('stsb-distilroberta-base')
+            sbert = CrossEncoder('cross-encoder/stsb-distilroberta-base')
 
     tp_by_filename = {}
     fn_by_filename = {}
