@@ -83,6 +83,8 @@ def evaluate(x_all, y_all, type):
     print("Total predicted = 1:", y_predict1)
     print("Negative examples:", y_neg, "positive examples:", y_pos)
     print_metrics(tp, tn, fp, fn)
+
+
 def compare_compositions(compositions_expected: list, compositions_predicted: list) -> Union[bool, None]:
     for element in compositions_expected:
         if element in compositions_predicted:
@@ -93,9 +95,11 @@ def compare_compositions(compositions_expected: list, compositions_predicted: li
 
     return True
 
+
 def match_by_formula(expected, predicted):
     if expected and (str.lower(expected[0].strip()) != str.lower(predicted[0].strip())
-                     and str.lower(expected[0].strip().replace(" ", "")) != str.lower(predicted[0].strip().replace(" ", ""))):
+                     and str.lower(expected[0].strip().replace(" ", "")) != str.lower(
+                predicted[0].strip().replace(" ", ""))):
         compositions_expected = expected[1]
         compositions_predicted = predicted[1]
 
@@ -113,7 +117,8 @@ def match_by_formula(expected, predicted):
         return True
 
 
-def match(expected, predicted, matching_type, matching_threshold=None, verbose=False, model=None, grobid_processor=None):
+def match(expected, predicted, matching_type, matching_threshold=None, verbose=False, model=None,
+          grobid_processor=None):
     expected = "" if expected is None else expected
     predicted = "" if predicted is None else predicted
     if matching_type == "strict":
@@ -307,25 +312,30 @@ def calculate_matching(grouped_by_filename, matching_type, threshold, verbose, c
     return expected_all, predicted_all
 
 
-def calculate_metrics(fn, fp, tp):
+def calculate_metrics(fn: dict, fp: dict, tp: dict):
     tp_n = {key: len(value) for key, value in tp.items()}
     fp_n = {key: len(value) for key, value in fp.items()}
     fn_n = {key: len(value) for key, value in fn.items()}
-    precision_macro_avg = {}
-    recall_macro_avg = {}
+
+    precision_macro_avg_ = {}
+    recall_macro_avg_ = {}
+
     tp_all = sum([tp_n[filename] for filename in tp_n.keys()])
     fp_all = sum([fp_n[filename] for filename in fp_n.keys()])
     fn_all = sum([fn_n[filename] for filename in fn_n.keys()])
+
     for filename in tp_n.keys():
-        precision_macro_avg[filename] = tp_n[filename] / (tp_n[filename] + fp_n[filename]) if tp_n[filename] + fp_n[
+        precision_macro_avg_[filename] = tp_n[filename] / (tp_n[filename] + fp_n[filename]) if tp_n[filename] + fp_n[
             filename] > 0 else 0
-        recall_macro_avg[filename] = tp_n[filename] / (tp_n[filename] + fn_n[filename]) if tp_n[filename] + fn_n[
+        recall_macro_avg_[filename] = tp_n[filename] / (tp_n[filename] + fn_n[filename]) if tp_n[filename] + fn_n[
             filename] > 0 else 0
-    precision_macro_avg = (sum([precision_macro_avg[filename] for filename in precision_macro_avg.keys()]) /
-                           len(list(precision_macro_avg.keys())))
-    recall_macro_avg = (sum([recall_macro_avg[filename] for filename in recall_macro_avg.keys()]) /
-                        len(list(recall_macro_avg.keys())))
+
+    precision_macro_avg = (sum([precision_macro_avg_[filename] for filename in precision_macro_avg_.keys()]) /
+                           len(list(precision_macro_avg_.keys())))
+    recall_macro_avg = (sum([recall_macro_avg_[filename] for filename in recall_macro_avg_.keys()]) /
+                        len(list(recall_macro_avg_.keys())))
     f1_score_macro_avg = 2 * (precision_macro_avg * recall_macro_avg) / (precision_macro_avg + recall_macro_avg)
+
     precision_micro_avg = tp_all / (tp_all + fp_all)
     recall_micro_avg = tp_all / (tp_all + fn_all)
     f1_score_micro_avg = 2 * (precision_micro_avg * recall_micro_avg) / (precision_micro_avg + recall_micro_avg)

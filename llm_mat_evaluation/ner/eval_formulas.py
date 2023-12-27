@@ -17,12 +17,8 @@ class FormulaMatcher:
     def __init__(self, base_url="http://localhost:8090"):
         self.materials_client = MaterialParsersClient(base_url=base_url, ping=True)
 
-    def parse_materials(self, text):
-        status, result = self.materials_client.parse_materials(text)
-
-        if status != 200:
-            result = []
-
+    @staticmethod
+    def output_info(result):
         results = []
         for position_material in result:
             compositions = []
@@ -34,7 +30,18 @@ class FormulaMatcher:
                 elif 'formula' in material:
                     if 'formulaComposition' in material['formula']:
                         compositions.append(material['formula']['formulaComposition'])
+                if 'name' in material:
+                    compositions.append(material['name'])
             results.append(compositions)
+        return results
+
+    def parse_materials(self, text):
+        status, result = self.materials_client.parse_materials(text)
+
+        if status != 200:
+            result = []
+
+        results = self.output_info(result)
 
         return results
 
@@ -57,8 +64,12 @@ def match_by_formula(expected, predicted):
 
         for composition_expected in compositions_expected:
             for composition_predicted in compositions_predicted:
-                if compare_compositions(composition_expected, composition_predicted):
-                    return True
+                if type(composition_expected) is dict and type(composition_predicted) is dict:
+                    if compare_compositions(composition_expected, composition_predicted):
+                        return True
+                elif type(composition_expected) is str and type(composition_predicted) is str:
+                    return composition_expected == composition_predicted
+        return False
     else:
         return True
 
@@ -131,18 +142,16 @@ def evaluate(expected_dict, predicted_dict, grobid_processor, verbose=False):
             fp_by_filename[filename] = []
 
         expected_records = expected_dict[filename]
+        if filename not in predicted_dict.keys():
+            predicted_records = []
+        else:
+            predicted_records = predicted_dict[filename]
 
-        # We remove the expected entities that cannot be parsed.
         records = [record[2] for record in expected_records]
         records_as_text = "\n".join(records)
         parsed_records = grobid_processor.parse_materials(records_as_text)
         for idx, record in enumerate(expected_records):
             record.append(parsed_records[idx])
-
-        if filename not in predicted_dict.keys():
-            continue
-
-        predicted_records = predicted_dict[filename]
 
         records = [record[2] for record in predicted_records]
         records_as_text = "\n".join(records)
@@ -155,8 +164,9 @@ def evaluate(expected_dict, predicted_dict, grobid_processor, verbose=False):
 
         for pid in expected_records_by_pid.keys():
             if pid not in predicted_records_by_pid:
-                continue
-            predicted_in_pid = [x[1:3] for x in predicted_records_by_pid[pid]]
+                predicted_in_pid = []
+            else:
+                predicted_in_pid = [x[1:3] for x in predicted_records_by_pid[pid]]
             expected_in_pid = [x[1:3] for x in expected_records_by_pid[pid]]
 
             tp, fp, fn = get_matches(expected_in_pid, predicted_in_pid, verbose)

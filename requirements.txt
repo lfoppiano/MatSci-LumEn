@@ -2,3 +2,4 @@ document-qa-engine
 openai
 tiktoken
 textdistance[extras]
+pytest

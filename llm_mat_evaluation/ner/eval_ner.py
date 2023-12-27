@@ -38,17 +38,18 @@ def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=No
 
         expected_records = expected_dict[filename]
         if filename not in predicted_dict.keys():
-            continue
-
-        predicted_records = predicted_dict[filename]
+            predicted_records = []
+        else:
+            predicted_records = predicted_dict[filename]
 
         expected_records_by_pid = group_by(expected_records, 1)
         predicted_records_by_pid = group_by(predicted_records, 1)
 
         for pid in expected_records_by_pid.keys():
             if pid not in predicted_records_by_pid:
-                continue
-            predicted_in_pid = [x[1] for x in predicted_records_by_pid[pid]]
+                predicted_in_pid = []
+            else:
+                predicted_in_pid = [x[1] for x in predicted_records_by_pid[pid]]
             expected_in_pid = [x[1] for x in expected_records_by_pid[pid]]
 
             tp, fp, fn = get_matches(expected_in_pid,
@@ -62,12 +63,6 @@ def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=No
             tp_by_filename[filename] += tp
             fp_by_filename[filename] += fp
             fn_by_filename[filename] += fn
-
-            # with open("not_matching.strict.csv", 'a') as ftp:
-            #     for t in fp:
-            #         ftp.write(f'"",{filename}, {pid}, "{t}"\n')
-            # for f in fn:
-            #     ftp.write(f'"",{filename}, {pid}, "{f}"\n')
 
     return tp_by_filename, fp_by_filename, fn_by_filename
 
