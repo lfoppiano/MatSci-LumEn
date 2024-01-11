@@ -1,4 +1,4 @@
-document-qa-engine==0.3.4
+document-qa-engine==0.3.3
 openai==0.27.7
 tiktoken
 textdistance[extras]
