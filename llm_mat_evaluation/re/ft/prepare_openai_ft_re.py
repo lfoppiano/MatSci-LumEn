@@ -3,6 +3,7 @@ import json
 import math
 import os
 from pathlib import Path
+from random import shuffle
 
 from langchain.prompts import PromptTemplate
 
@@ -16,7 +17,7 @@ def format_as_text(answer):
 
     for relation in relations:
         formatted_text += "  - "
-        formatted_text += ", ".join([f"{key}: {value}" for key, value in relation.items() if value ])
+        formatted_text += ", ".join([f"{key}: {value}" for key, value in relation.items() if value])
         formatted_text += "\n"
 
     return formatted_text
@@ -27,12 +28,24 @@ if __name__ == '__main__':
         description="Prepare the fine-tuning data for GPT-3/ChatGPT on relation extraction")
 
     parser.add_argument("--input", help="Input CSV file containing text and annotations", required=True)
+    parser.add_argument("--shuffle",
+                        help="Shuffle entities when preparing the data. Keep the data size constant. To increase the data size, combine with --augmentation",
+                        default=False,
+                        action="store_true",
+                        required=False)
+    parser.add_argument("--augmentation",
+                        help="Apply data augmentation, only work with --shuffle",
+                        default=False,
+                        action="store_true",
+                        required=False)
     parser.add_argument("--output", help="Output Fine-tuning file", required=True)
 
     args = parser.parse_args()
 
     input = args.input
     output = args.output
+    shuffle_data = args.shuffle
+    augmentation = args.augmentation
 
     data = prepare_data(input, 7)
 
@@ -79,23 +92,130 @@ if __name__ == '__main__':
         entities['me_methods'] = [method for method in entities['me_methods'] if method]
 
         answer_as_text = format_as_text(answer)
-        output_data.append({
-            "messages": [
-                {
-                    "role": "system",
-                    "content": PROMPT_TEMPLATE_CHAT_SYSTEM
-                },
-                {"role": "user",
-                 "content": PromptTemplate(
-                     template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
-                     input_variables=['text', 'entities']
-                 ).format_prompt(text=text, entities=json.dumps(entities))
-                 .to_string()},
-                {"role": "assistant", "content": answer_as_text}
-            ]
-        })
 
-    count_all = len(data)
+        if shuffle_data:
+            if augmentation:
+                output_data.append({
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                        },
+                        {"role": "user",
+                         "content": PromptTemplate(
+                             template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                             input_variables=['text', 'entities']
+                         ).format_prompt(text=text, entities=json.dumps(entities))
+                         .to_string()},
+                        {"role": "assistant", "content": answer_as_text}
+                    ]
+                })
+                if len(entities['materials']) > 1:
+                    shuffle(entities['materials'])
+                    output_data.append({
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                            },
+                            {"role": "user",
+                             "content": PromptTemplate(
+                                 template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                                 input_variables=['text', 'entities']
+                             ).format_prompt(text=text, entities=json.dumps(entities))
+                             .to_string()},
+                            {"role": "assistant", "content": answer_as_text}
+                        ]
+                    })
+                if len(entities['tcs']) > 1:
+                    shuffle(entities['tcs'])
+                    output_data.append({
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                            },
+                            {"role": "user",
+                             "content": PromptTemplate(
+                                 template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                                 input_variables=['text', 'entities']
+                             ).format_prompt(text=text, entities=json.dumps(entities))
+                             .to_string()},
+                            {"role": "assistant", "content": answer_as_text}
+                        ]
+                    })
+                if len(entities['pressures']) > 1:
+                    shuffle(entities['pressures'])
+                    output_data.append({
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                            },
+                            {"role": "user",
+                             "content": PromptTemplate(
+                                 template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                                 input_variables=['text', 'entities']
+                             ).format_prompt(text=text, entities=json.dumps(entities))
+                             .to_string()},
+                            {"role": "assistant", "content": answer_as_text}
+                        ]
+                    })
+                if len(entities['me_methods']) > 1:
+                    shuffle(entities['me_methods'])
+                    output_data.append({
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                            },
+                            {"role": "user",
+                             "content": PromptTemplate(
+                                 template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                                 input_variables=['text', 'entities']
+                             ).format_prompt(text=text, entities=json.dumps(entities))
+                             .to_string()},
+                            {"role": "assistant", "content": answer_as_text}
+                        ]
+                    })
+            else:
+                shuffle(entities['materials'])
+                shuffle(entities['tcs'])
+                shuffle(entities['pressures'])
+                shuffle(entities['me_methods'])
+                output_data.append({
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                        },
+                        {"role": "user",
+                         "content": PromptTemplate(
+                             template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                             input_variables=['text', 'entities']
+                         ).format_prompt(text=text, entities=json.dumps(entities))
+                         .to_string()},
+                        {"role": "assistant", "content": answer_as_text}
+                    ]
+                })
+        else:
+            output_data.append({
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": PROMPT_TEMPLATE_CHAT_SYSTEM
+                    },
+                    {"role": "user",
+                     "content": PromptTemplate(
+                         template=PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                         input_variables=['text', 'entities']
+                     ).format_prompt(text=text, entities=json.dumps(entities))
+                     .to_string()},
+                    {"role": "assistant", "content": answer_as_text}
+                ]
+            })
+
+    count_all = len(output_data)
     count_train = math.floor(count_all * 0.70)
     count_test = count_all - count_train
 

@@ -18,6 +18,22 @@ chat_gpt35_turbo_ft_re_prompt_layer = PromptLayerChatOpenAI(
     pl_tags=["chatgpt", "finetune", "re"],
 )
 
+chat_gpt35_turbo_ft_re_shuffled_prompt_layer = PromptLayerChatOpenAI(
+    model_name="ft:gpt-3.5-turbo-0613:national-institute-for-materials-science::8feTZsMW",
+    frequency_penalty=0.1,
+    temperature=0,
+    return_pl_id=True,
+    pl_tags=["chatgpt", "finetune", "re"],
+)
+
+chat_gpt35_turbo_ft_re_shuffled_augmented_prompt_layer = PromptLayerChatOpenAI(
+    model_name="ft:gpt-3.5-turbo-0613:national-institute-for-materials-science::8fKTJ18v",
+    frequency_penalty=0.1,
+    temperature=0,
+    return_pl_id=True,
+    pl_tags=["chatgpt", "finetune", "re"],
+)
+
 chat_gpt35_turbo_ft_ner_materials_prompt_layer = PromptLayerChatOpenAI(
     model_name="ft:gpt-3.5-turbo-0613:national-institute-for-materials-science::8QrWl2Ca",
     frequency_penalty=0.1,
@@ -67,7 +83,9 @@ embeddings_open = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 CHATS = {
     'chatgpt': chat_gpt35_turbo_prompt_layer,
-    'chatgpt-ft-re-aggregated': chat_gpt35_turbo_ft_re_prompt_layer,
+    'chatgpt-ft-re': chat_gpt35_turbo_ft_re_prompt_layer,
+    'chatgpt-ft_shuffled-re': chat_gpt35_turbo_ft_re_shuffled_prompt_layer,
+    'chatgpt-ft_shuffled-augmented-re': chat_gpt35_turbo_ft_re_shuffled_augmented_prompt_layer,
     'chatgpt-ft-ner-materials': chat_gpt35_turbo_ft_ner_materials_prompt_layer,
     'chatgpt-ft-ner-quantities': chat_gpt35_turbo_ft_ner_quantities_prompt_layer,
     'gpt4': chat_gpt4_prompt_layer,

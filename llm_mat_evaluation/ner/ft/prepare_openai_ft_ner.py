@@ -5,12 +5,11 @@ import os
 from pathlib import Path
 
 import dotenv
+dotenv.load_dotenv(override=True)
 from langchain.prompts import PromptTemplate
 
 from llm_mat_evaluation.ner.process_openai_ner_materials import PROMPT_TEMPLATE_CHAT_SYSTEM, \
     PROMPT_TEMPLATE_CHAT_USER_MATERIALS_COMPLEX
-
-dotenv.load_dotenv(override=True)
 
 from commons.reader import load_texts_and_classes_generic, group_by
 

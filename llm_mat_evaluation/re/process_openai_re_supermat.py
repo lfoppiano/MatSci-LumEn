@@ -174,10 +174,10 @@ def extract_relations(llm, prompt_template, text, entities, output_parser_class=
         output_parser = PydanticOutputParser(pydantic_object=output_parser_class)
         format_instructions = output_parser.get_format_instructions()
 
-    # if llm.model_name.startswith("ft:"):
-    #     prompt_chat_template = get_prompt(prompt_template)
-    # else:
-    prompt_chat_template = get_prompt(prompt_template, format_instructions)
+    if llm.model_name.startswith("ft:"):
+        prompt_chat_template = get_prompt(prompt_template)
+    else:
+        prompt_chat_template = get_prompt(prompt_template, format_instructions)
     prompt_text = prompt_chat_template.format_messages(text=text, entities=entities)
 
     results = llm(prompt_text)
@@ -253,7 +253,7 @@ if __name__ == '__main__':
     input_path = Path(input)
     if os.path.isdir(str(output)):
         shuffled = "" if not shuffle else "shuffled."
-        output_path = os.path.join(output, "{}.{}.{}output.csv".format(input_path.stem, model, shuffled))
+        output_path = os.path.join(output, "{}.{}.{}.output.csv".format(input_path.stem, model, shuffled))
     else:
         output_path = Path(output)
 

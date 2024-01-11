@@ -81,7 +81,7 @@ Following the lists of entities:
 | micro     | soft          | 75.17     | 68.31  | 71.57    | 392     |
 | macro     | soft          | 78.97     | 74.76  | 76.81    | 392     |
 
-### GPT-3.5-turbo Fine-tuned (not shuffled)
+### GPT-3.5-turbo Fine-tuned (FT: not shuffled, EVAL: not shuffled)
 
 - Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run1/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
@@ -113,9 +113,7 @@ Following the lists of entities:
 | micro     | soft          | 91.34     | 91.34  | 91.34    | 80      |
 | macro     | soft          | 92.08     | 90.83  | 91.45    | 80      |
 
-### GPT-3.5-turbo Fine-tuned (shuffled)
-
-- Expected 
+### GPT-3.5-turbo Fine-tuned (FT: not-shuffled, EVAL: shuffled)
 
 - Predicted:[supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.1.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.1.output.csv)
 
@@ -143,6 +141,106 @@ Following the lists of entities:
 | macro     | strict        | 60.04     | 65.43  | 62.62    | 123     |
 | micro     | soft          | 57.72     | 55.04  | 56.35    | 123     |
 | macro     | soft          | 60.04     | 65.43  | 62.62    | 123     |
+
+### GPT-3.5-Turbo fine-tuned (FT: shuffled, EVAL: not-shuffled)
+
+We shuffled and keep the same number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
+| macro     | strict        | 91.67     | 90.42  | 91.04    | 80      |
+| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
+| macro     | soft          | 93.33     | 92.08  | 92.70    | 80      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
+| macro     | strict        | 91.67     | 90.42  | 91.04    | 80      |
+| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
+| macro     | soft          | 93.33     | 92.08  | 92.70    | 80      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
+| macro     | strict        | 91.67     | 90.42  | 91.04    | 80      |
+| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
+| macro     | soft          | 93.33     | 92.08  | 92.70    | 80      |
+
+### GPT-3.5-Turbo fine-tuned (FT: shuffled, EVAL: shuffled)
+
+We shuffled and keep the same number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 92.68     | 89.76  | 91.20    | 80      |
+| macro     | strict        | 92.92     | 91.67  | 92.29    | 80      |
+| micro     | soft          | 95.12     | 92.13  | 93.60    | 80      |
+| macro     | soft          | 94.58     | 93.33  | 93.95    | 80      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.80     | 88.89  | 90.32    | 79      |
+| macro     | strict        | 93.67     | 92.41  | 93.03    | 79      |
+| micro     | soft          | 94.26     | 91.27  | 92.74    | 79      |
+| macro     | soft          | 95.36     | 94.09  | 94.72    | 79      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
+| macro     | strict        | 92.50     | 91.25  | 91.87    | 80      |
+| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
+| macro     | soft          | 94.17     | 92.92  | 93.54    | 80      |
+
+### GPT-3.5-Turbo fine-tuned (FT: shuffled + augmented, EVAL: not-shuffled)
+
+We shuffled + augment the number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.60     | 91.06  | 90.32    | 77      |
+| macro     | strict        | 92.56     | 92.10  | 92.33    | 77      |
+| micro     | soft          | 92.00     | 93.50  | 92.74    | 77      |
+| macro     | soft          | 94.29     | 93.83  | 94.06    | 77      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.60     | 91.06  | 90.32    | 77      |
+| macro     | strict        | 92.56     | 92.10  | 92.33    | 77      |
+| micro     | soft          | 92.00     | 93.50  | 92.74    | 77      |
+| macro     | soft          | 94.29     | 93.83  | 94.06    | 77      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.60     | 91.06  | 90.32    | 77      |
+| macro     | strict        | 92.56     | 92.10  | 92.33    | 77      |
+| micro     | soft          | 92.00     | 93.50  | 92.74    | 77      |
+| macro     | soft          | 94.29     | 93.83  | 94.06    | 77      |
+
+### GPT-3.5-Turbo fine-tuned (FT: shuffled + augmented, EVAL: shuffled)
+
+We shuffled + augment the number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.13     | 91.87  | 91.50    | 77      |
+| macro     | strict        | 94.59     | 93.51  | 94.04    | 77      |
+| micro     | soft          | 91.94     | 92.68  | 92.31    | 77      |
+| macro     | soft          | 95.02     | 93.94  | 94.48    | 77      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 87.90     | 88.62  | 88.26    | 77      |
+| macro     | strict        | 92.10     | 91.45  | 91.77    | 77      |
+| micro     | soft          | 88.71     | 89.43  | 89.07    | 77      |
+| macro     | soft          | 92.53     | 91.88  | 92.21    | 77      |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.52     | 90.24  | 89.88    | 77      |
+| macro     | strict        | 93.29     | 92.21  | 92.75    | 77      |
+| micro     | soft          | 91.94     | 92.68  | 92.31    | 77      |
+| macro     | soft          | 95.02     | 93.94  | 94.48    | 77      |
 
 ### GPT-4 (not shuffled)
 
