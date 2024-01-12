@@ -76,6 +76,8 @@ if __name__ == '__main__':
     predicted_by_filename = group_by(predicted, 1)
     expected_by_filename = group_by(expected, 1)
 
+    support = len(predicted)
+
     evaluation_map = {}
     for mt in tqdm(matching_types):
         evaluation_map[mt] = evaluation_map_mt = {}
@@ -85,14 +87,23 @@ if __name__ == '__main__':
 
             evaluation_map_mt[filename] = evaluation_filename = {}
 
-            if not predicted_same_filename:
-                continue
+            if predicted_same_filename:
+                predicted_records_by_pid = group_by(predicted_same_filename, 1)
+            else:
+                predicted_records_by_pid = {}
 
-            predicted_records_by_pid = group_by(predicted_same_filename, 1)
             for pid, pid_expected_records in expected_records_by_pid.items():
 
                 expected_records_by_pid = [pe[1:5] for pe in pid_expected_records]
                 if pid not in predicted_records_by_pid:
+                    evaluation_filename[pid] = {
+                        'tp': 0,
+                        'fp': 0,
+                        'fn': len(pid_expected_records),
+                        'matching': [],
+                        'expt': len(expected_records_by_pid),
+                        'pred': 0
+                    }
                     continue
                 pid_predicted_records = [pr[1:5] for pr in predicted_records_by_pid[pid]]
 
@@ -183,7 +194,7 @@ if __name__ == '__main__':
         avg_micro_recall_by_mt[mt] = tp_by_mt[mt] / (tp_by_mt[mt] + fn_by_mt[mt]) if (tp_by_mt[mt] + fn_by_mt[mt]) > 0 else 0
         avg_micro_f1_by_mt[mt] = 2 * (avg_micro_precision_by_mt[mt] * avg_micro_recall_by_mt[mt] ) / (avg_micro_precision_by_mt[mt] + avg_micro_recall_by_mt[mt] )
 
-        results.append(["micro", mt, avg_micro_precision_by_mt[mt], avg_micro_recall_by_mt[mt], avg_micro_f1_by_mt[mt], str(nb_paragraphs)])
-        results.append(["macro", mt, avg_macro_precision_by_mt[mt], avg_macro_recall_by_mt[mt], avg_macro_f1_by_mt[mt], str(nb_paragraphs)])
+        results.append(["micro", mt, avg_micro_precision_by_mt[mt], avg_micro_recall_by_mt[mt], avg_micro_f1_by_mt[mt], str(support)])
+        results.append(["macro", mt, avg_macro_precision_by_mt[mt], avg_macro_recall_by_mt[mt], avg_macro_f1_by_mt[mt], str(support)])
 
     print(print_markdown(results))

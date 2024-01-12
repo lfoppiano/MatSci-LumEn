@@ -24,30 +24,30 @@ Following the lists of entities:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.41     | 76.48  | 78.39    | 514     |
-| macro     | strict        | 82.97     | 80.12  | 81.52    | 514     |
-| micro     | soft          | 80.73     | 76.78  | 78.71    | 514     |
-| macro     | soft          | 83.46     | 80.61  | 82.01    | 514     |
+| micro     | strict        | 80.41     | 65.70  | 72.32    | 934     |
+| macro     | strict        | 67.59     | 65.26  | 66.40    | 934     |
+| micro     | soft          | 80.73     | 65.97  | 72.60    | 934     |
+| macro     | soft          | 67.98     | 65.66  | 66.80    | 934     |
 
 - Predicted: [supermat-paragraphs-all.gpt3.5_turbo.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults_prompt1%2Frun2%2Fsupermat-paragraphs-all.gpt3.5_turbo.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.41     | 76.28  | 78.29    | 385     |
-| macro     | strict        | 82.44     | 79.71  | 81.05    | 385     |
-| micro     | soft          | 80.80     | 76.65  | 78.67    | 385     |
-| macro     | soft          | 82.99     | 80.27  | 81.61    | 385     |
+| micro     | strict        | 80.41     | 54.59  | 65.03    | 776     |
+| macro     | strict        | 50.30     | 48.63  | 49.45    | 776     |
+| micro     | soft          | 80.80     | 54.86  | 65.35    | 776     |
+| macro     | soft          | 50.64     | 48.97  | 49.79    | 776     |
 
 - Predicted records: 790 , files: 125 , input: resources/dataset/superMat/relations/results_prompt1/run3//supermat-paragraphs-all.chatgpt.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.25     | 76.57  | 78.37    | 386     |
-| macro     | strict        | 82.49     | 79.89  | 81.17    | 386     |
-| micro     | soft          | 80.51     | 76.81  | 78.62    | 386     |
-| macro     | soft          | 82.79     | 80.19  | 81.47    | 386     |
+| micro     | strict        | 80.25     | 55.47  | 65.60    | 790     |
+| macro     | strict        | 50.46     | 48.87  | 49.65    | 790     |
+| micro     | soft          | 80.51     | 55.64  | 65.80    | 790     |
+| macro     | soft          | 50.64     | 49.05  | 49.84    | 790     |
 
 ### GPT-3.5 turbo (shuffled)
 
@@ -56,191 +56,30 @@ Following the lists of entities:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 76.12     | 69.92  | 72.89    | 518     |
-| macro     | strict        | 81.24     | 77.89  | 79.53    | 518     |
-| micro     | soft          | 76.67     | 70.42  | 73.41    | 518     |
-| macro     | soft          | 81.88     | 78.52  | 80.17    | 518     |
+| micro     | strict        | 76.12     | 60.80  | 67.61    | 913     |
+| macro     | strict        | 66.69     | 63.94  | 65.29    | 913     |
+| micro     | soft          | 76.67     | 61.24  | 68.09    | 913     |
+| macro     | soft          | 67.22     | 64.46  | 65.81    | 913     |
 
 - Predicted: [supermat-paragraphs-all.gpt3.5_turbo.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults_prompt1%2Frun2%2Fsupermat-paragraphs-all.gpt3.5_turbo.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 72.08     | 67.11  | 69.51    | 390     |
-| macro     | strict        | 78.20     | 75.11  | 76.62    | 390     |
-| micro     | soft          | 73.12     | 68.08  | 70.51    | 390     |
-| macro     | soft          | 79.28     | 76.18  | 77.70    | 390     |
+| micro     | strict        | 72.08     | 48.56  | 58.02    | 770     |
+| macro     | strict        | 48.34     | 46.42  | 47.36    | 770     |
+| micro     | soft          | 73.12     | 49.26  | 58.86    | 770     |
+| macro     | soft          | 49.00     | 47.09  | 48.02    | 770     |
 
 - Predicted records: 757 , files: 125 , input: resources/dataset/superMat/relations/results_prompt1/run3//supermat-paragraphs-all.chatgpt.shuffled.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 74.90     | 68.07  | 71.32    | 392     |
-| macro     | strict        | 78.46     | 74.25  | 76.30    | 392     |
-| micro     | soft          | 75.17     | 68.31  | 71.57    | 392     |
-| macro     | soft          | 78.97     | 74.76  | 76.81    | 392     |
-
-### GPT-3.5-turbo Fine-tuned (FT: not shuffled, EVAL: not shuffled)
-
-- Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run1/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
-- Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 88.98     | 88.98  | 88.98    | 80      |
-| macro     | strict        | 90.42     | 89.17  | 89.79    | 80      |
-| micro     | soft          | 91.34     | 91.34  | 91.34    | 80      |
-| macro     | soft          | 92.08     | 90.83  | 91.45    | 80      |
-
-- Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run2/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
-- Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 88.98     | 88.98  | 88.98    | 80      |
-| macro     | strict        | 90.42     | 89.17  | 89.79    | 80      |
-| micro     | soft          | 91.34     | 91.34  | 91.34    | 80      |
-| macro     | soft          | 92.08     | 90.83  | 91.45    | 80      |
-
-- Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run3/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
-- Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 88.98     | 88.98  | 88.98    | 80      |
-| macro     | strict        | 90.42     | 89.17  | 89.79    | 80      |
-| micro     | soft          | 91.34     | 91.34  | 91.34    | 80      |
-| macro     | soft          | 92.08     | 90.83  | 91.45    | 80      |
-
-### GPT-3.5-turbo Fine-tuned (FT: not-shuffled, EVAL: shuffled)
-
-- Predicted:[supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.1.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.1.output.csv)
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 47.73     | 47.73  | 47.73    | 132     |
-| macro     | strict        | 54.56     | 59.72  | 57.03    | 132     |
-| micro     | soft          | 48.48     | 48.48  | 48.48    | 132     |
-| macro     | soft          | 54.96     | 60.12  | 57.42    | 132     |
-
-- Predicted: [supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.2.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.2.output.csv)
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 55.73     | 55.73  | 55.73    | 131     |
-| macro     | strict        | 58.96     | 64.38  | 61.55    | 131     |
-| micro     | soft          | 55.73     | 55.73  | 55.73    | 131     |
-| macro     | soft          | 58.96     | 64.38  | 61.55    | 131     |
-
-- Predicted: [supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.3.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.3.output.csv)
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 57.72     | 55.04  | 56.35    | 123     |
-| macro     | strict        | 60.04     | 65.43  | 62.62    | 123     |
-| micro     | soft          | 57.72     | 55.04  | 56.35    | 123     |
-| macro     | soft          | 60.04     | 65.43  | 62.62    | 123     |
-
-### GPT-3.5-Turbo fine-tuned (FT: shuffled, EVAL: not-shuffled)
-
-We shuffled and keep the same number of training examples for the fine-tuning
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
-| macro     | strict        | 91.67     | 90.42  | 91.04    | 80      |
-| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
-| macro     | soft          | 93.33     | 92.08  | 92.70    | 80      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
-| macro     | strict        | 91.67     | 90.42  | 91.04    | 80      |
-| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
-| macro     | soft          | 93.33     | 92.08  | 92.70    | 80      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
-| macro     | strict        | 91.67     | 90.42  | 91.04    | 80      |
-| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
-| macro     | soft          | 93.33     | 92.08  | 92.70    | 80      |
-
-### GPT-3.5-Turbo fine-tuned (FT: shuffled, EVAL: shuffled)
-
-We shuffled and keep the same number of training examples for the fine-tuning
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 92.68     | 89.76  | 91.20    | 80      |
-| macro     | strict        | 92.92     | 91.67  | 92.29    | 80      |
-| micro     | soft          | 95.12     | 92.13  | 93.60    | 80      |
-| macro     | soft          | 94.58     | 93.33  | 93.95    | 80      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 91.80     | 88.89  | 90.32    | 79      |
-| macro     | strict        | 93.67     | 92.41  | 93.03    | 79      |
-| micro     | soft          | 94.26     | 91.27  | 92.74    | 79      |
-| macro     | soft          | 95.36     | 94.09  | 94.72    | 79      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 91.06     | 88.19  | 89.60    | 80      |
-| macro     | strict        | 92.50     | 91.25  | 91.87    | 80      |
-| micro     | soft          | 93.50     | 90.55  | 92.00    | 80      |
-| macro     | soft          | 94.17     | 92.92  | 93.54    | 80      |
-
-### GPT-3.5-Turbo fine-tuned (FT: shuffled + augmented, EVAL: not-shuffled)
-
-We shuffled + augment the number of training examples for the fine-tuning
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 89.60     | 91.06  | 90.32    | 77      |
-| macro     | strict        | 92.56     | 92.10  | 92.33    | 77      |
-| micro     | soft          | 92.00     | 93.50  | 92.74    | 77      |
-| macro     | soft          | 94.29     | 93.83  | 94.06    | 77      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 89.60     | 91.06  | 90.32    | 77      |
-| macro     | strict        | 92.56     | 92.10  | 92.33    | 77      |
-| micro     | soft          | 92.00     | 93.50  | 92.74    | 77      |
-| macro     | soft          | 94.29     | 93.83  | 94.06    | 77      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 89.60     | 91.06  | 90.32    | 77      |
-| macro     | strict        | 92.56     | 92.10  | 92.33    | 77      |
-| micro     | soft          | 92.00     | 93.50  | 92.74    | 77      |
-| macro     | soft          | 94.29     | 93.83  | 94.06    | 77      |
-
-### GPT-3.5-Turbo fine-tuned (FT: shuffled + augmented, EVAL: shuffled)
-
-We shuffled + augment the number of training examples for the fine-tuning
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 91.13     | 91.87  | 91.50    | 77      |
-| macro     | strict        | 94.59     | 93.51  | 94.04    | 77      |
-| micro     | soft          | 91.94     | 92.68  | 92.31    | 77      |
-| macro     | soft          | 95.02     | 93.94  | 94.48    | 77      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 87.90     | 88.62  | 88.26    | 77      |
-| macro     | strict        | 92.10     | 91.45  | 91.77    | 77      |
-| micro     | soft          | 88.71     | 89.43  | 89.07    | 77      |
-| macro     | soft          | 92.53     | 91.88  | 92.21    | 77      |
-
-| Avg. type | Matching type | Precision | Recall | F1-score | Support |
-|-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 89.52     | 90.24  | 89.88    | 77      |
-| macro     | strict        | 93.29     | 92.21  | 92.75    | 77      |
-| micro     | soft          | 91.94     | 92.68  | 92.31    | 77      |
-| macro     | soft          | 95.02     | 93.94  | 94.48    | 77      |
+| micro     | strict        | 74.90     | 49.61  | 59.68    | 757     |
+| macro     | strict        | 48.74     | 46.13  | 47.40    | 757     |
+| micro     | soft          | 75.17     | 49.78  | 59.89    | 757     |
+| macro     | soft          | 49.06     | 46.45  | 47.72    | 757     |
 
 ### GPT-4 (not shuffled)
 
@@ -249,30 +88,30 @@ We shuffled + augment the number of training examples for the fine-tuning
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 76.87     | 72.48  | 74.61    | 563     |
-| macro     | strict        | 77.17     | 75.20  | 76.18    | 563     |
-| micro     | soft          | 77.47     | 73.05  | 75.20    | 563     |
-| macro     | soft          | 78.06     | 76.09  | 77.06    | 563     |
+| micro     | strict        | 76.87     | 66.58  | 71.35    | 990     |
+| macro     | strict        | 68.86     | 67.10  | 67.97    | 990     |
+| micro     | soft          | 77.47     | 67.10  | 71.92    | 990     |
+| macro     | soft          | 69.65     | 67.89  | 68.76    | 990     |
 
 - Predicted: [supermat-paragraphs-all.gpt4.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults_prompt1%2Frun2%2Fsupermat-paragraphs-all.gpt4.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 76.40     | 73.03  | 74.68    | 573     |
-| macro     | strict        | 76.09     | 74.71  | 75.39    | 573     |
-| micro     | soft          | 76.50     | 73.12  | 74.77    | 573     |
-| macro     | soft          | 76.18     | 74.79  | 75.48    | 573     |
+| micro     | strict        | 76.40     | 67.98  | 71.94    | 1017    |
+| macro     | strict        | 69.09     | 67.84  | 68.46    | 1017    |
+| micro     | soft          | 76.50     | 68.07  | 72.04    | 1017    |
+| macro     | soft          | 69.17     | 67.92  | 68.54    | 1017    |
 
 - Predicted records: 1013 , files: 142 , input: resources/dataset/superMat/relations/results_prompt1/run3//supermat-paragraphs-all.gpt4.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 76.80     | 73.47  | 75.10    | 570     |
-| macro     | strict        | 77.43     | 75.78  | 76.60    | 570     |
-| micro     | soft          | 76.90     | 73.56  | 75.19    | 570     |
-| macro     | soft          | 77.51     | 75.87  | 76.68    | 570     |
+| micro     | strict        | 76.80     | 68.07  | 72.17    | 1013    |
+| macro     | strict        | 69.94     | 68.46  | 69.19    | 1013    |
+| micro     | soft          | 76.90     | 68.15  | 72.26    | 1013    |
+| macro     | soft          | 70.02     | 68.54  | 69.27    | 1013    |
 
 ### GPT-4 (shuffled)
 
@@ -281,30 +120,30 @@ We shuffled + augment the number of training examples for the fine-tuning
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 75.86     | 71.33  | 73.53    | 568     |
-| macro     | strict        | 75.46     | 73.75  | 74.60    | 568     |
-| micro     | soft          | 76.16     | 71.62  | 73.82    | 568     |
-| macro     | soft          | 75.76     | 74.04  | 74.89    | 568     |
+| micro     | strict        | 75.86     | 65.97  | 70.57    | 994     |
+| macro     | strict        | 67.93     | 66.38  | 67.15    | 994     |
+| micro     | soft          | 76.16     | 66.23  | 70.85    | 994     |
+| macro     | soft          | 68.19     | 66.65  | 67.41    | 994     |
 
 - Predicted: [supermat-paragraphs-all.gpt4.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults_prompt1%2Frun2%2Fsupermat-paragraphs-all.gpt4.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 74.06     | 70.57  | 72.27    | 570     |
-| macro     | strict        | 74.65     | 73.07  | 73.85    | 570     |
-| micro     | soft          | 74.06     | 70.57  | 72.27    | 570     |
-| macro     | soft          | 74.65     | 73.07  | 73.85    | 570     |
+| micro     | strict        | 74.06     | 65.44  | 69.48    | 1010    |
+| macro     | strict        | 67.43     | 66.01  | 66.71    | 1010    |
+| micro     | soft          | 74.06     | 65.44  | 69.48    | 1010    |
+| macro     | soft          | 67.43     | 66.01  | 66.71    | 1010    |
 
 - Predicted records: 1007 , files: 142 , input: resources/dataset/superMat/relations/results_prompt1/run3//supermat-paragraphs-all.gpt4.shuffled.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 75.37     | 71.60  | 73.44    | 571     |
-| macro     | strict        | 75.58     | 74.18  | 74.87    | 571     |
-| micro     | soft          | 75.57     | 71.79  | 73.63    | 571     |
-| macro     | soft          | 75.70     | 74.30  | 75.00    | 571     |
+| micro     | strict        | 75.37     | 66.40  | 70.60    | 1007    |
+| macro     | strict        | 68.39     | 67.13  | 67.76    | 1007    |
+| micro     | soft          | 75.57     | 66.58  | 70.79    | 1007    |
+| macro     | soft          | 68.51     | 67.24  | 67.87    | 1007    |
 
 ### GPT-4-Turbo (not-shuffled)
 
@@ -313,30 +152,30 @@ We shuffled + augment the number of training examples for the fine-tuning
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 79.80     | 74.25  | 76.92    | 572     |
-| macro     | strict        | 79.73     | 77.02  | 78.35    | 572     |
-| micro     | soft          | 80.61     | 75.00  | 77.70    | 572     |
-| macro     | soft          | 80.49     | 77.78  | 79.11    | 572     |
+| micro     | strict        | 79.80     | 69.12  | 74.07    | 990     |
+| macro     | strict        | 72.27     | 69.82  | 71.02    | 990     |
+| micro     | soft          | 80.61     | 69.82  | 74.82    | 990     |
+| macro     | soft          | 72.96     | 70.50  | 71.71    | 990     |
 
 - Predicted: [supermat-paragraphs-all.gpt4-turbo.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt1%2Frun2%2Fsupermat-paragraphs-all.gpt4-turbo.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.22     | 74.55  | 77.28    | 572     |
-| macro     | strict        | 80.29     | 77.49  | 78.86    | 572     |
-| micro     | soft          | 81.03     | 75.31  | 78.07    | 572     |
-| macro     | soft          | 81.01     | 78.21  | 79.59    | 572     |
+| micro     | strict        | 80.22     | 69.20  | 74.31    | 986     |
+| macro     | strict        | 72.78     | 70.24  | 71.49    | 986     |
+| micro     | soft          | 81.03     | 69.90  | 75.06    | 986     |
+| macro     | soft          | 73.44     | 70.90  | 72.15    | 986     |
 
 - Predicted records: 989 , files: 142 , input: resources/dataset/superMat/relations/results_prompt1/run3//supermat-paragraphs-all.gpt4-turbo.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 78.87     | 73.65  | 76.17    | 571     |
-| macro     | strict        | 79.81     | 77.07  | 78.41    | 571     |
-| micro     | soft          | 79.88     | 74.60  | 77.15    | 571     |
-| macro     | soft          | 80.92     | 78.18  | 79.52    | 571     |
+| micro     | strict        | 78.87     | 68.24  | 73.17    | 989     |
+| macro     | strict        | 72.22     | 69.74  | 70.96    | 989     |
+| micro     | soft          | 79.88     | 69.12  | 74.11    | 989     |
+| macro     | soft          | 73.22     | 70.74  | 71.96    | 989     |
 
 ### GPT-4-Turbo (shuffled)
 
@@ -345,32 +184,32 @@ We shuffled + augment the number of training examples for the fine-tuning
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.04     | 72.44  | 76.05    | 572     |
-| macro     | strict        | 79.99     | 76.80  | 78.36    | 572     |
-| micro     | soft          | 80.98     | 73.28  | 76.94    | 572     |
-| macro     | soft          | 80.83     | 77.64  | 79.21    | 572     |
+| micro     | strict        | 80.04     | 67.37  | 73.16    | 962     |
+| macro     | strict        | 72.51     | 69.62  | 71.03    | 962     |
+| micro     | soft          | 80.98     | 68.15  | 74.01    | 962     |
+| macro     | soft          | 73.28     | 70.38  | 71.80    | 962     |
 
 - Predicted: [supermat-paragraphs-all.gpt4-turbo.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt1%2Frun2%2Fsupermat-paragraphs-all.gpt4-turbo.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.71     | 73.23  | 76.79    | 570     |
-| macro     | strict        | 80.84     | 77.31  | 79.03    | 570     |
-| micro     | soft          | 81.44     | 73.89  | 77.48    | 570     |
-| macro     | soft          | 81.77     | 78.25  | 79.97    | 570     |
+| micro     | strict        | 80.71     | 67.72  | 73.64    | 959     |
+| macro     | strict        | 73.02     | 69.84  | 71.39    | 959     |
+| micro     | soft          | 81.44     | 68.33  | 74.31    | 959     |
+| macro     | soft          | 73.87     | 70.68  | 72.24    | 959     |
 
 - Predicted records: 960 , files: 142 , input: resources/dataset/superMat/relations/results_prompt1/run3//supermat-paragraphs-all.gpt4-turbo.shuffled.output.csv
 - Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 79.27     | 71.72  | 75.31    | 571     |
-| macro     | strict        | 79.81     | 76.27  | 78.00    | 571     |
-| micro     | soft          | 80.21     | 72.57  | 76.20    | 571     |
-| macro     | soft          | 80.72     | 77.18  | 78.91    | 571     |
+| micro     | strict        | 79.27     | 66.58  | 72.37    | 960     |
+| macro     | strict        | 72.22     | 69.02  | 70.59    | 960     |
+| micro     | soft          | 80.21     | 67.37  | 73.23    | 960     |
+| macro     | soft          | 73.04     | 69.84  | 71.40    | 960     |
 
-## Few-shot generation
+## Few-shot prompting
 
 ```
 Given a text between triple quotes and a list of entities, find the relations between entities of different classes: 
@@ -407,30 +246,30 @@ Apply strictly the following rules:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 67.97     | 65.34  | 66.63    | 428     |
-| macro     | strict        | 70.51     | 69.12  | 69.81    | 428     |
-| micro     | soft          | 69.27     | 66.59  | 67.90    | 428     |
-| macro     | soft          | 72.03     | 70.64  | 71.33    | 428     |
+| micro     | strict        | 67.97     | 50.31  | 57.82    | 846     |
+| macro     | strict        | 47.83     | 46.89  | 47.35    | 846     |
+| micro     | soft          | 69.27     | 51.27  | 58.92    | 846     |
+| macro     | soft          | 48.86     | 47.92  | 48.38    | 846     |
 
 - Predicted: [supermat-paragraphs-all.chatgpt.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt2%2Frun2%2Fsupermat-paragraphs-all.chatgpt.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 68.20     | 65.42  | 66.78    | 426     |
-| macro     | strict        | 70.73     | 69.53  | 70.13    | 426     |
-| micro     | soft          | 69.50     | 66.67  | 68.06    | 426     |
-| macro     | soft          | 72.22     | 71.02  | 71.61    | 426     |
+| micro     | strict        | 68.20     | 50.48  | 58.02    | 846     |
+| macro     | strict        | 47.75     | 46.94  | 47.34    | 846     |
+| micro     | soft          | 69.50     | 51.44  | 59.13    | 846     |
+| macro     | soft          | 48.76     | 47.95  | 48.35    | 846     |
 
 - Predicted: [supermat-paragraphs-all.chatgpt.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-few_shot%2Frun3%2Fsupermat-paragraphs-all.chatgpt.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 69.23     | 66.28  | 67.72    | 423     |
-| macro     | strict        | 71.18     | 70.00  | 70.58    | 423     |
-| micro     | soft          | 70.19     | 67.20  | 68.67    | 423     |
-| macro     | soft          | 72.32     | 71.14  | 71.73    | 423     |
+| micro     | strict        | 69.23     | 50.39  | 58.33    | 832     |
+| macro     | strict        | 47.72     | 46.93  | 47.32    | 832     |
+| micro     | soft          | 70.19     | 51.09  | 59.14    | 832     |
+| macro     | soft          | 48.48     | 47.69  | 48.08    | 832     |
 
 ### GPT-3.5-turbo (shuffled)
 
@@ -439,30 +278,30 @@ Apply strictly the following rules:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 63.97     | 62.00  | 62.97    | 431     |
-| macro     | strict        | 69.07     | 67.27  | 68.15    | 431     |
-| micro     | soft          | 66.08     | 64.05  | 65.05    | 431     |
-| macro     | soft          | 71.15     | 69.35  | 70.24    | 431     |
+| micro     | strict        | 63.97     | 47.68  | 54.64    | 852     |
+| macro     | strict        | 47.17     | 45.95  | 46.55    | 852     |
+| micro     | soft          | 66.08     | 49.26  | 56.44    | 852     |
+| macro     | soft          | 48.60     | 47.37  | 47.98    | 852     |
 
 - Predicted: [supermat-paragraphs-all.chatgpt.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt2%2Frun2%2Fsupermat-paragraphs-all.chatgpt.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 66.02     | 61.68  | 63.77    | 428     |
-| macro     | strict        | 68.85     | 67.44  | 68.14    | 428     |
-| micro     | soft          | 67.23     | 62.81  | 64.95    | 428     |
-| macro     | soft          | 70.16     | 68.77  | 69.46    | 428     |
+| micro     | strict        | 66.02     | 47.59  | 55.31    | 824     |
+| macro     | strict        | 46.70     | 45.74  | 46.22    | 824     |
+| micro     | soft          | 67.23     | 48.47  | 56.33    | 824     |
+| macro     | soft          | 47.59     | 46.65  | 47.11    | 824     |
 
 - Predicted: [supermat-paragraphs-all.chatgpt.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-few_shot%2Frun3%2Fsupermat-paragraphs-all.chatgpt.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 62.24     | 59.24  | 60.71    | 431     |
-| macro     | strict        | 67.67     | 66.28  | 66.96    | 431     |
-| micro     | soft          | 63.93     | 60.85  | 62.35    | 431     |
-| macro     | soft          | 69.45     | 68.06  | 68.75    | 431     |
+| micro     | strict        | 62.24     | 45.14  | 52.33    | 829     |
+| macro     | strict        | 46.22     | 45.27  | 45.74    | 829     |
+| micro     | soft          | 63.93     | 46.37  | 53.75    | 829     |
+| macro     | soft          | 47.44     | 46.49  | 46.96    | 829     |
 
 ### GPT-4 (not shuffled)
 
@@ -471,30 +310,30 @@ Apply strictly the following rules:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.57     | 76.51  | 78.49    | 576     |
-| macro     | strict        | 82.98     | 81.00  | 81.98    | 576     |
-| micro     | soft          | 80.57     | 76.51  | 78.49    | 576     |
-| macro     | soft          | 82.98     | 81.00  | 81.98    | 576     |
+| micro     | strict        | 80.57     | 71.83  | 75.95    | 1019    |
+| macro     | strict        | 75.75     | 73.94  | 74.84    | 1019    |
+| micro     | soft          | 80.57     | 71.83  | 75.95    | 1019    |
+| macro     | soft          | 75.75     | 73.94  | 74.84    | 1019    |
 
 - Predicted: [supermat-paragraphs-all.gpt4.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt2%2Frun2%2Fsupermat-paragraphs-all.gpt4.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 81.29     | 77.21  | 79.20    | 578     |
-| macro     | strict        | 83.25     | 81.21  | 82.22    | 578     |
-| micro     | soft          | 81.39     | 77.30  | 79.29    | 578     |
-| macro     | soft          | 83.31     | 81.27  | 82.28    | 578     |
+| micro     | strict        | 81.29     | 72.62  | 76.71    | 1021    |
+| macro     | strict        | 76.26     | 74.39  | 75.31    | 1021    |
+| micro     | soft          | 81.39     | 72.70  | 76.80    | 1021    |
+| macro     | soft          | 76.31     | 74.44  | 75.37    | 1021    |
 
 - Predicted: [supermat-paragraphs-all.gpt4.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-few_shot%2Frun3%2Fsupermat-paragraphs-all.gpt4.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.90     | 77.05  | 78.93    | 576     |
-| macro     | strict        | 83.55     | 81.35  | 82.43    | 576     |
-| micro     | soft          | 80.90     | 77.05  | 78.93    | 576     |
-| macro     | soft          | 83.55     | 81.35  | 82.43    | 576     |
+| micro     | strict        | 80.90     | 72.27  | 76.34    | 1021    |
+| macro     | strict        | 76.27     | 74.26  | 75.25    | 1021    |
+| micro     | soft          | 80.90     | 72.27  | 76.34    | 1021    |
+| macro     | soft          | 76.27     | 74.26  | 75.25    | 1021    |
 
 ### GPT-4 (shuffled)
 
@@ -503,30 +342,30 @@ Apply strictly the following rules:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 79.41     | 75.02  | 77.15    | 575     |
-| macro     | strict        | 82.97     | 80.65  | 81.79    | 575     |
-| micro     | soft          | 79.50     | 75.12  | 77.25    | 575     |
-| macro     | soft          | 83.03     | 80.71  | 81.85    | 575     |
+| micro     | strict        | 79.41     | 70.17  | 74.50    | 1010    |
+| macro     | strict        | 75.60     | 73.49  | 74.53    | 1010    |
+| micro     | soft          | 79.50     | 70.25  | 74.59    | 1010    |
+| macro     | soft          | 75.66     | 73.54  | 74.59    | 1010    |
 
 - Predicted: [supermat-paragraphs-all.gpt4.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt2%2Frun2%2Fsupermat-paragraphs-all.gpt4.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 79.72     | 75.56  | 77.59    | 576     |
-| macro     | strict        | 82.28     | 80.53  | 81.39    | 576     |
-| micro     | soft          | 80.02     | 75.84  | 77.87    | 576     |
-| macro     | soft          | 82.45     | 80.70  | 81.57    | 576     |
+| micro     | strict        | 79.72     | 70.87  | 75.03    | 1016    |
+| macro     | strict        | 75.11     | 73.51  | 74.30    | 1016    |
+| micro     | soft          | 80.02     | 71.13  | 75.31    | 1016    |
+| macro     | soft          | 75.27     | 73.67  | 74.46    | 1016    |
 
 - Predicted: [supermat-paragraphs-all.gpt4.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-few_shot%2Frun3%2Fsupermat-paragraphs-all.gpt4.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 80.14     | 75.35  | 77.67    | 575     |
-| macro     | strict        | 82.33     | 80.22  | 81.26    | 575     |
-| micro     | soft          | 80.14     | 75.35  | 77.67    | 575     |
-| macro     | soft          | 82.33     | 80.22  | 81.26    | 575     |
+| micro     | strict        | 80.14     | 70.60  | 75.07    | 1007    |
+| macro     | strict        | 75.02     | 73.10  | 74.05    | 1007    |
+| micro     | soft          | 80.14     | 70.60  | 75.07    | 1007    |
+| macro     | soft          | 75.02     | 73.10  | 74.05    | 1007    |
 
 ### GPT-4-Turbo (not-shuffled)
 
@@ -535,30 +374,30 @@ Apply strictly the following rules:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 83.44     | 77.47  | 80.34    | 550     |
-| macro     | strict        | 86.69     | 83.68  | 85.16    | 550     |
-| micro     | soft          | 84.69     | 78.63  | 81.54    | 550     |
-| macro     | soft          | 88.02     | 85.01  | 86.49    | 550     |
+| micro     | strict        | 83.44     | 70.08  | 76.18    | 960     |
+| macro     | strict        | 75.56     | 72.94  | 74.23    | 960     |
+| micro     | soft          | 84.69     | 71.13  | 77.32    | 960     |
+| macro     | soft          | 76.72     | 74.10  | 75.39    | 960     |
 
 - Predicted: [supermat-paragraphs-all.gpt4-turbo.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt2%2Frun2%2Fsupermat-paragraphs-all.gpt4-turbo.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 84.10     | 77.68  | 80.76    | 551     |
-| macro     | strict        | 87.24     | 83.65  | 85.41    | 551     |
-| micro     | soft          | 85.46     | 78.94  | 82.07    | 551     |
-| macro     | soft          | 88.75     | 85.17  | 86.92    | 551     |
+| micro     | strict        | 84.10     | 70.34  | 76.61    | 956     |
+| macro     | strict        | 76.18     | 73.05  | 74.58    | 956     |
+| micro     | soft          | 85.46     | 71.48  | 77.85    | 956     |
+| macro     | soft          | 77.50     | 74.37  | 75.90    | 956     |
 
 - Predicted: [supermat-paragraphs-all.gpt4-turbo.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-few_shot%2Frun3%2Fsupermat-paragraphs-all.gpt4-turbo.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 84.01     | 77.68  | 80.72    | 550     |
-| macro     | strict        | 87.06     | 83.93  | 85.47    | 550     |
-| micro     | soft          | 85.37     | 78.94  | 82.03    | 550     |
-| macro     | soft          | 88.33     | 85.21  | 86.74    | 550     |
+| micro     | strict        | 84.01     | 70.34  | 76.57    | 957     |
+| macro     | strict        | 75.88     | 73.16  | 74.50    | 957     |
+| micro     | soft          | 85.37     | 71.48  | 77.81    | 957     |
+| macro     | soft          | 76.99     | 74.27  | 75.61    | 957     |
 
 ### GPT-4-Turbo (shuffled)
 
@@ -567,27 +406,191 @@ Apply strictly the following rules:
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 82.01     | 74.15  | 77.89    | 549     |
-| macro     | strict        | 86.09     | 82.35  | 84.18    | 549     |
-| micro     | soft          | 83.51     | 75.51  | 79.31    | 549     |
-| macro     | soft          | 87.39     | 83.66  | 85.49    | 549     |
+| micro     | strict        | 82.01     | 67.02  | 73.76    | 934     |
+| macro     | strict        | 74.90     | 71.65  | 73.24    | 934     |
+| micro     | soft          | 83.51     | 68.24  | 75.11    | 934     |
+| macro     | soft          | 76.04     | 72.79  | 74.38    | 934     |
 
 - Predicted: [supermat-paragraphs-all.gpt4-turbo.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresult_prompt2%2Frun2%2Fsupermat-paragraphs-all.gpt4-turbo.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 84.11     | 76.71  | 80.24    | 551     |
-| macro     | strict        | 87.46     | 83.55  | 85.46    | 551     |
-| micro     | soft          | 85.49     | 77.97  | 81.56    | 551     |
-| macro     | soft          | 88.88     | 84.94  | 86.87    | 551     |
+| micro     | strict        | 84.11     | 69.47  | 76.09    | 944     |
+| macro     | strict        | 76.37     | 72.96  | 74.63    | 944     |
+| micro     | soft          | 85.49     | 70.60  | 77.34    | 944     |
+| macro     | soft          | 77.61     | 74.17  | 75.85    | 944     |
 
 - Predicted: [supermat-paragraphs-all.gpt4-turbo.shuffled.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-few_shot%2Frun3%2Fsupermat-paragraphs-all.gpt4-turbo.shuffled.output.csv)
 - Expected: [supermat-paragraphs-all.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fsupermat-paragraphs-all.csv)
 
 | Avg. type | Matching type | Precision | Recall | F1-score | Support |
 |-----------|---------------|-----------|--------|----------|---------|
-| micro     | strict        | 82.31     | 74.86  | 78.41    | 553     |
-| macro     | strict        | 85.69     | 82.06  | 83.84    | 553     |
-| micro     | soft          | 84.32     | 76.69  | 80.32    | 553     |
-| macro     | soft          | 87.62     | 83.95  | 85.74    | 553     |
+| micro     | strict        | 82.31     | 67.98  | 74.46    | 944     |
+| macro     | strict        | 75.10     | 71.92  | 73.47    | 944     |
+| micro     | soft          | 84.32     | 69.64  | 76.28    | 944     |
+| macro     | soft          | 76.79     | 73.57  | 75.15    | 944     |
+
+## GPT-3.5-Turbo Fine-tuned
+
+### GPT-3.5-Turbo fine-tuned (FT.base) (not-shuffled)
+
+We shuffled and keep the same number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 80.00  | 85.17    | 123     |
+| macro     | strict        | 80.59     | 79.49  | 80.03    | 123     |
+| micro     | soft          | 93.50     | 82.14  | 87.45    | 123     |
+| macro     | soft          | 82.05     | 80.95  | 81.50    | 123     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 80.00  | 85.17    | 123     |
+| macro     | strict        | 80.59     | 79.49  | 80.03    | 123     |
+| micro     | soft          | 93.50     | 82.14  | 87.45    | 123     |
+| macro     | soft          | 82.05     | 80.95  | 81.50    | 123     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 80.00  | 85.17    | 123     |
+| macro     | strict        | 80.59     | 79.49  | 80.03    | 123     |
+| micro     | soft          | 93.50     | 82.14  | 87.45    | 123     |
+| macro     | soft          | 82.05     | 80.95  | 81.50    | 123     |
+
+### GPT-3.5-Turbo fine-tuned (FT.base) (shuffled)
+
+We shuffled and keep the same number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 92.68     | 81.43  | 86.69    | 123     |
+| macro     | strict        | 81.68     | 80.59  | 81.13    | 123     |
+| micro     | soft          | 95.12     | 83.57  | 88.97    | 123     |
+| macro     | soft          | 83.15     | 82.05  | 82.60    | 123     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.80     | 80.00  | 85.50    | 122     |
+| macro     | strict        | 81.32     | 80.22  | 80.77    | 122     |
+| micro     | soft          | 94.26     | 82.14  | 87.79    | 122     |
+| macro     | soft          | 82.78     | 81.68  | 82.23    | 122     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.06     | 80.00  | 85.17    | 123     |
+| macro     | strict        | 81.32     | 80.22  | 80.77    | 123     |
+| micro     | soft          | 93.50     | 82.14  | 87.45    | 123     |
+| macro     | soft          | 82.78     | 81.68  | 82.23    | 123     |
+
+### GPT-3.5-turbo Fine-tuned (FT.document) (not shuffled)
+
+- Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run1/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
+- Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 88.98     | 80.71  | 84.64    | 127     |
+| macro     | strict        | 79.49     | 78.39  | 78.93    | 127     |
+| micro     | soft          | 91.34     | 82.86  | 86.89    | 127     |
+| macro     | soft          | 80.95     | 79.85  | 80.40    | 127     |
+
+- Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run2/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
+- Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 88.98     | 80.71  | 84.64    | 127     |
+| macro     | strict        | 79.49     | 78.39  | 78.93    | 127     |
+| micro     | soft          | 91.34     | 82.86  | 86.89    | 127     |
+| macro     | soft          | 80.95     | 79.85  | 80.40    | 127     |
+
+- Predicted records: 127 , files: 25 , input: resources/dataset/superMat/relations/results_prompt1/run3/supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.output.csv
+- Expected records: 1143 , files: 145 , input: resources/dataset/superMat/relations/supermat-paragraphs-all.csv
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 88.98     | 80.71  | 84.64    | 127     |
+| macro     | strict        | 79.49     | 78.39  | 78.93    | 127     |
+| micro     | soft          | 91.34     | 82.86  | 86.89    | 127     |
+| macro     | soft          | 80.95     | 79.85  | 80.40    | 127     |
+
+### GPT-3.5-turbo Fine-tuned (FT.document) (shuffled)
+
+- Predicted:[supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.1.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.1.output.csv)
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 47.73     | 45.00  | 46.32    | 132     |
+| macro     | strict        | 50.37     | 55.13  | 52.64    | 132     |
+| micro     | soft          | 48.48     | 45.71  | 47.06    | 132     |
+| macro     | soft          | 50.73     | 55.49  | 53.01    | 132     |
+
+- Predicted: [supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.2.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.2.output.csv)
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 55.73     | 52.14  | 53.87    | 131     |
+| macro     | strict        | 53.77     | 58.72  | 56.14    | 131     |
+| micro     | soft          | 55.73     | 52.14  | 53.87    | 131     |
+| macro     | soft          | 53.77     | 58.72  | 56.14    | 131     |
+
+- Predicted: [supermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.3.output.csv](..%2F..%2F..%2Fresources%2Fdataset%2FsuperMat%2Frelations%2Fresults-fine-tuning%2Fsupermat-paragraphs-holdout.chatgpt-ft-re-aggregated.shuffled.3.output.csv)
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 57.72     | 50.71  | 53.99    | 123     |
+| macro     | strict        | 54.10     | 58.96  | 56.43    | 123     |
+| micro     | soft          | 57.72     | 50.71  | 53.99    | 123     |
+| macro     | soft          | 54.10     | 58.96  | 56.43    | 123     |
+
+### GPT-3.5-Turbo fine-tuned (FT.augmented) augmented (not-shuffled)
+
+We shuffled + augment the number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.60     | 80.00  | 84.53    | 125     |
+| macro     | strict        | 78.32     | 77.93  | 78.13    | 125     |
+| micro     | soft          | 92.00     | 82.14  | 86.79    | 125     |
+| macro     | soft          | 79.79     | 79.40  | 79.59    | 125     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.60     | 80.00  | 84.53    | 125     |
+| macro     | strict        | 78.32     | 77.93  | 78.13    | 125     |
+| micro     | soft          | 92.00     | 82.14  | 86.79    | 125     |
+| macro     | soft          | 79.79     | 79.40  | 79.59    | 125     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.60     | 80.00  | 84.53    | 125     |
+| macro     | strict        | 78.32     | 77.93  | 78.13    | 125     |
+| micro     | soft          | 92.00     | 82.14  | 86.79    | 125     |
+| macro     | soft          | 79.79     | 79.40  | 79.59    | 125     |
+
+### GPT-3.5-Turbo fine-tuned (FT.augmented) (shuffled)
+
+We shuffled + augment the number of training examples for the fine-tuning
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 91.13     | 80.71  | 85.61    | 124     |
+| macro     | strict        | 80.04     | 79.12  | 79.58    | 124     |
+| micro     | soft          | 91.94     | 81.43  | 86.36    | 124     |
+| macro     | soft          | 80.40     | 79.49  | 79.94    | 124     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 87.90     | 77.86  | 82.58    | 124     |
+| macro     | strict        | 77.93     | 77.38  | 77.65    | 124     |
+| micro     | soft          | 88.71     | 78.57  | 83.33    | 124     |
+| macro     | soft          | 78.30     | 77.75  | 78.02    | 124     |
+
+| Avg. type | Matching type | Precision | Recall | F1-score | Support |
+|-----------|---------------|-----------|--------|----------|---------|
+| micro     | strict        | 89.52     | 79.29  | 84.09    | 124     |
+| macro     | strict        | 78.94     | 78.02  | 78.48    | 124     |
+| micro     | soft          | 91.94     | 81.43  | 86.36    | 124     |
+| macro     | soft          | 80.40     | 79.49  | 79.94    | 124     |
+
