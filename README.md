@@ -1,4 +1,4 @@
-# MatSci-LumEn: Materials Science Large Language Models Evaluation
+# MatSci-LumEn: Materials Science Large Language Models Evaluation for text and data mining
 
 ## Formula matching 
 
