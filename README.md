@@ -1,5 +1,7 @@
 # MatSci-LumEn: Materials Science Large Language Models Evaluation for text and data mining
 
+Code, results and data from the paper "Mining experimental data from scientific literature with Large Language Models". 
+
 ## Formula matching 
 
 The algorithm requires the [material-parser](https://github.com/lfoppiano/material-parsers) project.
