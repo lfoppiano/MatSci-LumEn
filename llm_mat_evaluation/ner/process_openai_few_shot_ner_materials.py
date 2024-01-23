@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import List, Optional
 
 import dotenv
+dotenv.load_dotenv(override=True)
 from langchain_core.exceptions import OutputParserException
 from document_qa.grobid_processors import GrobidMaterialsProcessor
 
@@ -14,8 +15,6 @@ from commons.openai import CHATS
 from llm_mat_evaluation.ner.process_openai_ner_materials import ListOfMaterialsOutputParser, \
     PROMPT_TEMPLATE_CHAT_USER_MATERIALS_SIMPLE
 from llm_mat_evaluation.ner.process_openai_ner_properties import _parse_json, extract_entities
-
-dotenv.load_dotenv(override=True)
 
 from langchain.output_parsers import PydanticOutputParser
 from pydantic import Field, BaseModel
@@ -80,7 +79,7 @@ class ListOfMeMethodOutputParser(BaseModel):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Implementation NER with LLM (GPT3) on Superconductors materials")
+    parser = argparse.ArgumentParser(description="Data preparation for materials extraction using OpenAI LLMs")
 
     parser.add_argument("--input-text", help="Input CSV/TSV file containing text", required=True)
     parser.add_argument("--model", choices=CHATS.keys(), default="chatgpt")

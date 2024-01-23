@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 
 import dotenv
+dotenv.load_dotenv(override=True)
 from document_qa.grobid_processors import GrobidQuantitiesProcessor
 from grobid_quantities.quantities import QuantitiesAPI
 from langchain.output_parsers import PydanticOutputParser
@@ -14,8 +15,6 @@ from commons.openai import CHATS
 from llm_mat_evaluation.ner.process_openai_ner_properties import prepare_data, extract_entities, \
     PROMPT_TEMPLATE_CHAT_USER_QUANTITIES, ListOfQuantitiesOutputParser, _parse_json
 
-dotenv.load_dotenv(override=True)
-
 from tqdm import tqdm
 
 from commons.reader import get_last_id
@@ -23,7 +22,7 @@ from commons.reader import get_last_id
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Data preparation for the extraction quantities using using OpenAI LLM")
+        description="Data preparation for the properties extraction using OpenAI LLMs")
 
     parser.add_argument("--input", help="Input CSV/TSV file", required=True)
     parser.add_argument("--output", help="Output file, support both JSON, CSV, or TSV", required=True)

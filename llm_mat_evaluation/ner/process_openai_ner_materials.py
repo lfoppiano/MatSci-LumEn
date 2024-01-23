@@ -5,13 +5,13 @@ from pathlib import Path
 from typing import List, Optional
 
 import dotenv
+dotenv.load_dotenv(override=True)
+
 from langchain.schema import OutputParserException
 
 from commons.ner import prepare_data
 from llm_mat_evaluation.ner.process_openai_ner_properties import extract_entities, _parse_json
 from commons.openai import CHATS
-
-dotenv.load_dotenv(override=True)
 
 from langchain.output_parsers import PydanticOutputParser
 from pydantic import Field, BaseModel
@@ -110,7 +110,7 @@ class ListOfMaterialsOutputParser(BaseModel):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Implementation NER with LLM (GPT3) on Superconductors materials")
+    parser = argparse.ArgumentParser(description="Data preparation for the materials extraction using OpenAI LLMs")
 
     parser.add_argument("--input-text", help="Input CSV/TSV file containing text", required=True)
     parser.add_argument("--model", choices=CHATS.keys(), default="chatgpt")

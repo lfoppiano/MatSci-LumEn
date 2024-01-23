@@ -5,6 +5,8 @@ from pathlib import Path
 from typing import List, Optional
 
 import dotenv
+dotenv.load_dotenv(override=True)
+
 from langchain import PromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
@@ -13,8 +15,6 @@ from pydantic import Field, BaseModel
 
 from commons.ner import prepare_data
 from commons.openai import CHATS
-
-dotenv.load_dotenv(override=True)
 
 from tqdm import tqdm
 
@@ -120,7 +120,7 @@ def _parse_json(response, llm, output_parser):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Data preparation for the extraction quantities using using OpenAI LLM")
+        description="Data preparation for the properties extraction using OpenAI LLMs")
 
     parser.add_argument("--input", help="Input CSV/TSV file", required=True)
     parser.add_argument("--output", help="Output file, support both JSON, CSV, or TSV", required=True)

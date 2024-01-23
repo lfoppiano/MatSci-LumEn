@@ -186,7 +186,7 @@ def calculate_scores(expected_dict, predicted_dict, grobid_processor, verbose):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Evaluation of extracted materials by a formula comparison")
+        description="Evaluation of extracted entities for materials and properties using the novel formula matching.")
 
     parser.add_argument("--predicted",
                         help="Predicted dataset",

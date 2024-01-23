@@ -98,7 +98,7 @@ def calculate_scores(expected_dict, predicted_dict, mt, matching_threshold, verb
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Evaluation of extracted entities")
+        description="Evaluation of extracted entities for materials and properties using the standard approaches.")
 
     parser.add_argument("--predicted", help="Predicted dataset", required=True)
     parser.add_argument("--expected", help="Expected dataset", required=True)
