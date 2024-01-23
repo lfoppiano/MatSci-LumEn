@@ -1,6 +1,17 @@
 # MatSci-LumEn: Materials Science Large Language Models Evaluation for text and data mining
 
-Code, data, and results described in the paper "Mining experimental data from scientific literature with Large Language Models".
+Code, data, and results described in the paper "Mining experimental data from scientific literature with Large Language Models", http://arxiv.org/abs/2401.11052
+
+```
+@misc{foppiano2024mining,
+      title={Mining experimental data from Materials Science literature with Large Language Models}, 
+      author={Luca Foppiano and Guillaume Lambard and Toshiyuki Amagasa and Masashi Ishii},
+      year={2024},
+      eprint={2401.11052},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## Evaluation summary
 
