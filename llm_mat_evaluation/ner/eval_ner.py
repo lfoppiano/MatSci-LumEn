@@ -61,8 +61,8 @@ def evaluate(expected_dict, predicted_dict, matching_type, matching_threshold=No
             if verbose:
                 print("\t- fp: {}\n\t- fn: {}".format(fp, fn))
             tp_by_filename[filename] += tp
-            fp_by_filename[filename] += fp
-            fn_by_filename[filename] += fn
+            fp_by_filename[filename] += [(pid, i_fp) for i_fp in fp]
+            fn_by_filename[filename] += [(pid, i_fn) for i_fn in fn]
 
     return tp_by_filename, fp_by_filename, fn_by_filename
 
@@ -93,7 +93,7 @@ def print_match(match):
 def calculate_scores(expected_dict, predicted_dict, mt, matching_threshold, verbose):
     tp, fp, fn = evaluate(expected_dict, predicted_dict, mt, matching_threshold,
                           verbose, sbert=None)
-    return calculate_metrics(fn, fp, tp)
+    return calculate_metrics(tp, fp, fn)
 
 
 if __name__ == '__main__':

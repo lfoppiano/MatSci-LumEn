@@ -8,7 +8,7 @@ def test_evaluate_metrics_1():
                          {"expected": ["aa"], "predicted": ["ba"]}]}
 
     precision_micro_avg, recall_micro_avg, f1_score_micro_avg, precision_macro_avg, recall_macro_avg, f1_score_macro_avg = calculate_metrics(
-        fn=fn, fp=fp, tp=tp)
+        tp=tp, fp=fp, fn=fn)
 
     assert precision_micro_avg == 3 / (3 + 1)
     assert precision_macro_avg == (0 + 1) / 2

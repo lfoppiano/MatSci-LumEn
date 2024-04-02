@@ -181,7 +181,7 @@ def evaluate(expected_dict, predicted_dict, grobid_processor, verbose=False):
 def calculate_scores(expected_dict, predicted_dict, grobid_processor, verbose):
     tp, fp, fn = evaluate(expected_dict, predicted_dict, grobid_processor, verbose)
 
-    return calculate_metrics(fn, fp, tp)
+    return calculate_metrics(tp, fp, fn)
 
 
 if __name__ == '__main__':

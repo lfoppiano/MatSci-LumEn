@@ -312,7 +312,7 @@ def calculate_matching(grouped_by_filename, matching_type, threshold, verbose, c
     return expected_all, predicted_all
 
 
-def calculate_metrics(fn: dict, fp: dict, tp: dict):
+def calculate_metrics(tp: dict, fp: dict, fn: dict):
     tp_n = {key: len(value) for key, value in tp.items()}
     fp_n = {key: len(value) for key, value in fp.items()}
     fn_n = {key: len(value) for key, value in fn.items()}
