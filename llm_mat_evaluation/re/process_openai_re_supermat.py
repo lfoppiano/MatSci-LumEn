@@ -225,7 +225,7 @@ if __name__ == '__main__':
                         required=True)
     parser.add_argument("--model",
                         choices=CHATS.keys(),
-                        default="chatgpt")
+                        default="gpt35_turbo")
     parser.add_argument("--output",
                         help="Output CSV file or directory",
                         required=True)

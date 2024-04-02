@@ -82,7 +82,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Data preparation for materials extraction using OpenAI LLMs")
 
     parser.add_argument("--input-text", help="Input CSV/TSV file containing text", required=True)
-    parser.add_argument("--model", choices=CHATS.keys(), default="chatgpt")
+    parser.add_argument("--model", choices=CHATS.keys(), default="gpt35_turbo")
     parser.add_argument("--config", help="Configuration file", default="resources/config/config.yaml")
     parser.add_argument("--output", help="Output CSV/TSV file", required=True)
     args = parser.parse_args()

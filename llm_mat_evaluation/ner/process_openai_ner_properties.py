@@ -125,7 +125,7 @@ if __name__ == '__main__':
     parser.add_argument("--input", help="Input CSV/TSV file", required=True)
     parser.add_argument("--output", help="Output file, support both JSON, CSV, or TSV", required=True)
     parser.add_argument("--config", help="Configuration file", default="resources/config/config.yaml")
-    parser.add_argument("--model", choices=CHATS.keys(), default="chatgpt")
+    parser.add_argument("--model", choices=CHATS.keys(), default="gpt35_turbo")
 
     args = parser.parse_args()
 
