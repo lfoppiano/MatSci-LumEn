@@ -4,7 +4,7 @@ from typing import List, Optional
 import dotenv
 from langchain.output_parsers import PydanticOutputParser
 from langchain.schema import OutputParserException
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
 
 dotenv.load_dotenv(override=True)
 import argparse
@@ -47,22 +47,54 @@ Given a text between triple quotes and a list of entities, find the relations be
 ```
 
 {entities}
-
+ 
+Use the following examples separated by "--------" to learn the task: 
 --------
-Example: 
-The researchers of Mg have discovered that MgB2 is superconducting at 29 K at ambient pressure.
+text 1: The researchers of Mg have discovered that MgB2 and MgB3 are superconducting at 29-31 K at ambient pressure.
 
-entities:
- materials: MgB2, Mg
- tcs: 29K
+entities 1:
+ materials: MgB2, Mg, MgB3
+ tcs: 29-31 K
  pressure: ambient pressure
  
-Result: 
+Result 1: 
  material: MgB2, 
- tc: 29K, 
- pressure: ambient pressure: 
+ tc: 29-31K, 
+ pressure: ambient pressure:
  
+ material: MgB3, 
+ tc: 29-31K, 
+ pressure: ambient pressure:
+
 --------
+Text 2: We are studying the material La 3 A 2 Ge 2 (A = Ir, Rh). The critical temperature T C = 4.7 K discovered for La 3 Ir 2 Ge 2 in this work is by about 1.2 K higher than that found for La 3 Rh 2 Ge 2.
+
+entities 2:
+ materials: La 3 A 2 Ge 2 (A = Ir, Rh), La 3 Ir 2 Ge 2, La 3 Rh 2 Ge 2
+ tcs: 4.7 K, 1.2 K
+ 
+Result 2: 
+ material: La 3 Ir 2 Ge 2
+ tc: 4.7 K
+
+--------
+Text 3: The experimental discovery of the high-temperature superconducting state in the compressed hydrogen and sulfur systems H2S (TC = 150 K for p = 150 GPa) and H3S (TC = 203 K for p = 150 GPa)
+
+entities 3:
+ materials: H2S, H3S
+ tcs: 150 K, 203 K
+ pressures: 150 GPa, 150 GPa
+ 
+Result 3: 
+ material: H2S,
+ tc: 4.7 K,
+ pressure: 150 GPa
+ 
+ material: H3S,
+ tc: 150 K,
+ pressure: 150 GPa
+--------
+
 Apply strictly the following rules:  
     - if material is not specified, ignore the relation block,
     - if tc is not specified in absolute values, ignore the relation block 
@@ -234,6 +266,11 @@ if __name__ == '__main__':
                         default=False,
                         action="store_true",
                         required=False)
+    parser.add_argument("--prompting",
+                        help="Prompting strategy",
+                        default="zero-shot",
+                        choices=["zero-shot", "few-shot"],
+                        required=False)
 
     args = parser.parse_args()
 
@@ -241,6 +278,7 @@ if __name__ == '__main__':
     output = args.output
     model = args.model
     shuffle = args.shuffle
+    prompting = args.prompting
 
     llm = CHATS[model]
 
@@ -253,7 +291,8 @@ if __name__ == '__main__':
     input_path = Path(input)
     if os.path.isdir(str(output)):
         shuffled = "" if not shuffle else "shuffled."
-        output_path = os.path.join(output, "{}.{}.{}.output.csv".format(input_path.stem, model, shuffled))
+        prompting_underscore = prompting.replace("-", "_")
+        output_path = os.path.join(output, f"{input_path.stem}.{model}.{prompting_underscore}.{shuffled}output.csv")
     else:
         output_path = Path(output)
 
@@ -286,15 +325,16 @@ if __name__ == '__main__':
                     entity_string = "{}: '{}'".format(ent_class, entities_values)
                     entities.append(entity_string)
 
+            prompt_template = PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED if prompting == "zero-shot" else PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED_WITH_EXAMPLE
             try:
                 result = extract_relations(llm,
-                                           PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                                           prompt_template,
                                            text,
                                            "\n".join(entities),
                                            output_parser_class=ListOfRelations)
-            except OutputParserException as ope:
+            except (ValidationError, OutputParserException) as ope:
                 output_data_raw = extract_relations(llm,
-                                                    PROMPT_TEMPLATE_CHAT_HUMAN_STRATEGY_AGGREGATED,
+                                                    prompt_template,
                                                     text,
                                                     "\n".join(entities))
                 if output_data_raw and output_data_raw != "None":
@@ -303,7 +343,11 @@ if __name__ == '__main__':
                         parsed_output = _parse_json(output_data_raw, chat_gpt35_turbo_prompt_layer,
                                                     output_parser=output_parser)
                     else:
-                        parsed_output = _parse_json(output_data_raw, llm, output_parser=output_parser)
+                        try:
+                            parsed_output = _parse_json(output_data_raw, llm, output_parser=output_parser)
+                        except (ValidationError, OutputParserException) as ope:
+                            print("Invalid response. Continuing ot the next record.")
+                            continue
 
                     result = ListOfRelations.parse_to_list(parsed_output)
 
