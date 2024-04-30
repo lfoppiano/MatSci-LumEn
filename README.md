@@ -90,8 +90,7 @@ Scripts must be run as python modules, using the parameter `-m` and the package 
         --model {chatgpt,chatgpt-ft-re,chatgpt-ft_shuffled-re,chatgpt-ft_shuffled-augmented-re,chatgpt-ft-ner-materials,chatgpt-ft-ner-quantities,gpt4,gpt4-turbo}
         --output OUTPUT       Output CSV file or directory 
       ```
--
-Script: [process_openai_few_shot_ner_materials.py](llm_mat_evaluation%2Fner%2Fprocess_openai_few_shot_ner_materials.py)
+- Script: [process_openai_few_shot_ner_materials.py](llm_mat_evaluation%2Fner%2Fprocess_openai_few_shot_ner_materials.py)
     - Description: Implementation NER with LLM on materials
     - Usage:
       ```
@@ -128,8 +127,7 @@ Script: [process_openai_few_shot_ner_materials.py](llm_mat_evaluation%2Fner%2Fpr
           --model {chatgpt,chatgpt-ft-re,chatgpt-ft_shuffled-re,chatgpt-ft_shuffled-augmented-re,chatgpt-ft-ner-materials,chatgpt-ft-ner-quantities,gpt4,gpt4-turbo}
         ```
 
--
-Script: [process_openai_few_shot_ner_properties.py](llm_mat_evaluation%2Fner%2Fprocess_openai_few_shot_ner_properties.py)
+- Script: [process_openai_few_shot_ner_properties.py](llm_mat_evaluation%2Fner%2Fprocess_openai_few_shot_ner_properties.py)
     - Description:
     - Usage:
       ```
