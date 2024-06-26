@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Foppiano"
+  given-names: "Luca"
+  orcid: "https://orcid.org/0000-0002-6114-6164"
+- family-names: "Lambard"
+  given-names: "Guillaume"
+  orcid: "https://orcid.org/0000-0003-0275-4079"
+- family-names: "Amagasa"
+  given-names: "Toshiyuki"
+  orcid: "https://orcid.org/0000-0003-0595-2230"
+- family-names: "Ishii"
+  given-names: "Masashi"
+  orcid: "https://orcid.org/0000-0003-0357-2832"
+title: "MatSci-LumEn: Materials Science Large Language Models Evaluation for text and data mining"
+version: 2.0.4
+url: "https://github.com/lfoppiano/MatSci-LumEn"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Foppiano"
+    given-names: "Luca"
+    orcid: "https://orcid.org/0000-0002-6114-6164"
+  - family-names: "Lambard"
+    given-names: "Guillaume"
+    orcid: "https://orcid.org/0000-0003-0275-4079"
+  - family-names: "Amagasa"
+    given-names: "Toshiyuki"
+    orcid: "https://orcid.org/0000-0003-0595-2230"
+  - family-names: "Ishii"
+    given-names: "Masashi"
+    orcid: "https://orcid.org/0000-0003-0357-2832"
+  doi: "10.1080/27660400.2024.2356506"
+  journal: "Science and Technology of Advanced Materials: Methods"
+  month: 1
+#   start: 1 # First page number
+#   end: 10 # Last page number
+  title: "Mining experimental data from materials science literature with large language models: an evaluation study"
+  issue: ja
+  volume: 0
+  year: 2024
