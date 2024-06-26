@@ -1,26 +1,31 @@
 # MatSci-LumEn: Materials Science Large Language Models Evaluation for text and data mining
 
-Code, data, and results described in the paper "Mining experimental data from scientific literature with Large Language
-Models", http://arxiv.org/abs/2401.11052
+Code, data, and results described in the paper "Mining experimental data from materials science literature with 
+large language models: an evaluation study", https://www.tandfonline.com/doi/full/10.1080/27660400.2024.2356506
 
 ```
-@misc{foppiano2024mining,
-      title={Mining experimental data from Materials Science literature with Large Language Models}, 
-      author={Luca Foppiano and Guillaume Lambard and Toshiyuki Amagasa and Masashi Ishii},
-      year={2024},
-      eprint={2401.11052},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{foppiano2024mining,
+    author = {Luca Foppiano, Guillaume Lambard, Toshiyuki Amagasa and Masashi Ishii},
+    title = {Mining experimental data from materials science literature with large language models: an evaluation study},
+    journal = {Science and Technology of Advanced Materials: Methods},
+    volume = {0},
+    number = {ja},
+    pages = {2356506},
+    year = {2024},
+    publisher = {Taylor \& Francis},
+    doi = {10.1080/27660400.2024.2356506},
+    URL = {https://doi.org/10.1080/27660400.2024.2356506},
+    eprint = {https://doi.org/10.1080/27660400.2024.2356506}
 }
 ```
 
 ## Evaluation summary
 
-| Information                        | Task | Dataset  | Link                                            | Evaluation results                          | Evaluation data                                                                                              |
-|------------------------------------|------|----------|-------------------------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Material expressions               | NER  | SuperMat | [Github](https://github.com/lfoppiano/SuperMat) | [Results](docs/evaluation/ner/supermat.md), | [predicted](resources/dataset/superMat/entities/results), [expected](resources/dataset/superMat/entities/)   |
-| Properties                         | NER  | MeasEval | [Github](https://github.com/lfoppiano/MeasEval) | [Results](docs/evaluation/ner/measeval.md)  | [predicted](resources/dataset/measeval/results), [expected](resources/dataset/measeval)                      |
-| Materials -> properties extraction | RE   | SuperMat | [Github](https://github.com/lfoppiano/SuperMat) | [Results](docs/evaluation/re/supermat.md)   | [predicted](resources/dataset/superMat/relations/results), [expected](resources/dataset/superMat/relations/) |
+| Information                        | Task | Dataset  | Link                                               | Evaluation results                           | Evaluation data                                                                                                 |
+|------------------------------------|------|----------|----------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Material expressions               | NER  | SuperMat | [Github](https://github.com/lfoppiano/SuperMat)    | [Results](docs/evaluation/ner/supermat.md)   | [predicted](resources/dataset/superMat/entities/results), [expected](resources/dataset/superMat/entities/)      |
+| Properties                         | NER  | MeasEval | [Github](https://github.com/lfoppiano/MeasEval)    | [Results](docs/evaluation/ner/measeval.md)   | [predicted](resources/dataset/measeval/results), [expected](resources/dataset/measeval)                         |
+| Materials -> properties extraction | RE   | SuperMat | [Github](https://github.com/lfoppiano/SuperMat)    | [Results](docs/evaluation/re/supermat.md)    | [predicted](resources/dataset/superMat/relations/results), [expected](resources/dataset/superMat/relations/)    |
 
 Fine-tuning training data stored
 
